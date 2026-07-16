@@ -1,0 +1,9 @@
+score_col,top_k,observed_functional_count,permutation_mean_functional_count,permutation_std_functional_count,permutation_p_value
+Domain_Blind_Ambiguity_Score,10,2,1.335,1.0682579276560507,0.39316068393160686
+Domain_Blind_Ambiguity_Score,25,7,3.3334,1.6618797910799685,0.038696130386961305
+Domain_Blind_Ambiguity_Score,50,14,6.6426,2.2762832073360295,0.0030996900309969004
+Domain_Blind_Ambiguity_Score,100,29,13.2572,3.0360579968109964,9.999000099990002e-05
+Pure_Model_Ambiguity_Score,10,2,1.335,1.0682579276560507,0.39316068393160686
+Pure_Model_Ambiguity_Score,25,6,3.3334,1.6618797910799685,0.09879012098790121
+Pure_Model_Ambiguity_Score,50,10,6.6426,2.2762832073360295,0.10788921107889211
+Pure_Model_Ambiguity_Score,100,22,13.2572,3.0360579968109964,0.004899510048995101

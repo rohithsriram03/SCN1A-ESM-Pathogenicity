@@ -1,0 +1,13 @@
+{
+    "test": "Kruskal-Wallis",
+    "n_categories": 4,
+    "categories": [
+        "Inactivation_Gate",
+        "Other",
+        "Pore",
+        "Voltage_Sensor"
+    ],
+    "H_statistic": 173.06739969655607,
+    "p_value": 2.7696656995203623e-37,
+    "input_file_type": "all_seed_predictions"
+}

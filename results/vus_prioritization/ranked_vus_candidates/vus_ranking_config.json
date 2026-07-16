@@ -1,0 +1,36 @@
+{
+    "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "feature_set": "WT + mutant site embeddings + biochemical features",
+    "k_neighbors": 20,
+    "priority_score_formula": {
+        "Experimental_Followup_Priority_Score": {
+            "uncertainty": 0.35,
+            "functional_domain_priority": 0.25,
+            "neighbor_pathogenic_fraction": 0.25,
+            "ensemble_disagreement": 0.15
+        },
+        "Likely_Pathogenic_VUS_Score": {
+            "pathogenic_probability": 0.45,
+            "neighbor_pathogenic_fraction": 0.25,
+            "functional_domain_priority": 0.2,
+            "ensemble_disagreement": 0.1
+        },
+        "Ambiguous_Mechanism_Score": {
+            "uncertainty": 0.5,
+            "functional_domain_priority": 0.3,
+            "ensemble_disagreement": 0.2
+        }
+    },
+    "important_warning": "These rankings are for experimental-prioritization research only. They are not clinical classifications."
+}

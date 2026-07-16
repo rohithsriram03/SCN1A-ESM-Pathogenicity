@@ -1,0 +1,16 @@
+{
+  "run_id": "20260706-172201_lora",
+  "model_type": "lora",
+  "seed": 42,
+  "feature": "residue_window",
+  "params": {
+    "epochs": 6,
+    "lr": 5e-05,
+    "batch_size": 2,
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.1
+  },
+  "n_train": 2117,
+  "n_test": 530
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "lora-esm2-r8",
+  "model_type": "lora",
+  "feature": "residue_window",
+  "seed": 42,
+  "params": {
+    "epochs": 6,
+    "lr": 5e-05,
+    "batch_size": 2,
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.1
+  },
+  "n_test": 530,
+  "imported": true
+}

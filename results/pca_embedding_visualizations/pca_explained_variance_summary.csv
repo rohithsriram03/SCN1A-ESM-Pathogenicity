@@ -1,0 +1,6 @@
+feature_set,input_dim,pc1_variance_explained,pc2_variance_explained,total_pc1_pc2_variance_explained
+wt_site,320,0.0905846,0.06525965,0.15584424
+mutant_site,320,0.09098501,0.06393329,0.1549183
+delta_site,320,0.09534092,0.08941269,0.18475361
+wt_plus_mut_site,640,0.090288684,0.06381554,0.15410423
+full_site_wt_mut_delta_abs,1280,0.048445396,0.035528257,0.08397365

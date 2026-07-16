@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCN1A Run Dashboard</title>
+<style>
+:root {
+  --page:#f9f9f7; --surface:#fcfcfb; --panel:#ffffff;
+  --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+  --benign:#2a78d6; --pathogenic:#e34948;
+  --runA:#2a78d6; --runB:#eb6834;
+  --m-auc:#2a78d6; --m-recall:#e34948; --m-f1:#eb6834; --m-precision:#1baf7a;
+  --good:#006300; --critical:#d03b3b; --accent:#2a78d6;
+  --seq-100:#cde2fb; --seq-300:#6da7ec; --seq-500:#256abf; --seq-700:#0d366b;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page:#0d0d0d; --surface:#1a1a19; --panel:#1f1f1d;
+    --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+    --benign:#3987e5; --pathogenic:#e66767;
+    --runA:#3987e5; --runB:#d95926;
+    --m-auc:#3987e5; --m-recall:#e66767; --m-f1:#d95926; --m-precision:#199e70;
+    --good:#0ca30c; --critical:#e66767;
+    --seq-100:#104281; --seq-300:#256abf; --seq-500:#3987e5; --seq-700:#9ec5f4;
+  }
+}
+:root[data-theme=light]{--page:#f9f9f7;--surface:#fcfcfb;--panel:#fff;--ink:#0b0b0b;--ink2:#52514e;--grid:#e1e0d9;--axis:#c3c2b7;--border:rgba(11,11,11,.10);--benign:#2a78d6;--pathogenic:#e34948;--runA:#2a78d6;--runB:#eb6834;--m-auc:#2a78d6;--m-recall:#e34948;--m-f1:#eb6834;--m-precision:#1baf7a;--good:#006300;--critical:#d03b3b;--seq-100:#cde2fb;--seq-300:#6da7ec;--seq-500:#256abf;--seq-700:#0d366b;}
+:root[data-theme=dark]{--page:#0d0d0d;--surface:#1a1a19;--panel:#1f1f1d;--ink:#fff;--ink2:#c3c2b7;--grid:#2c2c2a;--axis:#383835;--border:rgba(255,255,255,.10);--benign:#3987e5;--pathogenic:#e66767;--runA:#3987e5;--runB:#d95926;--m-auc:#3987e5;--m-recall:#e66767;--m-f1:#d95926;--m-precision:#199e70;--good:#0ca30c;--critical:#e66767;--seq-100:#104281;--seq-300:#256abf;--seq-500:#3987e5;--seq-700:#9ec5f4;}
+
+* { box-sizing:border-box; }
+body { margin:0; background:var(--page); color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:14px; }
+.app { display:grid; grid-template-columns:280px 1fr; min-height:100vh; }
+.sidebar { background:var(--surface); border-right:1px solid var(--border);
+  padding:16px; display:flex; flex-direction:column; gap:18px; position:sticky; top:0; height:100vh; overflow-y:auto; }
+.sidebar h1 { font-size:15px; margin:0; letter-spacing:.02em; }
+.sidebar h2 { font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:0 0 8px; }
+main { padding:22px 26px 60px; max-width:1180px; }
+
+.run-item { padding:9px 10px; border-radius:8px; border:1px solid var(--border);
+  margin-bottom:6px; cursor:pointer; background:var(--panel); transition:border-color .12s; }
+.run-item:hover { border-color:var(--accent); }
+.run-item.active { border-color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent); }
+.run-item .id { font-size:12px; font-weight:600; word-break:break-all; }
+.run-item .meta { font-size:11px; color:var(--muted); margin-top:3px; display:flex; gap:8px; align-items:center; }
+.badge { font-size:10px; font-weight:700; padding:1px 6px; border-radius:5px; text-transform:uppercase; letter-spacing:.04em; }
+.badge.lora { background:color-mix(in srgb,var(--runB) 20%,transparent); color:var(--runB); }
+.badge.baseline { background:color-mix(in srgb,var(--runA) 20%,transparent); color:var(--runA); }
+.dot { width:7px; height:7px; border-radius:50%; display:inline-block; }
+.dot.done{background:var(--good);} .dot.running,.dot.queued{background:var(--m-f1);} .dot.failed{background:var(--critical);}
+.cmp-tag { margin-left:auto; font-size:10px; color:var(--accent); font-weight:700; }
+
+.newrun label { display:block; font-size:11px; color:var(--ink2); margin:8px 0 2px; }
+.newrun input, .newrun select { width:100%; padding:6px 8px; border:1px solid var(--border);
+  border-radius:6px; background:var(--panel); color:var(--ink); font-size:13px; }
+.newrun .row { display:flex; gap:8px; }
+.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+button.primary { margin-top:12px; width:100%; padding:9px; border:none; border-radius:7px;
+  background:var(--accent); color:#fff; font-weight:600; cursor:pointer; font-size:13px; }
+button.primary:disabled { opacity:.5; cursor:default; }
+.linkbtn { background:none; border:1px solid var(--border); color:var(--ink2);
+  border-radius:6px; padding:4px 9px; cursor:pointer; font-size:12px; }
+.linkbtn:hover { border-color:var(--accent); color:var(--ink); }
+
+.run-head { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:4px; }
+.run-head h2 { font-size:20px; margin:0; }
+.run-head .sub { color:var(--muted); font-size:13px; }
+.topbar { display:flex; align-items:center; gap:10px; margin-bottom:16px; flex-wrap:wrap; }
+
+.insight { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--accent);
+  border-radius:9px; padding:14px 16px; margin-bottom:18px; line-height:1.55; font-size:13.5px; }
+.insight b { color:var(--ink); } .insight .hot { color:var(--critical); font-weight:700; }
+.insight .cool { color:var(--good); font-weight:700; }
+
+.cards { display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-bottom:20px; }
+.card { background:var(--surface); border:1px solid var(--border); border-radius:9px; padding:12px 13px; }
+.card .k { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; }
+.card .v { font-size:24px; font-weight:650; margin-top:4px; font-variant-numeric:tabular-nums; }
+.card .d { font-size:12px; margin-top:2px; font-variant-numeric:tabular-nums; }
+.d.up{color:var(--good);} .d.down{color:var(--critical);}
+
+.controls { display:flex; align-items:center; gap:18px; background:var(--surface);
+  border:1px solid var(--border); border-radius:9px; padding:12px 16px; margin-bottom:20px; flex-wrap:wrap; }
+.controls .thr { display:flex; align-items:center; gap:10px; flex:1; min-width:260px; }
+.controls input[type=range] { flex:1; accent-color:var(--accent); }
+.controls .val { font-variant-numeric:tabular-nums; font-weight:600; min-width:38px; }
+.controls select { padding:6px 8px; border:1px solid var(--border); border-radius:6px; background:var(--panel); color:var(--ink); }
+
+.charts { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:22px; }
+figure.chart { margin:0; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px 14px 8px; }
+figure.chart figcaption { font-size:13px; font-weight:600; margin-bottom:2px; }
+figure.chart .note { font-size:11px; color:var(--muted); margin-bottom:8px; }
+figure.chart.wide { grid-column:1 / -1; }
+.legend { display:flex; gap:14px; flex-wrap:wrap; font-size:11.5px; color:var(--ink2); margin-top:4px; }
+.legend span { display:inline-flex; align-items:center; gap:5px; }
+.legend i { width:10px; height:10px; border-radius:3px; display:inline-block; }
+svg { display:block; width:100%; height:auto; overflow:visible; }
+.ax { font-size:10.5px; fill:var(--muted); font-variant-numeric:tabular-nums; }
+.axlabel { font-size:11px; fill:var(--ink2); }
+.slabel { font-size:11px; font-weight:600; }
+
+table { width:100%; border-collapse:collapse; font-size:12.5px; }
+.table-section { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px 16px; }
+.table-head { display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
+.filters { display:flex; gap:6px; flex-wrap:wrap; }
+.chip { font-size:12px; padding:4px 10px; border-radius:20px; border:1px solid var(--border);
+  background:var(--panel); color:var(--ink2); cursor:pointer; }
+.chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+.tablewrap { max-height:460px; overflow:auto; border:1px solid var(--border); border-radius:8px; }
+th, td { padding:6px 9px; text-align:right; white-space:nowrap; }
+th:first-child, td:first-child, th.l, td.l { text-align:left; }
+thead th { position:sticky; top:0; background:var(--panel); border-bottom:1px solid var(--border);
+  cursor:pointer; font-size:11px; text-transform:uppercase; letter-spacing:.03em; color:var(--muted); z-index:1; }
+tbody tr:nth-child(even){ background:color-mix(in srgb,var(--muted) 6%,transparent); }
+td.num { font-variant-numeric:tabular-nums; }
+.pill { padding:1px 7px; border-radius:5px; font-size:11px; font-weight:600; }
+.pill.path { background:color-mix(in srgb,var(--pathogenic) 20%,transparent); color:var(--pathogenic); }
+.pill.ben { background:color-mix(in srgb,var(--benign) 20%,transparent); color:var(--benign); }
+.mark-ok { color:var(--good); } .mark-no { color:var(--critical); font-weight:700; }
+.empty { color:var(--muted); padding:40px; text-align:center; }
+#tooltip { position:fixed; pointer-events:none; background:var(--panel); color:var(--ink);
+  border:1px solid var(--border); border-radius:7px; padding:7px 9px; font-size:12px;
+  box-shadow:0 4px 14px rgba(0,0,0,.18); opacity:0; transition:opacity .08s; z-index:20; font-variant-numeric:tabular-nums; }
+@media (max-width:900px){ .app{grid-template-columns:1fr;} .charts{grid-template-columns:1fr;} .cards{grid-template-columns:repeat(2,1fr);} .sidebar{height:auto;position:static;} }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <h1>SCN1A · Runs</h1>
+    <div>
+      <h2>Runs</h2>
+      <div id="runs-list"></div>
+    </div>
+    <div class="newrun">
+      <h2>New training run</h2>
+      <label>Model</label>
+      <select id="f-model">
+        <option value="lora">LoRA fine-tune (ESM-2)</option>
+        <option value="baseline">Frozen ESM-2 + logistic regression</option>
+      </select>
+      <div id="lora-fields">
+        <div class="grid2">
+          <div><label>Epochs</label><input id="f-epochs" type="number" value="6" min="1"></div>
+          <div><label>Batch size</label><input id="f-batch_size" type="number" value="2" min="1"></div>
+          <div><label>Learning rate</label><input id="f-lr" type="number" value="0.00005" step="0.00001"></div>
+          <div><label>LoRA r</label><input id="f-r" type="number" value="8" min="1"></div>
+          <div><label>LoRA alpha</label><input id="f-alpha" type="number" value="16" min="1"></div>
+          <div><label>Dropout</label><input id="f-dropout" type="number" value="0.1" step="0.05"></div>
+        </div>
+      </div>
+      <button class="primary" id="train-btn">Start training</button>
+      <div id="train-status" style="font-size:11.5px;color:var(--muted);margin-top:8px;"></div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="topbar">
+      <div class="run-head">
+        <h2 id="rh-title">—</h2>
+        <span class="sub" id="rh-sub"></span>
+      </div>
+      <div style="margin-left:auto;display:flex;gap:8px;align-items:center;">
+        <label style="font-size:12px;color:var(--muted);">Compare vs</label>
+        <select id="cmp-select"></select>
+        <button class="linkbtn" id="theme-btn">◐</button>
+      </div>
+    </div>
+
+    <div id="insight" class="insight"></div>
+    <div id="cards" class="cards"></div>
+
+    <div class="controls">
+      <div class="thr">
+        <span style="font-size:12px;color:var(--ink2);">Decision threshold</span>
+        <input id="thr" type="range" min="0.02" max="0.98" step="0.01" value="0.5">
+        <span class="val" id="thr-val">0.50</span>
+      </div>
+      <button class="linkbtn" id="thr-bestf1">snap to best-F1</button>
+      <button class="linkbtn" id="thr-reset">reset 0.50</button>
+    </div>
+
+    <div class="charts">
+      <figure class="chart"><figcaption>Training & eval loss</figcaption>
+        <div class="note">Per-step train loss vs per-epoch eval loss. Train falls, eval doesn't → the head memorizes, generalization stalls.</div>
+        <div id="c-loss"></div></figure>
+      <figure class="chart"><figcaption>Eval metrics per epoch</figcaption>
+        <div class="note">Watch recall collapse as training continues while AUC drifts up — the model drifts toward the majority (benign) class.</div>
+        <div id="c-evalmetrics"></div></figure>
+      <figure class="chart"><figcaption>Confusion matrix <span id="cm-thr" style="color:var(--muted);font-weight:400;"></span></figcaption>
+        <div class="note">Recomputed live at the chosen threshold.</div>
+        <div id="c-confusion"></div></figure>
+      <figure class="chart"><figcaption>Predicted probability by true class</figcaption>
+        <div class="note">If the red (pathogenic) mass sits left of the threshold line, they get called benign — that is the recall problem.</div>
+        <div id="c-hist"></div></figure>
+      <figure class="chart wide"><figcaption>Metric comparison</figcaption>
+        <div class="note">Selected run vs comparison run at the current threshold (AUC is threshold-free).</div>
+        <div id="c-compare"></div></figure>
+    </div>
+
+    <section class="table-section">
+      <div class="table-head">
+        <strong style="font-size:14px;">Per-variant predictions</strong>
+        <div class="filters" id="filters"></div>
+        <span id="row-count" style="margin-left:auto;font-size:12px;color:var(--muted);"></span>
+      </div>
+      <div class="tablewrap"><table id="dtable"></table></div>
+    </section>
+  </main>
+</div>
+<div id="tooltip"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const fmt = (x,n=3) => x==null||isNaN(x) ? "—" : Number(x).toFixed(n);
+const SVGNS = "http://www.w3.org/2000/svg";
+function el(tag, attrs={}, kids=[]) {
+  const n = document.createElementNS(SVGNS, tag);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  for (const c of [].concat(kids)) n.append(c);
+  return n;
+}
+function cssv(name){ return getComputedStyle(document.body).getPropertyValue(name).trim(); }
+
+const state = { runs:[], byId:{}, currentId:null, compareId:null,
+  detail:null, compareDetail:null, threshold:0.5, filter:"all",
+  sort:{col:"Pathogenic_Probability", dir:-1}, launched:null };
+
+// ---------- data / metrics ----------
+function metricsAt(preds, t) {
+  let tp=0,fp=0,tn=0,fn=0;
+  for (const p of preds) {
+    const pred = p.Pathogenic_Probability >= t ? 1 : 0;
+    if (p.True_Label===1) pred===1 ? tp++ : fn++;
+    else pred===1 ? fp++ : tn++;
+  }
+  const n=tp+fp+tn+fn, prec=tp+fp?tp/(tp+fp):0, rec=tp+fn?tp/(tp+fn):0;
+  return { tp,fp,tn,fn, accuracy:(tp+tn)/n, precision:prec, recall:rec,
+    f1:prec+rec?2*prec*rec/(prec+rec):0 };
+}
+function bestF1(preds){
+  let best=0.5, bf=-1;
+  for (let t=0.05;t<=0.95;t+=0.01){ const f=metricsAt(preds,t).f1; if(f>bf){bf=f;best=t;} }
+  return Math.round(best*100)/100;
+}
+function auc(detail){ return detail?.metrics?.roc_auc; }
+
+// ---------- charts ----------
+function frame(w, h, pad){
+  const svg = el("svg", {viewBox:`0 0 ${w} ${h}`, preserveAspectRatio:"xMidYMid meet"});
+  const plot = {x0:pad.l, x1:w-pad.r, y0:h-pad.b, y1:pad.t, w, h};
+  return {svg, plot};
+}
+function yGrid(svg, plot, ticks, fmtT=(v)=>v){
+  for (const t of ticks){
+    const y = t.y;
+    svg.append(el("line",{x1:plot.x0,x2:plot.x1,y1:y,y2:y,stroke:cssv("--grid"),"stroke-width":1}));
+    svg.append(text(plot.x0-7,y+3,fmtT(t.v),"ax","end"));
+  }
+}
+function text(x,y,s,cls="ax",anchor="middle",fill){
+  const t=el("text",{x,y,class:cls,"text-anchor":anchor}); if(fill)t.setAttribute("fill",fill); t.textContent=s; return t;
+}
+function scaleY(plot,dom){ return v => plot.y0 + (v-dom[0])/(dom[1]-dom[0])*(plot.y1-plot.y0); }
+function scaleX(plot,dom){ return v => plot.x0 + (v-dom[0])/(dom[1]-dom[0])*(plot.x1-plot.x0); }
+
+function lineChart(node, {series, xDomain, yDomain, xLabel, yTicksN=5, xTicks}) {
+  node.innerHTML="";
+  const {svg,plot}=frame(560,300,{l:46,r:74,t:14,b:40});
+  const sy=scaleY(plot,yDomain), sx=scaleX(plot,xDomain);
+  const yt=[]; for(let i=0;i<=yTicksN;i++){const v=yDomain[0]+(yDomain[1]-yDomain[0])*i/yTicksN; yt.push({v:Math.round(v*100)/100,y:sy(v)});}
+  yGrid(svg,plot,yt,v=>v.toFixed(2));
+  svg.append(el("line",{x1:plot.x0,x2:plot.x1,y1:plot.y0,y2:plot.y0,stroke:cssv("--axis"),"stroke-width":1}));
+  (xTicks||[]).forEach(t=>svg.append(text(sx(t),plot.y0+16,t,"ax")));
+  if(xLabel) svg.append(text((plot.x0+plot.x1)/2,plot.h-4,xLabel,"axlabel"));
+  for(const s of series){
+    if(!s.points.length) continue;
+    const d=s.points.map((p,i)=>`${i?"L":"M"}${sx(p.x).toFixed(1)} ${sy(p.y).toFixed(1)}`).join(" ");
+    svg.append(el("path",{d,fill:"none",stroke:s.color,"stroke-width":s.width||2,
+      "stroke-opacity":s.faint?0.5:1,"stroke-linejoin":"round","stroke-dasharray":s.dash||""}));
+    const last=s.points[s.points.length-1];
+    if(s.label!==false) svg.append(text(sx(last.x)+6,sy(last.y)+3,s.name,"slabel","start",s.color));
+    if(s.dots) for(const p of s.points) svg.append(el("circle",{cx:sx(p.x),cy:sy(p.y),r:3,fill:s.color}));
+  }
+  node.append(svg);
+  hoverLine(svg,plot,series,sx,sy);
+}
+function hoverLine(svg,plot,series,sx,sy){
+  const cross=el("line",{y1:plot.y1,y2:plot.y0,stroke:cssv("--muted"),"stroke-width":1,"stroke-dasharray":"3 3",opacity:0});
+  svg.append(cross);
+  const xs=[...new Set(series.flatMap(s=>s.points.map(p=>p.x)))].sort((a,b)=>a-b);
+  svg.append(el("rect",{x:plot.x0,y:plot.y1,width:plot.x1-plot.x0,height:plot.y0-plot.y1,fill:"transparent"}));
+  svg.addEventListener("mousemove",ev=>{
+    const pt=svgCoord(svg,ev); if(pt.x<plot.x0||pt.x>plot.x1){cross.setAttribute("opacity",0);tip(false);return;}
+    const xv=plot.x0+((pt.x-plot.x0)); let nearest=xs[0],best=1e9;
+    for(const x of xs){const px=sx(x);if(Math.abs(px-pt.x)<best){best=Math.abs(px-pt.x);nearest=x;}}
+    cross.setAttribute("x1",sx(nearest));cross.setAttribute("x2",sx(nearest));cross.setAttribute("opacity",1);
+    const rows=series.filter(s=>s.points.some(p=>p.x===nearest))
+      .map(s=>{const p=s.points.find(p=>p.x===nearest);return `<span style="color:${s.color}">●</span> ${s.name}: <b>${p.y.toFixed(3)}</b>`;});
+    tip(ev,`x = ${nearest}<br>`+rows.join("<br>"));
+  });
+  svg.addEventListener("mouseleave",()=>{cross.setAttribute("opacity",0);tip(false);});
+}
+function svgCoord(svg,ev){const r=svg.getBoundingClientRect();const vb=svg.viewBox.baseVal;
+  return {x:(ev.clientX-r.left)/r.width*vb.width, y:(ev.clientY-r.top)/r.height*vb.height};}
+
+function groupedBars(node, {groups, series, yDomain=[0,1]}){
+  node.innerHTML="";
+  const {svg,plot}=frame(760,300,{l:44,r:16,t:14,b:38});
+  const sy=scaleY(plot,yDomain);
+  const yt=[]; for(let i=0;i<=5;i++){const v=i/5*yDomain[1]; yt.push({v,y:sy(v)});}
+  yGrid(svg,plot,yt,v=>v.toFixed(1));
+  const gw=(plot.x1-plot.x0)/groups.length, bw=Math.min(46,(gw-16)/series.length);
+  groups.forEach((g,gi)=>{
+    const gx=plot.x0+gi*gw+gw/2;
+    svg.append(text(gx,plot.y0+16,g,"ax"));
+    series.forEach((s,si)=>{
+      const x=gx-(series.length*bw)/2+si*bw+1, v=s.values[gi], y=sy(v), h=plot.y0-y;
+      const rect=el("rect",{x,y,width:bw-2,height:Math.max(0,h),rx:3,fill:s.color});
+      rect.addEventListener("mousemove",ev=>tip(ev,`<b>${s.name}</b><br>${g}: <b>${v.toFixed(3)}</b>`));
+      rect.addEventListener("mouseleave",()=>tip(false));
+      svg.append(rect);
+    });
+  });
+  node.append(svg);
+}
+
+function confusionChart(node, m){
+  node.innerHTML="";
+  const cells=[[m.tn,m.fp],[m.fn,m.tp]], labs=[["TN","FP"],["FN","TP"]];
+  const rowT=["True benign","True pathogenic"], colT=["Pred benign","Pred pathogenic"];
+  const max=Math.max(1,m.tn,m.fp,m.fn,m.tp);
+  const {svg,plot}=frame(360,300,{l:96,r:14,t:34,b:20});
+  const cw=(plot.x1-plot.x0)/2, ch=(plot.y0-plot.y1)/2;
+  for(let r=0;r<2;r++)for(let c=0;c<2;c++){
+    const v=cells[r][c], x=plot.x0+c*cw, y=plot.y1+r*ch;
+    const diag=(r===c), t=v/max;
+    const fill=`color-mix(in srgb, ${diag?cssv("--seq-500"):cssv("--pathogenic")} ${Math.round(18+t*70)}%, ${cssv("--surface")})`;
+    const rect=el("rect",{x:x+2,y:y+2,width:cw-4,height:ch-4,rx:7,fill});
+    svg.append(rect);
+    const tv=text(x+cw/2,y+ch/2+2,v,"","middle",t>0.5?"#fff":cssv("--ink"));
+    tv.setAttribute("font-size","22"); svg.append(tv);
+    svg.append(text(x+cw/2,y+ch/2+20,labs[r][c],"ax"));
+  }
+  colT.forEach((s,c)=>svg.append(text(plot.x0+c*cw+cw/2,plot.y1-12,s,"axlabel")));
+  rowT.forEach((s,r)=>{const t=text(plot.x0-8,plot.y1+r*ch+ch/2,s,"axlabel","end");svg.append(t);});
+  node.append(svg);
+}
+
+function histChart(node, preds, threshold){
+  node.innerHTML="";
+  const N=16, bins=Array.from({length:N},()=>({ben:0,path:0}));
+  for(const p of preds){const b=Math.min(N-1,Math.floor(p.Pathogenic_Probability*N));
+    p.True_Label===1?bins[b].path++:bins[b].ben++;}
+  const max=Math.max(1,...bins.map(b=>Math.max(b.ben,b.path)));
+  const {svg,plot}=frame(560,300,{l:40,r:14,t:14,b:38});
+  const sy=scaleY(plot,[0,max]), bw=(plot.x1-plot.x0)/N;
+  const yt=[]; for(let i=0;i<=4;i++){const v=Math.round(max*i/4);yt.push({v,y:sy(v)});}
+  yGrid(svg,plot,yt,v=>v);
+  bins.forEach((b,i)=>{
+    const x=plot.x0+i*bw, half=(bw-3)/2;
+    [["ben",cssv("--benign"),0],["path",cssv("--pathogenic"),half]].forEach(([k,col,off])=>{
+      const h=plot.y0-sy(b[k]); if(h<=0)return;
+      const rect=el("rect",{x:x+off+1,y:sy(b[k]),width:half-1,height:h,rx:2,fill:col});
+      rect.addEventListener("mousemove",ev=>tip(ev,`p ∈ [${(i/N).toFixed(2)}, ${((i+1)/N).toFixed(2)})<br>benign: <b>${b.ben}</b> · pathogenic: <b>${b.path}</b>`));
+      rect.addEventListener("mouseleave",()=>tip(false));
+      svg.append(rect);
+    });
+  });
+  const tx=scaleX(plot,[0,1])(threshold);
+  svg.append(el("line",{x1:tx,x2:tx,y1:plot.y1,y2:plot.y0,stroke:cssv("--ink"),"stroke-width":1.5,"stroke-dasharray":"4 3"}));
+  svg.append(text(tx,plot.y1-3,"thr "+threshold.toFixed(2),"slabel","middle",cssv("--ink")));
+  [0,0.25,0.5,0.75,1].forEach(v=>svg.append(text(scaleX(plot,[0,1])(v),plot.y0+16,v.toFixed(2),"ax")));
+  svg.append(text((plot.x0+plot.x1)/2,plot.h-4,"P(pathogenic)","axlabel"));
+  node.append(svg);
+}
+
+// ---------- tooltip ----------
+const TT=$("#tooltip");
+function tip(ev,html){ if(!ev){TT.style.opacity=0;return;} TT.innerHTML=html;
+  TT.style.opacity=1; TT.style.left=(ev.clientX+14)+"px"; TT.style.top=(ev.clientY+14)+"px"; }
+
+// ---------- rendering ----------
+function legend(node, items){
+  node.querySelectorAll(".legend").forEach(l=>l.remove());
+  const d=document.createElement("div"); d.className="legend";
+  d.innerHTML=items.map(i=>`<span><i style="background:${i.c}"></i>${i.t}</span>`).join("");
+  node.append(d);
+}
+async function loadRuns(){
+  state.runs = await (await fetch("/api/runs")).json();
+  state.byId = Object.fromEntries(state.runs.map(r=>[r.id,r]));
+  renderRunsList(); renderCompareSelect();
+  if(!state.currentId && state.runs.length) selectRun(pickDefault());
+  else if(state.currentId) renderRunsList();
+}
+function pickDefault(){
+  const lora=state.runs.find(r=>r.model_type==="lora"); return (lora||state.runs[0]).id;
+}
+function renderRunsList(){
+  const box=$("#runs-list"); box.innerHTML="";
+  for(const r of state.runs){
+    const st=r.status?.state||"unknown";
+    const div=document.createElement("div");
+    div.className="run-item"+(r.id===state.currentId?" active":"");
+    div.innerHTML=`<div class="id">${r.id}</div>
+      <div class="meta"><span class="dot ${st}"></span><span class="badge ${r.model_type}">${r.model_type}</span>
+      ${r.metrics?.roc_auc?`AUC ${fmt(r.metrics.roc_auc,3)}`:st}
+      ${r.id===state.compareId?'<span class="cmp-tag">REF</span>':''}</div>`;
+    div.onclick=()=>selectRun(r.id);
+    box.append(div);
+  }
+}
+function renderCompareSelect(){
+  const sel=$("#cmp-select"); const cur=state.compareId||"";
+  sel.innerHTML='<option value="">— none —</option>'+
+    state.runs.filter(r=>r.id!==state.currentId).map(r=>`<option value="${r.id}">${r.id}</option>`).join("");
+  sel.value=cur;
+}
+async function selectRun(id){
+  state.currentId=id;
+  state.detail=await (await fetch("/api/runs/"+id)).json();
+  if(state.compareId===id){ state.compareId=null; state.compareDetail=null; }
+  renderRunsList(); renderCompareSelect(); renderAll();
+}
+async function setCompare(id){
+  state.compareId=id||null;
+  state.compareDetail = id ? await (await fetch("/api/runs/"+id)).json() : null;
+  renderRunsList(); renderAll();
+}
+function renderAll(){
+  const d=state.detail; if(!d) return;
+  const preds=d.predictions;
+  const running=(d.status?.state==="running"||d.status?.state==="queued");
+  $("#rh-title").textContent=state.currentId;
+  $("#rh-sub").textContent=`${d.config.model_type} · ${d.config.feature||""} · n=${preds.length||d.config.n_test||"?"}`
+    +(running?` · ${d.status.state}…`:"");
+  if(!preds.length){ renderEmpty(running,d); return; }
+  renderCards(preds); renderInsight(preds); renderCharts(preds); renderTable(preds);
+}
+function renderEmpty(running,d){
+  for(const id of ["#cards","#insight"]) $(id).innerHTML=
+    running?`<div class="empty">Training in progress… ${d.status.message||""}</div>`:`<div class="empty">No predictions yet.</div>`;
+  $("#dtable").innerHTML=""; document.querySelectorAll(".charts .chart>div[id]").forEach(n=>n.innerHTML="");
+}
+function renderCards(preds){
+  const t=state.threshold, m=metricsAt(preds,t);
+  const cmp = state.compareDetail ? metricsAt(state.compareDetail.predictions,t) : null;
+  const cards=[["accuracy",m.accuracy],["precision",m.precision],["recall",m.recall],["f1",m.f1],
+    ["roc_auc",auc(state.detail)]];
+  $("#cards").innerHTML=cards.map(([k,v])=>{
+    let delta="";
+    if(k==="roc_auc" && state.compareDetail){ const dv=v-auc(state.compareDetail); delta=deltaHtml(dv); }
+    else if(cmp && k!=="roc_auc"){ delta=deltaHtml(v-cmp[k]); }
+    return `<div class="card"><div class="k">${k}</div><div class="v">${fmt(v,3)}</div><div class="d">${delta}</div></div>`;
+  }).join("");
+}
+function deltaHtml(dv){ if(Math.abs(dv)<1e-6) return '<span style="color:var(--muted)">=</span>';
+  const cls=dv>0?"up":"down"; return `<span class="${cls}">${dv>0?"▲":"▼"} ${Math.abs(dv).toFixed(3)} vs ref</span>`; }
+
+function renderInsight(preds){
+  const t=state.threshold, m=metricsAt(preds,t), d=state.detail;
+  const path=preds.filter(p=>p.True_Label===1).length;
+  const missed=preds.filter(p=>p.True_Label===1 && p.Pathogenic_Probability<t).length;
+  const bf=bestF1(preds), mb=metricsAt(preds,bf);
+  let html=`<b>${state.currentId}</b> — at threshold <b>${t.toFixed(2)}</b>, recall is <span class="${m.recall<0.6?'hot':'cool'}">${fmt(m.recall,2)}</span>: `+
+    `<b>${missed}</b> of <b>${path}</b> truly pathogenic variants are called benign. `+
+    `Best-F1 threshold is <b>${bf.toFixed(2)}</b> → recall <span class="cool">${fmt(mb.recall,2)}</span>, F1 ${fmt(mb.f1,2)} `+
+    `<button class="linkbtn" onclick="setThreshold(${bf})">apply</button>`;
+  if(state.compareDetail){
+    const c=state.compareDetail, cm=metricsAt(c.predictions,t);
+    const cmMap=Object.fromEntries(c.predictions.map(p=>[p.Variant_ID+"|"+p.AA_Position,p]));
+    let refCatch=0;
+    for(const p of preds){ if(p.True_Label===1 && p.Pathogenic_Probability<t){
+      const r=cmMap[p.Variant_ID+"|"+p.AA_Position]; if(r && r.Pathogenic_Probability>=t) refCatch++; } }
+    html+=`<br><b>vs ${state.compareId}</b>: AUC ${fmt(auc(d),3)} vs ${fmt(auc(c),3)} `+
+      `(<span class="${auc(d)<auc(c)?'hot':'cool'}">Δ ${(auc(d)-auc(c)).toFixed(3)}</span>). `+
+      `Of the pathogenic variants this run misses, the reference catches <b>${refCatch}</b>.`;
+  }
+  $("#insight").innerHTML=html;
+}
+function renderCharts(preds){
+  const t=state.threshold, hist=state.detail.history||{train_loss:[],eval:[]};
+  // loss
+  const tl=hist.train_loss||[], ev=hist.eval||[];
+  const lossNode=$("#c-loss").closest("figure");
+  if(tl.length||ev.length){
+    const maxE=Math.max(1,...ev.map(e=>e.epoch),...tl.map(e=>e.epoch));
+    const yMax=Math.max(...tl.map(e=>e.loss),...ev.map(e=>e.loss),0.1)*1.1;
+    lineChart($("#c-loss"),{ xDomain:[0,maxE], yDomain:[0,Math.round(yMax*100)/100],
+      xLabel:"epoch", xTicks:ev.map(e=>e.epoch), yTicksN:4,
+      series:[
+        {name:"train",color:cssv("--m-f1"),width:1.5,faint:true,points:tl.map(e=>({x:e.epoch,y:e.loss}))},
+        {name:"eval",color:cssv("--m-auc"),points:ev.map(e=>({x:e.epoch,y:e.loss})),dots:true},
+      ]});
+    legend(lossNode,[{c:cssv("--m-f1"),t:"train loss (per step)"},{c:cssv("--m-auc"),t:"eval loss (per epoch)"}]);
+  } else { $("#c-loss").innerHTML='<div class="empty">No loss history (baseline model has no training curve).</div>';
+    lossNode.querySelectorAll(".legend").forEach(l=>l.remove()); }
+  // eval metrics per epoch
+  const emNode=$("#c-evalmetrics").closest("figure");
+  if(ev.length){
+    const maxE=Math.max(1,...ev.map(e=>e.epoch));
+    lineChart($("#c-evalmetrics"),{ xDomain:[0,maxE], yDomain:[0,1], xLabel:"epoch",
+      xTicks:ev.map(e=>e.epoch), yTicksN:5, series:[
+        {name:"recall",color:cssv("--m-recall"),points:ev.map(e=>({x:e.epoch,y:e.recall})),dots:true},
+        {name:"F1",color:cssv("--m-f1"),points:ev.map(e=>({x:e.epoch,y:e.f1})),dots:true},
+        {name:"AUC",color:cssv("--m-auc"),points:ev.map(e=>({x:e.epoch,y:e.roc_auc})),dots:true},
+        {name:"prec",color:cssv("--m-precision"),points:ev.map(e=>({x:e.epoch,y:e.precision})),dots:true},
+      ]});
+    legend(emNode,[{c:cssv("--m-recall"),t:"recall"},{c:cssv("--m-f1"),t:"F1"},{c:cssv("--m-auc"),t:"AUC"},{c:cssv("--m-precision"),t:"precision"}]);
+  } else { $("#c-evalmetrics").innerHTML='<div class="empty">No per-epoch eval history for this run.</div>';
+    emNode.querySelectorAll(".legend").forEach(l=>l.remove()); }
+  // confusion + hist
+  const m=metricsAt(preds,t);
+  $("#cm-thr").textContent="@ "+t.toFixed(2);
+  confusionChart($("#c-confusion"),m);
+  histChart($("#c-hist"),preds,t);
+  legend($("#c-hist").closest("figure"),[{c:cssv("--benign"),t:"true benign"},{c:cssv("--pathogenic"),t:"true pathogenic"}]);
+  // metric comparison
+  const cmpNode=$("#c-compare");
+  const groups=["accuracy","precision","recall","f1","AUC"];
+  const vals=d=>{const mm=metricsAt(d.predictions,t);return [mm.accuracy,mm.precision,mm.recall,mm.f1,auc(d)];};
+  const series=[{name:state.currentId,color:cssv("--runA"),values:vals(state.detail)}];
+  if(state.compareDetail) series.push({name:state.compareId,color:cssv("--runB"),values:vals(state.compareDetail)});
+  groupedBars(cmpNode,{groups,series});
+  legend(cmpNode.closest("figure"),series.map((s,i)=>({c:s.color,t:s.name})));
+}
+
+// ---------- table ----------
+const FILTERS=[["all","All"],["err","Errors"],["fn","False neg"],["fp","False pos"],["disagree","Disagree vs ref"]];
+function renderTable(preds){
+  $("#filters").innerHTML=FILTERS.map(([k,l])=>
+    `<span class="chip ${state.filter===k?'on':''}" data-f="${k}"
+      ${k==="disagree"&&!state.compareDetail?'style="display:none"':''}>${l}</span>`).join("");
+  $("#filters").querySelectorAll(".chip").forEach(c=>c.onclick=()=>{state.filter=c.dataset.f; renderTable(state.detail.predictions);});
+  const t=state.threshold;
+  const cmpMap = state.compareDetail ? Object.fromEntries(
+    state.compareDetail.predictions.map(p=>[p.Variant_ID+"|"+p.AA_Position,p])) : null;
+  let rows=preds.map(p=>{
+    const pred=p.Pathogenic_Probability>=t?1:0, correct=pred===p.True_Label;
+    const r={...p, pred, correct};
+    if(cmpMap){const c=cmpMap[p.Variant_ID+"|"+p.AA_Position];
+      r.cmpProb=c?c.Pathogenic_Probability:null; r.cmpPred=c?(c.Pathogenic_Probability>=t?1:0):null;
+      r.disagree=c?(pred!==r.cmpPred):false;}
+    return r;
+  });
+  rows=rows.filter(r=>{
+    if(state.filter==="err")return !r.correct;
+    if(state.filter==="fn")return r.True_Label===1&&r.pred===0;
+    if(state.filter==="fp")return r.True_Label===0&&r.pred===1;
+    if(state.filter==="disagree")return r.disagree;
+    return true;
+  });
+  const s=state.sort;
+  rows.sort((a,b)=>{const av=a[s.col],bv=b[s.col]; return (av<bv?-1:av>bv?1:0)*s.dir;});
+  $("#row-count").textContent=`${rows.length} variants`;
+
+  const cols=[["Variant_ID","Variant","l"],["Mapped_Functional_Category","Region","l"],
+    ["True_Label","True"],["pred","Pred"],["Pathogenic_Probability","P(path)"],["correct","✓"]];
+  if(cmpMap) cols.push(["cmpPred","ref Pred"],["cmpProb","ref P"]);
+  const th=cols.map(c=>`<th class="${c[2]==='l'?'l':''}" data-c="${c[0]}">${c[1]}${state.sort.col===c[0]?(state.sort.dir<0?' ▾':' ▴'):''}</th>`).join("");
+  const body=rows.slice(0,600).map(r=>{
+    const lab=v=>v===1?'<span class="pill path">PATH</span>':'<span class="pill ben">BEN</span>';
+    let tds=`<td class="l">${r.Variant_ID}</td><td class="l">${r.Mapped_Functional_Category||"—"}</td>`+
+      `<td>${lab(r.True_Label)}</td><td>${lab(r.pred)}</td>`+
+      `<td class="num">${fmt(r.Pathogenic_Probability,3)}</td>`+
+      `<td class="${r.correct?'mark-ok':'mark-no'}">${r.correct?'✓':'✗'}</td>`;
+    if(cmpMap) tds+=`<td>${r.cmpPred==null?'—':lab(r.cmpPred)}</td><td class="num">${fmt(r.cmpProb,3)}</td>`;
+    return `<tr>${tds}</tr>`;
+  }).join("");
+  $("#dtable").innerHTML=`<thead><tr>${th}</tr></thead><tbody>${body}</tbody>`;
+  $("#dtable").querySelectorAll("th").forEach(h=>h.onclick=()=>{
+    const c=h.dataset.c; state.sort=(state.sort.col===c)?{col:c,dir:-state.sort.dir}:{col:c,dir:-1};
+    renderTable(state.detail.predictions);
+  });
+}
+
+// ---------- controls ----------
+function setThreshold(v){ state.threshold=v; $("#thr").value=v; $("#thr-val").textContent=v.toFixed(2);
+  if(state.detail?.predictions?.length) renderAll(); }
+$("#thr").oninput=e=>setThreshold(parseFloat(e.target.value));
+$("#thr-reset").onclick=()=>setThreshold(0.5);
+$("#thr-bestf1").onclick=()=>{ if(state.detail?.predictions?.length) setThreshold(bestF1(state.detail.predictions)); };
+$("#cmp-select").onchange=e=>setCompare(e.target.value);
+$("#f-model").onchange=e=>$("#lora-fields").style.display=e.target.value==="lora"?"":"none";
+$("#theme-btn").onclick=()=>{ const cur=document.documentElement.getAttribute("data-theme");
+  const next=cur==="dark"?"light":cur==="light"?"":"dark";
+  next?document.documentElement.setAttribute("data-theme",next):document.documentElement.removeAttribute("data-theme");
+  if(state.detail?.predictions?.length) renderAll(); };
+
+// ---------- training ----------
+$("#train-btn").onclick=async()=>{
+  const model=$("#f-model").value;
+  const spec={model_type:model};
+  if(model==="lora") for(const k of ["epochs","batch_size","lr","r","alpha","dropout"])
+    spec[k]=parseFloat($("#f-"+k).value);
+  $("#train-btn").disabled=true; $("#train-status").textContent="launching…";
+  const {run_id}=await (await fetch("/api/train",{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify(spec)})).json();
+  state.launched=run_id; $("#train-status").textContent=`started ${run_id}`;
+  await loadRuns(); poll();
+};
+async function poll(){
+  await loadRuns();
+  const active=state.runs.some(r=>["running","queued"].includes(r.status?.state));
+  if(state.launched){
+    const r=state.byId[state.launched];
+    if(r){ $("#train-status").textContent=`${state.launched}: ${r.status?.state} ${r.status?.message||""}`;
+      if(r.status?.state==="done"){ $("#train-btn").disabled=false; const id=state.launched; state.launched=null; selectRun(id); }
+      else if(r.status?.state==="failed"){ $("#train-btn").disabled=false; state.launched=null; } }
+  }
+  if(state.currentId){ const cur=state.byId[state.currentId];
+    if(cur && ["running","queued"].includes(cur.status?.state)) selectRun(state.currentId); }
+  if(active||state.launched) setTimeout(poll,3000);
+}
+window.addEventListener("load",async()=>{ await loadRuns();
+  if(state.runs.some(r=>["running","queued"].includes(r.status?.state))) poll(); });
+</script>
+</body>
+</html>

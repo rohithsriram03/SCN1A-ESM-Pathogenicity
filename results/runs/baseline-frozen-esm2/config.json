@@ -1,0 +1,9 @@
+{
+  "run_id": "baseline-frozen-esm2",
+  "model_type": "baseline",
+  "feature": "mutation_site_embedding",
+  "seed": 42,
+  "params": {},
+  "n_test": 530,
+  "imported": true
+}

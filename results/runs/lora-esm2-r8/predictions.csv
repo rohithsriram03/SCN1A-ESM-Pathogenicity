@@ -1,0 +1,531 @@
+Variant_ID,Gene,AA_Position,Ref_AA,Alt_AA,ClinVar_Label,Mapped_Region,Mapped_Functional_Category,True_Label,Predicted_Label,Pathogenic_Probability,Confidence,Uncertainty,Correct
+T297I,SCN1A,297.0,T,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43395606,0.566044,0.43395603,1
+I978M,SCN1A,978.0,I,M,gnomAD_population_benign_candidate,DII-S6,Pore,0,1,0.8661406,0.8661406,0.1338594,0
+M1714K,SCN1A,1714.0,M,K,Likely pathogenic,Unmapped,Other,1,0,0.45621634,0.54378366,0.45621634,0
+S1796R,SCN1A,1796.0,S,R,Pathogenic,Unmapped,Other,1,0,0.4559035,0.54409647,0.45590353,0
+S1110N,SCN1A,1110.0,S,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.005728568,0.99427146,0.005728543,1
+V352L,SCN1A,352.0,V,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43783182,0.5621682,0.43783182,1
+N1487K,SCN1A,1487.0,N,K,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,1,0.5988308,0.5988308,0.40116918,0
+A464P,SCN1A,464.0,A,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4370531,0.5629469,0.43705308,1
+I1400V,SCN1A,1400.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.964175,0.964175,0.035825014,0
+M689I,SCN1A,689.0,M,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.047944106,0.9520559,0.04794413,1
+F1940L,SCN1A,1940.0,F,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45501596,0.54498404,0.45501596,1
+M960R,SCN1A,960.0,M,R,Pathogenic,Unmapped,Other,1,1,0.9592744,0.9592744,0.04072559,1
+L1230P,SCN1A,1230.0,L,P,Pathogenic,Unmapped,Other,1,1,0.56738883,0.56738883,0.43261117,1
+D1742Y,SCN1A,1742.0,D,Y,Likely pathogenic,Unmapped,Other,1,0,0.4439954,0.55600464,0.44399536,0
+V1935I,SCN1A,1935.0,V,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45836756,0.5416324,0.4583676,1
+I810N,SCN1A,810.0,I,N,Pathogenic,Unmapped,Other,1,0,0.074762754,0.92523724,0.07476276,0
+S1790R,SCN1A,1790.0,S,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.46516806,0.53483194,0.46516806,1
+K225N,SCN1A,225.0,K,N,Pathogenic,DI-S4,Voltage_Sensor,1,0,0.42546013,0.5745399,0.4254601,0
+R101L,SCN1A,101.0,R,L,Pathogenic,Unmapped,Other,1,0,0.43963736,0.56036264,0.43963736,0
+H614P,SCN1A,614.0,H,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011085817,0.9889142,0.011085808,1
+R1525L,SCN1A,1525.0,R,L,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.45671624,0.54328376,0.45671624,1
+M934K,SCN1A,934.0,M,K,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.977599,0.977599,0.022400975,0
+T1658P,SCN1A,1658.0,T,P,Likely pathogenic,Unmapped,Other,1,0,0.45572293,0.5442771,0.45572293,0
+L209P,SCN1A,209.0,L,P,Pathogenic,Unmapped,Other,1,0,0.4419563,0.5580437,0.44195628,0
+F635L,SCN1A,635.0,F,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.020343177,0.9796568,0.020343184,1
+P1855S,SCN1A,1855.0,P,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44558665,0.5544133,0.44558668,1
+D767A,SCN1A,767.0,D,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.021236766,0.9787632,0.021236777,1
+I1086M,SCN1A,1086.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0074750353,0.992525,0.0074750185,1
+N1897K,SCN1A,1897.0,N,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45164892,0.54835105,0.45164895,1
+F577L,SCN1A,577.0,F,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010194773,0.9898052,0.010194778,1
+D1727H,SCN1A,1727.0,D,H,Pathogenic,Unmapped,Other,1,0,0.4490262,0.5509738,0.44902623,0
+F867L,SCN1A,867.0,F,L,gnomAD_population_benign_candidate,DII-S4,Voltage_Sensor,0,1,0.86391443,0.86391443,0.13608557,0
+S1328A,SCN1A,1328.0,S,A,Likely pathogenic,DIII-S4,Voltage_Sensor,1,1,0.90617746,0.90617746,0.09382254,1
+I903V,SCN1A,903.0,I,V,gnomAD_population_benign_candidate,DII-S5,Pore,0,1,0.55450064,0.55450064,0.44549936,0
+Y325H,SCN1A,325.0,Y,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43658203,0.563418,0.43658203,1
+F536L,SCN1A,536.0,F,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0133285085,0.9866715,0.013328493,1
+A1236P,SCN1A,1236.0,A,P,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.38186705,0.61813295,0.38186705,0
+N1378T,SCN1A,1378.0,N,T,Pathogenic/Likely pathogenic,Unmapped,Other,1,1,0.9526182,0.9526182,0.04738182,1
+I292V,SCN1A,292.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4356642,0.5643358,0.43566418,1
+G1433R,SCN1A,1433.0,G,R,Pathogenic,Unmapped,Other,1,1,0.9694808,0.9694808,0.030519187,1
+G950R,SCN1A,950.0,G,R,Pathogenic,Unmapped,Other,1,1,0.9674237,0.9674237,0.032576323,1
+V765A,SCN1A,765.0,V,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.028900096,0.9710999,0.028900087,1
+V1699A,SCN1A,1699.0,V,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4505461,0.5494539,0.4505461,1
+K1505R,SCN1A,1505.0,K,R,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.327348,0.672652,0.327348,1
+N306S,SCN1A,306.0,N,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44006824,0.55993176,0.44006824,1
+F1808L,SCN1A,1808.0,F,L,Pathogenic,Unmapped,Other,1,0,0.45488963,0.54511034,0.45488966,0
+C647S,SCN1A,647.0,C,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.051001094,0.9489989,0.051001072,1
+N681S,SCN1A,681.0,N,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.020053986,0.979946,0.020053983,1
+G361S,SCN1A,361.0,G,S,Likely pathogenic,Unmapped,Other,1,0,0.43652335,0.5634767,0.43652332,0
+Q1427L,SCN1A,1427.0,Q,L,Likely pathogenic,Unmapped,Other,1,1,0.9520872,0.9520872,0.047912776,1
+A1938T,SCN1A,1938.0,A,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4543049,0.54569507,0.45430493,1
+I1947M,SCN1A,1947.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4507388,0.5492612,0.4507388,1
+L373M,SCN1A,373.0,L,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43008998,0.56991005,0.43008995,1
+D1563E,SCN1A,1563.0,D,E,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.45416045,0.54583955,0.45416045,1
+G655S,SCN1A,655.0,G,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.012155952,0.98784405,0.01215595,1
+D249N,SCN1A,249.0,D,N,gnomAD_population_benign_candidate,DI-S5,Pore,0,0,0.42844567,0.5715543,0.4284457,1
+E1176G,SCN1A,1176.0,E,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.021671865,0.9783281,0.021671891,1
+I1969V,SCN1A,1969.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44670644,0.5532936,0.4467064,1
+M1882T,SCN1A,1882.0,M,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45017105,0.54982895,0.45017105,1
+T1934I,SCN1A,1934.0,T,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45842752,0.54157245,0.45842755,1
+V983I,SCN1A,983.0,V,I,Pathogenic,DII-S6,Pore,1,1,0.81871575,0.81871575,0.18128425,1
+R859P,SCN1A,859.0,R,P,gnomAD_population_benign_candidate,DII-S4,Voltage_Sensor,0,1,0.91586137,0.91586137,0.08413863,0
+P37T,SCN1A,37.0,P,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4103467,0.5896533,0.4103467,1
+I25V,SCN1A,25.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.37751716,0.62248284,0.37751716,1
+I1347F,SCN1A,1347.0,I,F,Likely pathogenic,DIII-S5,Pore,1,1,0.962529,0.962529,0.037470996,1
+Q429E,SCN1A,429.0,Q,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42518485,0.57481515,0.42518485,1
+L969F,SCN1A,969.0,L,F,Likely pathogenic,DII-S6,Pore,1,1,0.82587713,0.82587713,0.17412287,1
+K495N,SCN1A,495.0,K,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4416218,0.5583782,0.44162178,1
+P39L,SCN1A,39.0,P,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42793915,0.5720608,0.42793918,1
+Y1422F,SCN1A,1422.0,Y,F,Likely pathogenic,Unmapped,Other,1,1,0.96198606,0.96198606,0.038013935,1
+Y1422C,SCN1A,1422.0,Y,C,Pathogenic/Likely pathogenic,Unmapped,Other,1,1,0.9626003,0.9626003,0.03739971,1
+M1435K,SCN1A,1435.0,M,K,Likely pathogenic,Unmapped,Other,1,1,0.96160275,0.96160275,0.038397253,1
+E1503K,SCN1A,1503.0,E,K,Pathogenic,III-IV Linker,Inactivation_Gate,1,0,0.34299505,0.65700495,0.34299505,0
+R377Q,SCN1A,377.0,R,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44740477,0.55259526,0.44740474,1
+P1817L,SCN1A,1817.0,P,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45484355,0.5451565,0.45484352,1
+I834M,SCN1A,834.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.09309878,0.90690124,0.09309876,1
+F90S,SCN1A,90.0,F,S,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.44655633,0.5534437,0.44655633,0
+L897S,SCN1A,897.0,L,S,Pathogenic,DII-S5,Pore,1,1,0.79227036,0.79227036,0.20772964,1
+V229L,SCN1A,229.0,V,L,gnomAD_population_benign_candidate,DI-S4,Voltage_Sensor,0,0,0.4470507,0.5529493,0.4470507,1
+L1717R,SCN1A,1717.0,L,R,Pathogenic,Unmapped,Other,1,0,0.45944896,0.54055107,0.45944893,0
+D81E,SCN1A,81.0,D,E,Pathogenic,Unmapped,Other,1,0,0.43772668,0.5622733,0.43772668,0
+R1639H,SCN1A,1639.0,R,H,gnomAD_population_benign_candidate,DIV-S4,Voltage_Sensor,0,0,0.44117996,0.55882,0.44118,1
+C1354S,SCN1A,1354.0,C,S,Likely pathogenic,DIII-S5,Pore,1,1,0.9639524,0.9639524,0.036047578,1
+R1329L,SCN1A,1329.0,R,L,Pathogenic,DIII-S4,Voltage_Sensor,1,1,0.91274476,0.91274476,0.08725524,1
+V73L,SCN1A,73.0,V,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.3753417,0.6246583,0.3753417,1
+K1492E,SCN1A,1492.0,K,E,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.3706121,0.62938786,0.37061214,1
+A57T,SCN1A,57.0,A,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42659315,0.5734068,0.42659318,1
+F412V,SCN1A,412.0,F,V,Pathogenic,DI-S6,Pore,1,0,0.4296593,0.5703407,0.4296593,0
+S695R,SCN1A,695.0,S,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.028623115,0.9713769,0.028623104,1
+M1511T,SCN1A,1511.0,M,T,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.44740525,0.5525948,0.44740522,1
+C1741S,SCN1A,1741.0,C,S,Pathogenic,Unmapped,Other,1,0,0.44654378,0.5534562,0.4465438,0
+N1897Y,SCN1A,1897.0,N,Y,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4518744,0.5481256,0.45187438,1
+Q1504K,SCN1A,1504.0,Q,K,Pathogenic,III-IV Linker,Inactivation_Gate,1,0,0.28534108,0.7146589,0.28534108,0
+R1642G,SCN1A,1642.0,R,G,Likely pathogenic,DIV-S4,Voltage_Sensor,1,0,0.4577036,0.5422964,0.4577036,0
+Y323N,SCN1A,323.0,Y,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42977813,0.5702219,0.4297781,1
+I1377V,SCN1A,1377.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.95368147,0.95368147,0.04631853,0
+A1067T,SCN1A,1067.0,A,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0059740064,0.994026,0.0059739947,1
+N284K,SCN1A,284.0,N,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43425155,0.56574845,0.43425155,1
+Q1830P,SCN1A,1830.0,Q,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4507298,0.5492702,0.4507298,1
+I1291T,SCN1A,1291.0,I,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.3712724,0.6287276,0.3712724,1
+L863W,SCN1A,863.0,L,W,Pathogenic,DII-S4,Voltage_Sensor,1,1,0.8073039,0.8073039,0.1926961,1
+S1566N,SCN1A,1566.0,S,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44928497,0.550715,0.44928497,1
+C927F,SCN1A,927.0,C,F,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.96990496,0.96990496,0.03009504,0
+L1145M,SCN1A,1145.0,L,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.012893257,0.98710674,0.0128932595,1
+K276Q,SCN1A,276.0,K,Q,Pathogenic,Unmapped,Other,1,0,0.44450215,0.5554979,0.44450212,0
+R560H,SCN1A,560.0,R,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006497821,0.9935022,0.0064978004,1
+C919R,SCN1A,919.0,C,R,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.9550162,0.9550162,0.044983804,0
+R1636P,SCN1A,1636.0,R,P,Likely pathogenic,Unmapped,Other,1,0,0.44083968,0.55916035,0.44083965,0
+T1872A,SCN1A,1872.0,T,A,Likely pathogenic,Unmapped,Other,1,0,0.44799358,0.5520064,0.44799358,0
+P346L,SCN1A,346.0,P,L,Likely pathogenic,Unmapped,Other,1,0,0.42147815,0.57852185,0.42147815,0
+R571S,SCN1A,571.0,R,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0076729585,0.99232703,0.0076729655,1
+C345F,SCN1A,345.0,C,F,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.4332812,0.5667188,0.43328118,0
+G1618R,SCN1A,1618.0,G,R,Pathogenic,Unmapped,Other,1,0,0.46107632,0.5389237,0.46107632,0
+D1727Y,SCN1A,1727.0,D,Y,Likely pathogenic,Unmapped,Other,1,0,0.45164528,0.54835474,0.45164526,0
+T782A,SCN1A,782.0,T,A,Likely pathogenic,Unmapped,Other,1,0,0.2430611,0.75693893,0.24306107,0
+L1399R,SCN1A,1399.0,L,R,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.9717206,0.9717206,0.028279424,0
+I1214R,SCN1A,1214.0,I,R,Pathogenic,Unmapped,Other,1,0,0.29496175,0.70503825,0.29496175,0
+I64T,SCN1A,64.0,I,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4269321,0.5730679,0.4269321,1
+T226R,SCN1A,226.0,T,R,Pathogenic,DI-S4,Voltage_Sensor,1,0,0.4227361,0.5772639,0.4227361,0
+P1177S,SCN1A,1177.0,P,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.019429771,0.98057026,0.019429743,1
+V1630L,SCN1A,1630.0,V,L,Pathogenic,Unmapped,Other,1,0,0.44881576,0.55118424,0.44881576,0
+Y165H,SCN1A,165.0,Y,H,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.44019836,0.55980164,0.44019836,0
+M1103V,SCN1A,1103.0,M,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.005106316,0.99489367,0.00510633,1
+S291N,SCN1A,291.0,S,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43432447,0.5656755,0.4343245,1
+T204A,SCN1A,204.0,T,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4287799,0.5712201,0.4287799,1
+R613P,SCN1A,613.0,R,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0115486635,0.98845136,0.011548638,1
+W1204R,SCN1A,1204.0,W,R,Pathogenic,Unmapped,Other,1,0,0.024242835,0.9757572,0.024242818,0
+K123Q,SCN1A,123.0,K,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4409038,0.5590962,0.44090378,1
+N386K,SCN1A,386.0,N,K,Pathogenic,Unmapped,Other,1,0,0.43425387,0.5657461,0.43425387,0
+K41N,SCN1A,41.0,K,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4576754,0.5423246,0.4576754,1
+S525F,SCN1A,525.0,S,F,Likely pathogenic,Unmapped,Other,1,0,0.009466101,0.9905339,0.009466112,0
+R222K,SCN1A,222.0,R,K,gnomAD_population_benign_candidate,DI-S4,Voltage_Sensor,0,0,0.4390127,0.5609873,0.4390127,1
+L1318R,SCN1A,1318.0,L,R,Likely pathogenic,DIII-S4,Voltage_Sensor,1,0,0.48212743,0.5178726,0.48212743,0
+Q1565E,SCN1A,1565.0,Q,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45932034,0.5406797,0.4593203,1
+T723I,SCN1A,723.0,T,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.012821468,0.9871785,0.0128214955,1
+K547N,SCN1A,547.0,K,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006301978,0.993698,0.006301999,1
+N1712D,SCN1A,1712.0,N,D,Likely pathogenic,Unmapped,Other,1,0,0.45289075,0.54710925,0.45289075,0
+G1120R,SCN1A,1120.0,G,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0059521915,0.9940478,0.0059521794,1
+T160N,SCN1A,160.0,T,N,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.42222878,0.5777712,0.4222288,0
+D320N,SCN1A,320.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43476796,0.56523204,0.43476796,1
+I1545K,SCN1A,1545.0,I,K,Likely pathogenic,III-IV Linker,Inactivation_Gate,1,0,0.44828844,0.55171156,0.44828844,0
+F1825C,SCN1A,1825.0,F,C,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45566198,0.544338,0.455662,1
+R101W,SCN1A,101.0,R,W,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.4307782,0.5692218,0.4307782,0
+W932C,SCN1A,932.0,W,C,Likely pathogenic,Unmapped,Other,1,1,0.9641337,0.9641337,0.03586632,1
+I1961V,SCN1A,1961.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4466368,0.5533632,0.4466368,1
+Y1254H,SCN1A,1254.0,Y,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.27565834,0.72434163,0.27565837,1
+I120V,SCN1A,120.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43081084,0.5691892,0.4308108,1
+S537F,SCN1A,537.0,S,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010194671,0.98980534,0.010194659,1
+N1055K,SCN1A,1055.0,N,K,Likely benign,Unmapped,Other,0,0,0.0066773985,0.9933226,0.006677389,1
+E954V,SCN1A,954.0,E,V,Pathogenic,Unmapped,Other,1,1,0.97341055,0.97341055,0.026589453,1
+G477D,SCN1A,477.0,G,D,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43748084,0.5625192,0.4374808,1
+Q445L,SCN1A,445.0,Q,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43114096,0.56885904,0.43114096,1
+K1490E,SCN1A,1490.0,K,E,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,1,0.5336599,0.5336599,0.46634012,0
+D79A,SCN1A,79.0,D,A,Likely pathogenic,Unmapped,Other,1,0,0.4385546,0.56144536,0.43855464,0
+G1527A,SCN1A,1527.0,G,A,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.4536932,0.5463068,0.4536932,1
+V1481I,SCN1A,1481.0,V,I,Pathogenic/Likely pathogenic,DIII-S6,Pore,1,1,0.95331687,0.95331687,0.046683133,1
+L1660P,SCN1A,1660.0,L,P,Pathogenic,Unmapped,Other,1,0,0.45862466,0.54137534,0.45862466,0
+E602K,SCN1A,602.0,E,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010370956,0.98962903,0.01037097,1
+D767V,SCN1A,767.0,D,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.021371268,0.97862875,0.021371245,1
+C345S,SCN1A,345.0,C,S,Likely pathogenic,Unmapped,Other,1,0,0.44218412,0.5578159,0.4421841,0
+P752S,SCN1A,752.0,P,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.018273268,0.9817267,0.018273294,1
+C136Y,SCN1A,136.0,C,Y,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45094475,0.5490552,0.45094478,1
+S1516L,SCN1A,1516.0,S,L,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.4577027,0.5422973,0.4577027,1
+L1327F,SCN1A,1327.0,L,F,gnomAD_population_benign_candidate,DIII-S4,Voltage_Sensor,0,1,0.8996126,0.8996126,0.100387394,0
+R571G,SCN1A,571.0,R,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.007675559,0.9923244,0.007675588,1
+L129V,SCN1A,129.0,L,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4241284,0.5758716,0.4241284,1
+Y426H,SCN1A,426.0,Y,H,Pathogenic,Unmapped,Other,1,0,0.43550912,0.5644909,0.4355091,0
+H595P,SCN1A,595.0,H,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.019063191,0.9809368,0.019063175,1
+P1759S,SCN1A,1759.0,P,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44790927,0.55209076,0.44790924,1
+T146R,SCN1A,146.0,T,R,Pathogenic,Unmapped,Other,1,0,0.4411443,0.5588557,0.4411443,0
+S715C,SCN1A,715.0,S,C,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.013103242,0.98689675,0.013103247,1
+A713G,SCN1A,713.0,A,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.015306651,0.98469335,0.015306652,1
+M1780T,SCN1A,1780.0,M,T,Pathogenic,DIV-S6,Pore,1,0,0.44930938,0.55069065,0.44930935,0
+F1033S,SCN1A,1033.0,F,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009571498,0.9904285,0.009571493,1
+A1641T,SCN1A,1641.0,A,T,Pathogenic,DIV-S4,Voltage_Sensor,1,0,0.450918,0.54908204,0.45091796,0
+I1069S,SCN1A,1069.0,I,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006692223,0.99330777,0.0066922307,1
+D1755Y,SCN1A,1755.0,D,Y,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.44842,0.55158,0.44842,0
+I1867N,SCN1A,1867.0,I,N,Likely pathogenic,Unmapped,Other,1,0,0.43443882,0.5655612,0.43443882,0
+L1296M,SCN1A,1296.0,L,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.46879557,0.53120446,0.46879554,1
+I1347T,SCN1A,1347.0,I,T,Pathogenic/Likely pathogenic,DIII-S5,Pore,1,1,0.96192795,0.96192795,0.03807205,1
+S629P,SCN1A,629.0,S,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.007330221,0.99266976,0.007330239,1
+P1984T,SCN1A,1984.0,P,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45256022,0.5474398,0.4525602,1
+D1883G,SCN1A,1883.0,D,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4453675,0.55463254,0.44536746,1
+N569S,SCN1A,569.0,N,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0066104345,0.99338955,0.006610453,1
+D918A,SCN1A,918.0,D,A,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.9567092,0.9567092,0.043290794,0
+P116L,SCN1A,116.0,P,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.441109,0.558891,0.441109,1
+D589V,SCN1A,589.0,D,V,Likely pathogenic,Unmapped,Other,1,0,0.0105615305,0.9894385,0.010561526,0
+T308A,SCN1A,308.0,T,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42883128,0.5711687,0.42883128,1
+M379K,SCN1A,379.0,M,K,Pathogenic,Unmapped,Other,1,0,0.43159765,0.56840235,0.43159765,0
+N149K,SCN1A,149.0,N,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43464383,0.56535614,0.43464386,1
+T1722A,SCN1A,1722.0,T,A,Likely pathogenic,Unmapped,Other,1,0,0.45004925,0.5499507,0.45004928,0
+R931G,SCN1A,931.0,R,G,Likely pathogenic,Unmapped,Other,1,1,0.97543794,0.97543794,0.02456206,1
+D958N,SCN1A,958.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.9612245,0.9612245,0.038775504,0
+M976T,SCN1A,976.0,M,T,Pathogenic/Likely pathogenic,DII-S6,Pore,1,1,0.8933124,0.8933124,0.106687605,1
+D823V,SCN1A,823.0,D,V,Likely pathogenic,Unmapped,Other,1,0,0.20940386,0.7905961,0.20940387,0
+P611L,SCN1A,611.0,P,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0077539743,0.99224603,0.0077539682,1
+V699I,SCN1A,699.0,V,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.017279241,0.98272073,0.017279267,1
+D589N,SCN1A,589.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010479978,0.98952,0.010479987,1
+V1579A,SCN1A,1579.0,V,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44530833,0.5546917,0.44530833,1
+M147I,SCN1A,147.0,M,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4628659,0.5371341,0.4628659,1
+Y1694F,SCN1A,1694.0,Y,F,Likely pathogenic,Unmapped,Other,1,0,0.45060426,0.54939574,0.45060426,0
+V724I,SCN1A,724.0,V,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009609485,0.99039054,0.009609461,1
+R28C,SCN1A,28.0,R,C,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45264885,0.5473511,0.45264888,1
+F1774S,SCN1A,1774.0,F,S,Pathogenic,DIV-S6,Pore,1,0,0.4511177,0.5488823,0.4511177,0
+K172Q,SCN1A,172.0,K,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4357731,0.56422687,0.43577313,1
+N86S,SCN1A,86.0,N,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43692377,0.56307626,0.43692374,1
+L1660V,SCN1A,1660.0,L,V,Likely pathogenic,Unmapped,Other,1,0,0.45514303,0.54485697,0.45514303,0
+D1564N,SCN1A,1564.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4492288,0.55077124,0.44922876,1
+I1547T,SCN1A,1547.0,I,T,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.44431,0.55569,0.44431,1
+L895P,SCN1A,895.0,L,P,Pathogenic,DII-S5,Pore,1,1,0.937187,0.937187,0.062812984,1
+I173M,SCN1A,173.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4173217,0.5826783,0.41732168,1
+N1476I,SCN1A,1476.0,N,I,Likely pathogenic,DIII-S6,Pore,1,1,0.96248686,0.96248686,0.037513137,1
+M785R,SCN1A,785.0,M,R,Pathogenic,Unmapped,Other,1,1,0.51355356,0.51355356,0.48644644,1
+P39T,SCN1A,39.0,P,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4235721,0.57642794,0.42357206,1
+W873S,SCN1A,873.0,W,S,Likely pathogenic,DII-S4,Voltage_Sensor,1,1,0.86286265,0.86286265,0.13713735,1
+E1130K,SCN1A,1130.0,E,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006224849,0.9937751,0.0062248707,1
+C1354F,SCN1A,1354.0,C,F,Pathogenic,DIII-S5,Pore,1,1,0.963775,0.963775,0.03622502,1
+P768S,SCN1A,768.0,P,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.017878538,0.98212147,0.017878532,1
+N1577H,SCN1A,1577.0,N,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44679055,0.5532094,0.44679058,1
+Q1489E,SCN1A,1489.0,Q,E,Likely pathogenic,III-IV Linker,Inactivation_Gate,1,1,0.5156549,0.5156549,0.48434508,1
+E328K,SCN1A,328.0,E,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4285043,0.5714957,0.4285043,1
+A989V,SCN1A,989.0,A,V,Pathogenic/Likely pathogenic,DII-S6,Pore,1,1,0.8687073,0.8687073,0.1312927,1
+V1294F,SCN1A,1294.0,V,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4182696,0.58173037,0.41826963,1
+I292T,SCN1A,292.0,I,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43939564,0.56060433,0.43939567,1
+S1231I,SCN1A,1231.0,S,I,Likely pathogenic,Unmapped,Other,1,1,0.61852384,0.61852384,0.38147616,1
+G337A,SCN1A,337.0,G,A,Pathogenic,Unmapped,Other,1,0,0.4381985,0.5618015,0.4381985,0
+L414V,SCN1A,414.0,L,V,gnomAD_population_benign_candidate,DI-S6,Pore,0,0,0.42799354,0.57200646,0.42799354,1
+K1936E,SCN1A,1936.0,K,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4519549,0.5480451,0.4519549,1
+V1767F,SCN1A,1767.0,V,F,Likely pathogenic,DIV-S6,Pore,1,0,0.44967186,0.55032814,0.44967186,0
+I292M,SCN1A,292.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4208359,0.5791641,0.4208359,1
+D1443H,SCN1A,1443.0,D,H,Likely pathogenic,Unmapped,Other,1,1,0.8066047,0.8066047,0.19339532,1
+L1045F,SCN1A,1045.0,L,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011833851,0.98816615,0.011833847,1
+E1455D,SCN1A,1455.0,E,D,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.54071695,0.54071695,0.45928305,0
+F995L,SCN1A,995.0,F,L,Pathogenic,Unmapped,Other,1,1,0.69332415,0.69332415,0.30667585,1
+N851D,SCN1A,851.0,N,D,Likely benign,Unmapped,Other,0,0,0.12625247,0.8737475,0.12625247,1
+A1783V,SCN1A,1783.0,A,V,Pathogenic,DIV-S6,Pore,1,0,0.45757446,0.5424255,0.4575745,0
+G66R,SCN1A,66.0,G,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4412234,0.5587766,0.44122338,1
+C750S,SCN1A,750.0,C,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.023127632,0.9768724,0.023127615,1
+R1575C,SCN1A,1575.0,R,C,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44679388,0.5532061,0.4467939,1
+G1859D,SCN1A,1859.0,G,D,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45055735,0.54944265,0.45055735,1
+L1207V,SCN1A,1207.0,L,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.052827094,0.9471729,0.05282712,1
+V896I,SCN1A,896.0,V,I,gnomAD_population_benign_candidate,DII-S5,Pore,0,1,0.90060097,0.90060097,0.09939903,0
+D1293N,SCN1A,1293.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.47771454,0.52228546,0.47771454,1
+F1124L,SCN1A,1124.0,F,L,Likely benign,Unmapped,Other,0,0,0.005437691,0.9945623,0.005437672,1
+G271S,SCN1A,271.0,G,S,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.44442907,0.55557096,0.44442904,0
+I1347V,SCN1A,1347.0,I,V,Pathogenic,DIII-S5,Pore,1,1,0.9626026,0.9626026,0.037397385,1
+L224S,SCN1A,224.0,L,S,Pathogenic,DI-S4,Voltage_Sensor,1,0,0.43059012,0.56940985,0.43059015,0
+K495N,SCN1A,495.0,K,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4416218,0.5583782,0.44162178,1
+R630W,SCN1A,630.0,R,W,Likely benign,Unmapped,Other,0,0,0.0069231726,0.9930768,0.0069231987,1
+M1856R,SCN1A,1856.0,M,R,Pathogenic,Unmapped,Other,1,0,0.44772038,0.5522796,0.4477204,0
+P736L,SCN1A,736.0,P,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006917373,0.99308264,0.0069173574,1
+A201E,SCN1A,201.0,A,E,Pathogenic,Unmapped,Other,1,0,0.4320708,0.5679292,0.4320708,0
+L263P,SCN1A,263.0,L,P,Likely pathogenic,DI-S5,Pore,1,0,0.43746528,0.5625347,0.4374653,0
+T808A,SCN1A,808.0,T,A,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.64415926,0.64415926,0.35584074,0
+L108Q,SCN1A,108.0,L,Q,Likely pathogenic,Unmapped,Other,1,0,0.43942824,0.5605718,0.4394282,0
+V309D,SCN1A,309.0,V,D,Likely benign,Unmapped,Other,0,0,0.44059664,0.55940336,0.44059664,1
+V1589I,SCN1A,1589.0,V,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.454665,0.545335,0.454665,1
+N284S,SCN1A,284.0,N,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44105807,0.55894196,0.44105804,1
+R1639L,SCN1A,1639.0,R,L,Likely pathogenic,DIV-S4,Voltage_Sensor,1,0,0.45634922,0.54365075,0.45634925,0
+E456K,SCN1A,456.0,E,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4271784,0.5728216,0.42717838,1
+D679Y,SCN1A,679.0,D,Y,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.017011419,0.9829886,0.017011404,1
+T217I,SCN1A,217.0,T,I,Likely pathogenic,DI-S4,Voltage_Sensor,1,0,0.43334734,0.56665266,0.43334734,0
+V944A,SCN1A,944.0,V,A,Pathogenic,Unmapped,Other,1,1,0.9750779,0.9750779,0.024922073,1
+V1699F,SCN1A,1699.0,V,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44750547,0.5524945,0.44750547,1
+P1345S,SCN1A,1345.0,P,S,Likely pathogenic,Unmapped,Other,1,1,0.9701092,0.9701092,0.029890776,1
+K1142E,SCN1A,1142.0,K,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009548795,0.9904512,0.009548783,1
+T196A,SCN1A,196.0,T,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43553504,0.5644649,0.43553507,1
+V1746I,SCN1A,1746.0,V,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45277384,0.5472262,0.4527738,1
+K1049Q,SCN1A,1049.0,K,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010384388,0.9896156,0.010384381,1
+S1104T,SCN1A,1104.0,S,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.004677958,0.99532205,0.0046779513,1
+D1059Y,SCN1A,1059.0,D,Y,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0054733735,0.9945266,0.0054733753,1
+D1544G,SCN1A,1544.0,D,G,Pathogenic,III-IV Linker,Inactivation_Gate,1,0,0.45812374,0.54187626,0.45812374,0
+S1516W,SCN1A,1516.0,S,W,Pathogenic,III-IV Linker,Inactivation_Gate,1,0,0.45430228,0.5456977,0.4543023,0
+K1651Q,SCN1A,1651.0,K,Q,gnomAD_population_benign_candidate,DIV-S4,Voltage_Sensor,0,0,0.44575724,0.55424273,0.44575727,1
+T283I,SCN1A,283.0,T,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4367036,0.56329644,0.43670356,1
+L1839V,SCN1A,1839.0,L,V,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.45459807,0.54540193,0.45459807,0
+D606N,SCN1A,606.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010779919,0.9892201,0.010779917,1
+I716R,SCN1A,716.0,I,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011182021,0.988818,0.01118201,1
+C1588S,SCN1A,1588.0,C,S,Likely pathogenic,Unmapped,Other,1,0,0.4602878,0.5397122,0.4602878,0
+P768A,SCN1A,768.0,P,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.01776405,0.98223597,0.017764032,1
+E1448D,SCN1A,1448.0,E,D,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.7630712,0.7630712,0.23692882,0
+I672T,SCN1A,672.0,I,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010938266,0.9890617,0.010938287,1
+Q910K,SCN1A,910.0,Q,K,Pathogenic,DII-S5,Pore,1,1,0.9476105,0.9476105,0.052389503,1
+M350T,SCN1A,350.0,M,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45525232,0.5447477,0.4552523,1
+L221V,SCN1A,221.0,L,V,gnomAD_population_benign_candidate,DI-S4,Voltage_Sensor,0,0,0.43583938,0.5641606,0.4358394,1
+P1519S,SCN1A,1519.0,P,S,Pathogenic,III-IV Linker,Inactivation_Gate,1,0,0.44731954,0.5526805,0.4473195,0
+C1982R,SCN1A,1982.0,C,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44947174,0.5505283,0.4494717,1
+S1773F,SCN1A,1773.0,S,F,Pathogenic,DIV-S6,Pore,1,0,0.4512578,0.5487422,0.45125782,0
+F1431S,SCN1A,1431.0,F,S,Pathogenic,Unmapped,Other,1,1,0.96135205,0.96135205,0.03864795,1
+D1137E,SCN1A,1137.0,D,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011038804,0.9889612,0.01103878,1
+S1574L,SCN1A,1574.0,S,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43726975,0.56273025,0.43726975,1
+D600N,SCN1A,600.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.008141488,0.9918585,0.008141518,1
+E181Q,SCN1A,181.0,E,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42582127,0.5741787,0.4258213,1
+P1837L,SCN1A,1837.0,P,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4555516,0.5444484,0.45555162,1
+V901I,SCN1A,901.0,V,I,gnomAD_population_benign_candidate,DII-S5,Pore,0,1,0.59680927,0.59680927,0.40319073,0
+Y1274N,SCN1A,1274.0,Y,N,Likely pathogenic,Unmapped,Other,1,0,0.26083857,0.73916143,0.26083857,0
+C277Y,SCN1A,277.0,C,Y,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.45461342,0.54538655,0.45461345,0
+V92I,SCN1A,92.0,V,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44915482,0.55084515,0.44915485,1
+D518E,SCN1A,518.0,D,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.00787125,0.99212873,0.00787127,1
+M714I,SCN1A,714.0,M,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.01979001,0.98021,0.019789994,1
+V1637A,SCN1A,1637.0,V,A,gnomAD_population_benign_candidate,DIV-S4,Voltage_Sensor,0,0,0.454872,0.545128,0.454872,1
+Q509H,SCN1A,509.0,Q,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0066663953,0.9933336,0.006666422,1
+Y83D,SCN1A,83.0,Y,D,Pathogenic,Unmapped,Other,1,0,0.45688334,0.5431167,0.4568833,0
+D1883E,SCN1A,1883.0,D,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44922245,0.55077755,0.44922245,1
+I1483M,SCN1A,1483.0,I,M,Pathogenic,DIII-S6,Pore,1,1,0.9465545,0.9465545,0.053445518,1
+L479I,SCN1A,479.0,L,I,Likely benign,Unmapped,Other,0,0,0.4307054,0.5692946,0.43070543,1
+L61P,SCN1A,61.0,L,P,Likely pathogenic,Unmapped,Other,1,0,0.4482533,0.5517467,0.44825327,0
+I1034T,SCN1A,1034.0,I,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.008132936,0.99186707,0.008132935,1
+G888A,SCN1A,888.0,G,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.3804109,0.6195891,0.3804109,1
+V1579M,SCN1A,1579.0,V,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4449412,0.55505884,0.44494116,1
+Y1694D,SCN1A,1694.0,Y,D,Likely pathogenic,Unmapped,Other,1,0,0.45845264,0.54154736,0.45845264,0
+R1018K,SCN1A,1018.0,R,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0210631,0.9789369,0.02106309,1
+K503E,SCN1A,503.0,K,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011291416,0.98870856,0.011291444,1
+E1008D,SCN1A,1008.0,E,D,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.04294278,0.95705724,0.042942762,1
+G1674S,SCN1A,1674.0,G,S,Pathogenic/Likely pathogenic,DIV-S5,Pore,1,0,0.4525639,0.5474361,0.45256388,0
+M350V,SCN1A,350.0,M,V,Pathogenic,Unmapped,Other,1,0,0.4486075,0.5513925,0.4486075,0
+R1040S,SCN1A,1040.0,R,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011079838,0.98892015,0.011079848,1
+F1499L,SCN1A,1499.0,F,L,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.2429674,0.75703263,0.24296737,1
+L1138P,SCN1A,1138.0,L,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.008760638,0.99123937,0.008760631,1
+I1955M,SCN1A,1955.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44971067,0.55028933,0.44971067,1
+I171M,SCN1A,171.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.41184506,0.5881549,0.4118451,1
+Y399D,SCN1A,399.0,Y,D,Likely pathogenic,DI-S6,Pore,1,0,0.42814058,0.5718594,0.42814058,0
+L897F,SCN1A,897.0,L,F,Pathogenic,DII-S5,Pore,1,1,0.80811846,0.80811846,0.19188154,1
+G1880A,SCN1A,1880.0,G,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44996482,0.5500352,0.44996482,1
+G396E,SCN1A,396.0,G,E,Pathogenic,Unmapped,Other,1,0,0.43632665,0.5636734,0.43632662,0
+G511A,SCN1A,511.0,G,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009226293,0.9907737,0.009226322,1
+M974R,SCN1A,974.0,M,R,Pathogenic,DII-S6,Pore,1,1,0.92731607,0.92731607,0.07268393,1
+R859H,SCN1A,859.0,R,H,gnomAD_population_benign_candidate,DII-S4,Voltage_Sensor,0,1,0.9153603,0.9153603,0.08463973,0
+K758T,SCN1A,758.0,K,T,Likely pathogenic,Unmapped,Other,1,0,0.024063915,0.97593606,0.024063945,0
+S573R,SCN1A,573.0,S,R,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.009368259,0.99063176,0.009368241,0
+V1411M,SCN1A,1411.0,V,M,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.9450245,0.9450245,0.05497551,0
+S993R,SCN1A,993.0,S,R,Likely pathogenic,Unmapped,Other,1,1,0.93454516,0.93454516,0.06545484,1
+A677V,SCN1A,677.0,A,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.015856147,0.98414385,0.015856147,1
+M1807T,SCN1A,1807.0,M,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44545016,0.5545498,0.4454502,1
+L247V,SCN1A,247.0,L,V,Pathogenic,DI-S5,Pore,1,0,0.4360498,0.5639502,0.43604982,0
+S13N,SCN1A,13.0,S,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.41206035,0.5879396,0.41206038,1
+T162I,SCN1A,162.0,T,I,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.4314292,0.5685708,0.4314292,0
+K507R,SCN1A,507.0,K,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0074979803,0.99250203,0.0074979663,1
+C949S,SCN1A,949.0,C,S,Pathogenic,Unmapped,Other,1,1,0.97567046,0.97567046,0.024329543,1
+Q1166K,SCN1A,1166.0,Q,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.017681487,0.9823185,0.01768148,1
+A1925T,SCN1A,1925.0,A,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45391348,0.54608655,0.45391345,1
+V255A,SCN1A,255.0,V,A,gnomAD_population_benign_candidate,DI-S5,Pore,0,0,0.44502723,0.55497277,0.44502723,1
+E517G,SCN1A,517.0,E,G,Likely benign,Unmapped,Other,0,0,0.006750541,0.9932495,0.006750524,1
+N1845K,SCN1A,1845.0,N,K,Likely pathogenic,Unmapped,Other,1,0,0.45382303,0.54617697,0.45382303,0
+F1431C,SCN1A,1431.0,F,C,Likely pathogenic,Unmapped,Other,1,1,0.9598747,0.9598747,0.04012531,1
+M1882I,SCN1A,1882.0,M,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45751145,0.5424886,0.45751143,1
+I1482V,SCN1A,1482.0,I,V,gnomAD_population_benign_candidate,DIII-S6,Pore,0,1,0.95631295,0.95631295,0.043687046,0
+F1825S,SCN1A,1825.0,F,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44921035,0.55078965,0.44921035,1
+T1182A,SCN1A,1182.0,T,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0098534,0.9901466,0.009853423,1
+N1747I,SCN1A,1747.0,N,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45244092,0.5475591,0.45244092,1
+M1856I,SCN1A,1856.0,M,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4588775,0.5411225,0.4588775,1
+M1T,SCN1A,1.0,M,T,Pathogenic,Unmapped,Other,1,0,0.010333837,0.98966616,0.010333836,0
+S570R,SCN1A,570.0,S,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010440202,0.98955977,0.01044023,1
+C336W,SCN1A,336.0,C,W,Likely pathogenic,Unmapped,Other,1,0,0.44626924,0.5537307,0.44626927,0
+R612Q,SCN1A,612.0,R,Q,Likely benign,Unmapped,Other,0,0,0.0069086524,0.99309134,0.006908655,1
+Y1453C,SCN1A,1453.0,Y,C,Pathogenic,Unmapped,Other,1,0,0.3148056,0.6851944,0.31480563,0
+P1451R,SCN1A,1451.0,P,R,Likely pathogenic,Unmapped,Other,1,1,0.8599521,0.8599521,0.14004791,1
+A1951S,SCN1A,1951.0,A,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45177472,0.5482253,0.45177472,1
+S484C,SCN1A,484.0,S,C,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4221811,0.5778189,0.42218113,1
+W952C,SCN1A,952.0,W,C,Pathogenic,Unmapped,Other,1,1,0.965996,0.965996,0.034003973,1
+A1724V,SCN1A,1724.0,A,V,Pathogenic,Unmapped,Other,1,0,0.452525,0.547475,0.45252502,0
+Q1888E,SCN1A,1888.0,Q,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45658404,0.54341596,0.45658404,1
+M934I,SCN1A,934.0,M,I,Pathogenic,Unmapped,Other,1,1,0.97749454,0.97749454,0.022505462,1
+C1061F,SCN1A,1061.0,C,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.005674862,0.99432516,0.005674839,1
+D1987V,SCN1A,1987.0,D,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44668517,0.5533148,0.4466852,1
+C257G,SCN1A,257.0,C,G,gnomAD_population_benign_candidate,DI-S5,Pore,0,0,0.44442916,0.55557084,0.44442916,1
+G1877R,SCN1A,1877.0,G,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4527149,0.5472851,0.45271492,1
+K1094I,SCN1A,1094.0,K,I,Likely pathogenic,Unmapped,Other,1,0,0.006488159,0.99351186,0.0064881444,0
+V5M,SCN1A,5.0,V,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.26094112,0.73905885,0.26094115,1
+R377H,SCN1A,377.0,R,H,Likely pathogenic,Unmapped,Other,1,0,0.4318187,0.5681813,0.43181872,0
+H595L,SCN1A,595.0,H,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.019143572,0.9808564,0.019143581,1
+Y1568H,SCN1A,1568.0,Y,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4406638,0.5593362,0.4406638,1
+P116T,SCN1A,116.0,P,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42486823,0.5751318,0.42486823,1
+L1475V,SCN1A,1475.0,L,V,Pathogenic,DIII-S6,Pore,1,1,0.96751195,0.96751195,0.032488048,1
+K1900E,SCN1A,1900.0,K,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45175514,0.54824483,0.45175517,1
+K2007E,SCN1A,2007.0,K,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44926777,0.55073225,0.44926775,1
+F167V,SCN1A,167.0,F,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4334405,0.5665595,0.4334405,1
+I1771S,SCN1A,1771.0,I,S,Pathogenic,DIV-S6,Pore,1,0,0.44114488,0.5588551,0.44114488,0
+H1929Q,SCN1A,1929.0,H,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44984448,0.5501555,0.44984448,1
+S1760Y,SCN1A,1760.0,S,Y,Likely benign,DIV-S6,Pore,0,0,0.4496358,0.5503642,0.4496358,1
+S662L,SCN1A,662.0,S,L,Likely benign,Unmapped,Other,0,0,0.009538447,0.9904615,0.009538472,1
+S1232I,SCN1A,1232.0,S,I,Likely pathogenic,Unmapped,Other,1,0,0.43732274,0.56267726,0.43732274,0
+E1957Q,SCN1A,1957.0,E,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45044363,0.5495564,0.45044363,1
+K38N,SCN1A,38.0,K,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44265944,0.55734056,0.44265944,1
+D1131N,SCN1A,1131.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.025941603,0.9740584,0.02594161,1
+T184P,SCN1A,184.0,T,P,Likely pathogenic,Unmapped,Other,1,0,0.43243912,0.5675609,0.4324391,0
+A1161V,SCN1A,1161.0,A,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.01796388,0.9820361,0.017963886,1
+C1354G,SCN1A,1354.0,C,G,Likely pathogenic,DIII-S5,Pore,1,1,0.96372515,0.96372515,0.03627485,1
+K1270T,SCN1A,1270.0,K,T,Pathogenic,Unmapped,Other,1,0,0.2902102,0.7097898,0.2902102,0
+L1399R,SCN1A,1399.0,L,R,Likely pathogenic,Unmapped,Other,1,1,0.9717206,0.9717206,0.028279424,1
+G232D,SCN1A,232.0,G,D,gnomAD_population_benign_candidate,DI-S4,Voltage_Sensor,0,0,0.43135393,0.5686461,0.43135393,1
+N60K,SCN1A,60.0,N,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.41125712,0.58874285,0.41125715,1
+K1043N,SCN1A,1043.0,K,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009327926,0.99067205,0.009327948,1
+N359I,SCN1A,359.0,N,I,Pathogenic,Unmapped,Other,1,0,0.4206579,0.5793421,0.42065787,0
+T1300R,SCN1A,1300.0,T,R,Pathogenic,Unmapped,Other,1,0,0.44501644,0.55498356,0.44501644,0
+Q910L,SCN1A,910.0,Q,L,Pathogenic,DII-S5,Pore,1,1,0.94720143,0.94720143,0.05279857,1
+T184S,SCN1A,184.0,T,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43422696,0.565773,0.434227,1
+V947M,SCN1A,947.0,V,M,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.97916836,0.97916836,0.020831645,0
+S340F,SCN1A,340.0,S,F,Pathogenic,Unmapped,Other,1,0,0.4247416,0.5752584,0.42474163,0
+I719N,SCN1A,719.0,I,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011891955,0.98810804,0.011891961,1
+G1087E,SCN1A,1087.0,G,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0074227946,0.9925772,0.007422805,1
+A461T,SCN1A,461.0,A,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43762615,0.5623739,0.43762612,1
+G1085D,SCN1A,1085.0,G,D,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009326167,0.99067384,0.00932616,1
+I747F,SCN1A,747.0,I,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.032871153,0.9671289,0.032871127,1
+R531K,SCN1A,531.0,R,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.010973986,0.989026,0.01097399,1
+A1179V,SCN1A,1179.0,A,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.023998631,0.9760014,0.023998618,1
+T625I,SCN1A,625.0,T,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.007964858,0.99203515,0.0079648495,1
+L224F,SCN1A,224.0,L,F,gnomAD_population_benign_candidate,DI-S4,Voltage_Sensor,0,0,0.4385198,0.56148016,0.43851984,1
+F403L,SCN1A,403.0,F,L,Pathogenic/Likely pathogenic,DI-S6,Pore,1,0,0.4486079,0.5513921,0.44860792,0
+D1074N,SCN1A,1074.0,D,N,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006445427,0.9935546,0.006445408,1
+T1182S,SCN1A,1182.0,T,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009910192,0.99008983,0.009910166,1
+V770A,SCN1A,770.0,V,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.20354448,0.7964555,0.2035445,1
+V404I,SCN1A,404.0,V,I,gnomAD_population_benign_candidate,DI-S6,Pore,0,0,0.43500382,0.5649962,0.43500382,1
+V237L,SCN1A,237.0,V,L,Likely pathogenic,Unmapped,Other,1,0,0.4376183,0.56238174,0.43761826,0
+A395G,SCN1A,395.0,A,G,Likely pathogenic,Unmapped,Other,1,0,0.44540286,0.55459714,0.44540286,0
+G238R,SCN1A,238.0,G,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43303823,0.56696177,0.43303823,1
+K276N,SCN1A,276.0,K,N,Pathogenic,Unmapped,Other,1,0,0.434203,0.565797,0.43420303,0
+S74P,SCN1A,74.0,S,P,Pathogenic,Unmapped,Other,1,0,0.4555043,0.5444957,0.4555043,0
+A342E,SCN1A,342.0,A,E,Likely pathogenic,Unmapped,Other,1,0,0.44334686,0.55665314,0.44334686,0
+R1874W,SCN1A,1874.0,R,W,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45032388,0.5496761,0.45032388,1
+C968F,SCN1A,968.0,C,F,Pathogenic,DII-S6,Pore,1,1,0.79848766,0.79848766,0.20151234,1
+A285S,SCN1A,285.0,A,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43642068,0.5635793,0.43642068,1
+T1083K,SCN1A,1083.0,T,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006723613,0.99327636,0.0067236423,1
+T644I,SCN1A,644.0,T,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0076852324,0.99231476,0.007685244,1
+L1127V,SCN1A,1127.0,L,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006327252,0.9936727,0.0063272715,1
+D1383G,SCN1A,1383.0,D,G,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.7107213,0.7107213,0.2892787,0
+R1636Q,SCN1A,1636.0,R,Q,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.44710606,0.55289394,0.44710606,0
+A1001G,SCN1A,1001.0,A,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.050878905,0.9491211,0.050878882,1
+G512E,SCN1A,512.0,G,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009021737,0.99097824,0.009021759,1
+S662W,SCN1A,662.0,S,W,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009737078,0.9902629,0.009737074,1
+L331S,SCN1A,331.0,L,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44188756,0.55811244,0.44188756,1
+N359K,SCN1A,359.0,N,K,Likely pathogenic,Unmapped,Other,1,0,0.43653598,0.56346405,0.43653595,0
+N1195S,SCN1A,1195.0,N,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.02344293,0.9765571,0.023442924,1
+V610G,SCN1A,610.0,V,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.007082834,0.9929172,0.00708282,1
+G58V,SCN1A,58.0,G,V,Likely pathogenic,Unmapped,Other,1,0,0.40226352,0.5977365,0.40226352,0
+N1509H,SCN1A,1509.0,N,H,Likely pathogenic,III-IV Linker,Inactivation_Gate,1,1,0.81848407,0.81848407,0.18151593,1
+Y1599H,SCN1A,1599.0,Y,H,Pathogenic,Unmapped,Other,1,0,0.44613746,0.5538626,0.44613743,0
+A223P,SCN1A,223.0,A,P,Likely pathogenic,DI-S4,Voltage_Sensor,1,0,0.43590233,0.56409764,0.43590236,0
+A423V,SCN1A,423.0,A,V,gnomAD_population_benign_candidate,DI-S6,Pore,0,0,0.42426553,0.5757345,0.4242655,1
+G1421E,SCN1A,1421.0,G,E,Likely pathogenic,Unmapped,Other,1,1,0.95421934,0.95421934,0.04578066,1
+E1221K,SCN1A,1221.0,E,K,Pathogenic,Unmapped,Other,1,0,0.29828513,0.7017149,0.29828513,0
+L1175F,SCN1A,1175.0,L,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.02153685,0.9784632,0.021536827,1
+A1343G,SCN1A,1343.0,A,G,Pathogenic,Unmapped,Other,1,1,0.9540386,0.9540386,0.04596138,1
+A107S,SCN1A,107.0,A,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42314106,0.57685894,0.42314106,1
+I810M,SCN1A,810.0,I,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.071074575,0.9289254,0.071074605,1
+W1284S,SCN1A,1284.0,W,S,Pathogenic,Unmapped,Other,1,0,0.15662268,0.84337735,0.15662265,0
+P151L,SCN1A,151.0,P,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4349592,0.5650408,0.43495917,1
+H939Q,SCN1A,939.0,H,Q,Pathogenic,Unmapped,Other,1,1,0.9766765,0.9766765,0.023323476,1
+L224W,SCN1A,224.0,L,W,gnomAD_population_benign_candidate,DI-S4,Voltage_Sensor,0,0,0.44092694,0.5590731,0.4409269,1
+M1267T,SCN1A,1267.0,M,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.40879768,0.5912023,0.40879768,1
+T1722N,SCN1A,1722.0,T,N,Likely pathogenic,Unmapped,Other,1,0,0.45092893,0.5490711,0.45092893,0
+D1974G,SCN1A,1974.0,D,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44918492,0.5508151,0.4491849,1
+I1498N,SCN1A,1498.0,I,N,Likely pathogenic,III-IV Linker,Inactivation_Gate,1,0,0.295437,0.704563,0.29543698,0
+H1393Q,SCN1A,1393.0,H,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.9732131,0.9732131,0.026786923,0
+V1589A,SCN1A,1589.0,V,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4498459,0.5501541,0.4498459,1
+S695I,SCN1A,695.0,S,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.029084265,0.97091573,0.029084265,1
+G1310E,SCN1A,1310.0,G,E,Pathogenic,Unmapped,Other,1,1,0.5375599,0.5375599,0.46244007,1
+C1741Y,SCN1A,1741.0,C,Y,Pathogenic,Unmapped,Other,1,0,0.4407202,0.5592798,0.4407202,0
+E496G,SCN1A,496.0,E,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43781683,0.56218314,0.43781686,1
+C1180F,SCN1A,1180.0,C,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.022396464,0.97760355,0.022396445,1
+R274K,SCN1A,274.0,R,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43490562,0.56509435,0.43490565,1
+I138V,SCN1A,138.0,I,V,Likely pathogenic,Unmapped,Other,1,0,0.43108845,0.56891155,0.43108845,0
+I99V,SCN1A,99.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42312917,0.5768708,0.4231292,1
+I1224V,SCN1A,1224.0,I,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.3445958,0.6554042,0.3445958,1
+P150H,SCN1A,150.0,P,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43605193,0.56394804,0.43605196,1
+H614Q,SCN1A,614.0,H,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011096716,0.9889033,0.011096716,1
+R931P,SCN1A,931.0,R,P,Pathogenic/Likely pathogenic,Unmapped,Other,1,1,0.9751672,0.9751672,0.024832785,1
+V1680I,SCN1A,1680.0,V,I,gnomAD_population_benign_candidate,DIV-S5,Pore,0,0,0.45416436,0.5458356,0.4541644,1
+M1559T,SCN1A,1559.0,M,T,gnomAD_population_benign_candidate,III-IV Linker,Inactivation_Gate,0,0,0.44836834,0.5516317,0.4483683,1
+T363P,SCN1A,363.0,T,P,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.4502879,0.54971206,0.45028794,0
+L1930V,SCN1A,1930.0,L,V,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4516786,0.54832137,0.45167863,1
+Y545H,SCN1A,545.0,Y,H,Likely pathogenic,Unmapped,Other,1,0,0.00715204,0.992848,0.007152021,0
+D249G,SCN1A,249.0,D,G,gnomAD_population_benign_candidate,DI-S5,Pore,0,0,0.4233293,0.5766707,0.4233293,1
+Q1187H,SCN1A,1187.0,Q,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.014093199,0.9859068,0.01409322,1
+C1716R,SCN1A,1716.0,C,R,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.4552867,0.54471326,0.45528674,0
+L209R,SCN1A,209.0,L,R,Likely pathogenic,Unmapped,Other,1,0,0.43784952,0.5621505,0.43784952,0
+L1175P,SCN1A,1175.0,L,P,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.021715675,0.9782843,0.0217157,1
+K42R,SCN1A,42.0,K,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43760598,0.562394,0.43760598,1
+Y790N,SCN1A,790.0,Y,N,Likely pathogenic,Unmapped,Other,1,1,0.55586004,0.55586004,0.44413996,1
+A1301T,SCN1A,1301.0,A,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4129893,0.58701074,0.41298926,1
+H127Y,SCN1A,127.0,H,Y,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.43008745,0.56991255,0.43008745,0
+I99V,SCN1A,99.0,I,V,Likely pathogenic,Unmapped,Other,1,0,0.42312917,0.5768708,0.4231292,0
+E1308D,SCN1A,1308.0,E,D,gnomAD_population_benign_candidate,Unmapped,Other,0,1,0.50889647,0.50889647,0.49110353,0
+D1703V,SCN1A,1703.0,D,V,Pathogenic,Unmapped,Other,1,0,0.4552422,0.54475784,0.45524216,0
+V1092A,SCN1A,1092.0,V,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.008083427,0.9919166,0.008083403,1
+V157I,SCN1A,157.0,V,I,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.44990352,0.5500965,0.4499035,1
+M400K,SCN1A,400.0,M,K,Pathogenic,DI-S6,Pore,1,0,0.43842942,0.5615706,0.43842942,0
+D767E,SCN1A,767.0,D,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.021050273,0.9789497,0.021050274,1
+Q279R,SCN1A,279.0,Q,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4281608,0.5718392,0.4281608,1
+N430H,SCN1A,430.0,N,H,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.43288994,0.56711006,0.43288994,1
+L451F,SCN1A,451.0,L,F,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4300134,0.5699866,0.43001342,1
+P1739L,SCN1A,1739.0,P,L,Likely pathogenic,Unmapped,Other,1,0,0.45122364,0.5487764,0.4512236,0
+C1192G,SCN1A,1192.0,C,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.011355138,0.98864484,0.011355162,1
+R605K,SCN1A,605.0,R,K,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.009172409,0.9908276,0.00917238,1
+D1703Y,SCN1A,1703.0,D,Y,Likely pathogenic,Unmapped,Other,1,0,0.45298812,0.54701185,0.45298815,0
+A1884T,SCN1A,1884.0,A,T,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45522547,0.54477453,0.45522547,1
+G585A,SCN1A,585.0,G,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.017862186,0.9821378,0.0178622,1
+I1772T,SCN1A,1772.0,I,T,gnomAD_population_benign_candidate,DIV-S6,Pore,0,0,0.4463021,0.55369794,0.44630206,1
+D188G,SCN1A,188.0,D,G,Likely pathogenic,Unmapped,Other,1,0,0.42549086,0.57450914,0.42549086,0
+F1808I,SCN1A,1808.0,F,I,Pathogenic,Unmapped,Other,1,0,0.46133548,0.5386645,0.46133548,0
+G1022E,SCN1A,1022.0,G,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.020456856,0.97954315,0.02045685,1
+T184A,SCN1A,184.0,T,A,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.42875004,0.57124996,0.42875004,1
+Q1244R,SCN1A,1244.0,Q,R,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.19097917,0.8090208,0.19097918,1
+Q709L,SCN1A,709.0,Q,L,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.017475776,0.9825242,0.017475784,1
+F1765L,SCN1A,1765.0,F,L,Pathogenic,DIV-S6,Pore,1,0,0.455659,0.54434097,0.45565903,0
+A175V,SCN1A,175.0,A,V,Pathogenic,Unmapped,Other,1,0,0.42835107,0.57164896,0.42835104,0
+A1832E,SCN1A,1832.0,A,E,Likely pathogenic,Unmapped,Other,1,0,0.4508341,0.5491659,0.4508341,0
+L1624P,SCN1A,1624.0,L,P,Likely pathogenic,Unmapped,Other,1,0,0.436862,0.563138,0.436862,0
+R28H,SCN1A,28.0,R,H,Likely benign,Unmapped,Other,0,0,0.4180422,0.5819578,0.41804218,1
+G1757R,SCN1A,1757.0,G,R,Pathogenic,Unmapped,Other,1,0,0.4458177,0.5541823,0.4458177,0
+I173N,SCN1A,173.0,I,N,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.45772955,0.5422704,0.45772958,0
+E846G,SCN1A,846.0,E,G,Pathogenic,Unmapped,Other,1,0,0.32931733,0.67068267,0.32931733,0
+L1461I,SCN1A,1461.0,L,I,gnomAD_population_benign_candidate,DIII-S6,Pore,0,0,0.2113042,0.7886958,0.21130419,1
+D1443Y,SCN1A,1443.0,D,Y,Likely pathogenic,Unmapped,Other,1,1,0.8203267,0.8203267,0.17967331,1
+V237M,SCN1A,237.0,V,M,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.4145513,0.58544874,0.41455126,1
+D81E,SCN1A,81.0,D,E,Likely pathogenic,Unmapped,Other,1,0,0.43772668,0.5622733,0.43772668,0
+I1482N,SCN1A,1482.0,I,N,Pathogenic,DIII-S6,Pore,1,1,0.9557628,0.9557628,0.044237196,1
+Y1274S,SCN1A,1274.0,Y,S,Pathogenic,Unmapped,Other,1,0,0.26151568,0.7384843,0.26151568,0
+N1064S,SCN1A,1064.0,N,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0056993775,0.9943006,0.005699396,1
+F1678Y,SCN1A,1678.0,F,Y,Likely pathogenic,DIV-S5,Pore,1,0,0.45569238,0.5443076,0.4556924,0
+T1909I,SCN1A,1909.0,T,I,Pathogenic/Likely pathogenic,Unmapped,Other,1,0,0.4586502,0.54134977,0.45865023,0
+G177E,SCN1A,177.0,G,E,Pathogenic,Unmapped,Other,1,0,0.453675,0.54632497,0.45367503,0
+Q459R,SCN1A,459.0,Q,R,Likely pathogenic,Unmapped,Other,1,0,0.4332242,0.5667758,0.4332242,0
+N1476K,SCN1A,1476.0,N,K,Pathogenic,DIII-S6,Pore,1,1,0.96229386,0.96229386,0.037706137,1
+F987L,SCN1A,987.0,F,L,Pathogenic,DII-S6,Pore,1,1,0.93654996,0.93654996,0.06345004,1
+C1211S,SCN1A,1211.0,C,S,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.062353224,0.93764675,0.062353253,1
+E1795Q,SCN1A,1795.0,E,Q,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.45415208,0.5458479,0.4541521,1
+D593E,SCN1A,593.0,D,E,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.0152206,0.9847794,0.0152205825,1
+S1037C,SCN1A,1037.0,S,C,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.01138932,0.9886107,0.011389315,1
+E517G,SCN1A,517.0,E,G,gnomAD_population_benign_candidate,Unmapped,Other,0,0,0.006750541,0.9932495,0.006750524,1

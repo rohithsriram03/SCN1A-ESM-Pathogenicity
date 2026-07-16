@@ -1,0 +1,4 @@
+group_col,metric_col,group_a,group_b,n_a,n_b,mean_a,mean_b,median_a,median_b,mannwhitney_u,p_value_uncorrected,bonferroni_p_value
+Mechanism_Class,Domain_Blind_Ambiguity_Score,Dynamic_Gating_Related,Ion_Conduction_Pore,26,44,0.5104960211359375,0.5025163252998991,0.587166569002856,0.49703404494706016,623.0,0.5393354193947509,1.0
+Mechanism_Class,Domain_Blind_Ambiguity_Score,Dynamic_Gating_Related,Other_Context,26,456,0.5104960211359375,0.32195081823251254,0.587166569002856,0.3077654993619585,8770.0,3.899591336807912e-05,0.00011698774010423737
+Mechanism_Class,Domain_Blind_Ambiguity_Score,Ion_Conduction_Pore,Other_Context,44,456,0.5025163252998991,0.32195081823251254,0.49703404494706016,0.3077654993619585,14550.0,7.980610391639875e-07,2.3941831174919626e-06

@@ -1,0 +1,4 @@
+group_col,metric_col,group_a,group_b,n_a,n_b,mean_a,mean_b,median_a,median_b,mannwhitney_u,p_value_uncorrected,bonferroni_p_value
+Mechanism_Class,Model_Uncertainty,Dynamic_Gating_Related,Ion_Conduction_Pore,26,44,0.3156859807307692,0.27271849761363626,0.353177515,0.266274685,658.0,0.2986945814826657,0.8960837444479971
+Mechanism_Class,Model_Uncertainty,Dynamic_Gating_Related,Other_Context,26,456,0.3156859807307692,0.1832212099513158,0.353177515,0.15913087,8871.0,2.0483246434835903e-05,6.144973930450771e-05
+Mechanism_Class,Model_Uncertainty,Ion_Conduction_Pore,Other_Context,44,456,0.27271849761363626,0.1832212099513158,0.266274685,0.15913087,13523.0,0.00013688160810437007,0.0004106448243131102

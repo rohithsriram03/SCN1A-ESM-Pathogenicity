@@ -1,0 +1,28 @@
+{
+    "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "validation": "10 repeated position-disjoint splits grouped by AA_Position",
+    "feature_sets": [
+        "wt_site_only",
+        "mutant_site_only",
+        "wt_plus_mut_site",
+        "biochem_only",
+        "wt_plus_mut_plus_biochem"
+    ],
+    "batch_size": 32,
+    "max_epochs": 60,
+    "patience": 10,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "note": "Domain category and AA_Position are intentionally excluded as model inputs to avoid position/domain leakage."
+}
