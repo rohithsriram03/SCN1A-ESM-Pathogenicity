@@ -1,0 +1,5 @@
+feature_set,pair_mode,k,group_key,gof_variant,lof_variant,gof_gene,lof_gene,gof_position,lof_position,gof_cid,lof_cid,gof_knn_gof_score,lof_knn_gof_score,pairwise_success
+wt_site,scn1a_same_cid_cross_gene,1,CID_1052,SCN4A:p.L796V,SCN1A:p.L986F,SCN4A,SCN1A,796,986,1052,1052,1.0,1.0,0.5
+wt_site,scn1a_same_cid_cross_gene,1,CID_1491,SCN11A:p.V1184A,SCN1A:p.V1353L,SCN11A,SCN1A,1184,1353,1491,1491,0.0,0.0,0.5
+wt_site,scn1a_same_cid_cross_gene,1,CID_1639,SCN4A:p.I1310N,SCN1A:p.I1498M,SCN4A,SCN1A,1310,1498,1639,1639,1.0,1.0,0.5
+wt_site,scn1a_same_cid_cross_gene,1,CID_1800,SCN5A:p.R1644H,SCN1A:p.R1657C,SCN5A,SCN1A,1644,1657,1800,1800,0.0,0.0,0.5

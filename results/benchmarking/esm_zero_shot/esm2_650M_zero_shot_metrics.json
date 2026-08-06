@@ -1,0 +1,130 @@
+{
+    "model_name": "facebook/esm2_t33_650M_UR50D",
+    "window_size": 1000,
+    "batch_size": 1,
+    "input_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_benchmark_with_alphamissense.csv",
+    "n_total_rows": 2422,
+    "n_scored_rows": 2422,
+    "n_unscored_rows": 0,
+    "status_counts": {
+        "OK": 2422
+    },
+    "natural_threshold_zero_metrics": {
+        "threshold": 0.0,
+        "n": 2422,
+        "accuracy": 0.550784475639967,
+        "precision": 0.4595569294178259,
+        "recall": 0.958109559613319,
+        "f1": 0.6211699164345403,
+        "roc_auc": 0.8714225921227328,
+        "average_precision": 0.8278277139658177,
+        "confusion_matrix": [
+            [
+                442,
+                1049
+            ],
+            [
+                39,
+                892
+            ]
+        ],
+        "classification_report": {
+            "Benign": {
+                "precision": 0.918918918918919,
+                "recall": 0.2964453386988598,
+                "f1-score": 0.4482758620689655,
+                "support": 1491.0
+            },
+            "Pathogenic": {
+                "precision": 0.4595569294178259,
+                "recall": 0.958109559613319,
+                "f1-score": 0.6211699164345403,
+                "support": 931.0
+            },
+            "accuracy": 0.550784475639967,
+            "macro avg": {
+                "precision": 0.6892379241683724,
+                "recall": 0.6272774491560894,
+                "f1-score": 0.5347228892517529,
+                "support": 2422.0
+            },
+            "weighted avg": {
+                "precision": 0.7423433564806375,
+                "recall": 0.550784475639967,
+                "f1-score": 0.5147351373019755,
+                "support": 2422.0
+            }
+        }
+    },
+    "best_f1_threshold": 2.9861638534665107,
+    "optimized_f1_threshold_metrics": {
+        "threshold": 2.9861638534665107,
+        "n": 2422,
+        "accuracy": 0.8220478943022296,
+        "precision": 0.7688172043010753,
+        "recall": 0.7679914070891515,
+        "f1": 0.7684040838259001,
+        "roc_auc": 0.8714225921227328,
+        "average_precision": 0.8278277139658177,
+        "confusion_matrix": [
+            [
+                1276,
+                215
+            ],
+            [
+                216,
+                715
+            ]
+        ],
+        "classification_report": {
+            "Benign": {
+                "precision": 0.8552278820375335,
+                "recall": 0.8558014755197854,
+                "f1-score": 0.8555145826349313,
+                "support": 1491.0
+            },
+            "Pathogenic": {
+                "precision": 0.7688172043010753,
+                "recall": 0.7679914070891515,
+                "f1-score": 0.7684040838259001,
+                "support": 931.0
+            },
+            "accuracy": 0.8220478943022296,
+            "macro avg": {
+                "precision": 0.8120225431693044,
+                "recall": 0.8118964413044685,
+                "f1-score": 0.8119593332304157,
+                "support": 2422.0
+            },
+            "weighted avg": {
+                "precision": 0.8220122168960625,
+                "recall": 0.8220478943022296,
+                "f1-score": 0.8220299111274135,
+                "support": 2422.0
+            }
+        }
+    },
+    "score_by_label": [
+        {
+            "Label_Name": "Benign",
+            "count": 1491,
+            "mean": 1.1386139109550515,
+            "median": 0.7147345542907715,
+            "std": 2.1442123727826052,
+            "min": -4.899079918861389,
+            "max": 13.34661562484689
+        },
+        {
+            "Label_Name": "Pathogenic",
+            "count": 931,
+            "mean": 5.959283194204215,
+            "median": 5.981313981115818,
+            "std": 3.633445062311062,
+            "min": -2.481839671730995,
+            "max": 14.733613640069962
+        }
+    ],
+    "output_scores_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/esm_zero_shot/esm2_650M_zero_shot_scores.csv",
+    "output_category_summary_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/esm_zero_shot/esm2_650M_zero_shot_by_functional_category.csv",
+    "output_threshold_sweep_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/esm_zero_shot/esm2_650M_zero_shot_threshold_sweep.csv"
+}

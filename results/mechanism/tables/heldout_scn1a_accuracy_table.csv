@@ -1,0 +1,10 @@
+Method,Test setting,Raw accuracy,Balanced accuracy
+"Majority class, always LoF",Held-out SCN1A,80.3,50.0
+SCION features: logistic regression,Held-out SCN1A,57.4,57.7
+"SCION features: kNN, k=1",Held-out SCN1A,59.0,65.1
+SCION features: gradient boosting,Held-out SCN1A,62.3,63.9
+SCION features: random forest,Held-out SCN1A,62.3,67.1
+"Frozen ESM kNN, mutant-site, k=1",Held-out SCN1A,68.9,71.2
+"Frozen ESM kNN, WT+mutant, k=1",Held-out SCN1A,73.8,74.2
+"Frozen ESM kNN, WT+mutant, k=3",Held-out SCN1A,67.2,76.4
+"Contrastive LoRA + ESM kNN, mutant-site, k=1","Held-out SCN1A, 3-seed mean",69.9,74.0

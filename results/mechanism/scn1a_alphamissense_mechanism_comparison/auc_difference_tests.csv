@@ -1,0 +1,4 @@
+auc_difference_mean,auc_difference_ci_low,auc_difference_ci_high,fraction_difference_leq_0,comparison
+0.276032694752754,0.001818181818181938,0.5277777777777777,0.0243,ESM_mutant_site_minus_AlphaMissense_raw_pathogenicity_score
+0.2931266542625831,0.0641025641025641,0.5264765585721466,0.0068,ESM_mutant_site_minus_AlphaMissense_reversed_score
+0.2503772200610095,0.09401041666666655,0.40986394557823125,0.0015,ESM_mutant_site_minus_biochem_only_model

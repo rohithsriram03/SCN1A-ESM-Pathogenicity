@@ -1,0 +1,10 @@
+Gene,Split,Total,LoF,GoF,LoF (%),GoF (%)
+SCN1A,Held-out test,61,49,12,80.3,19.7
+SCN5A,Training,157,117,40,74.5,25.5
+SCN2A,Training,32,14,18,43.8,56.2
+SCN4A,Training,31,13,18,41.9,58.1
+SCN8A,Training,22,8,14,36.4,63.6
+SCN10A,Training,16,7,9,43.8,56.2
+SCN3A,Training,12,2,10,16.7,83.3
+SCN9A,Training,11,0,11,0.0,100.0
+SCN11A,Training,6,0,6,0.0,100.0

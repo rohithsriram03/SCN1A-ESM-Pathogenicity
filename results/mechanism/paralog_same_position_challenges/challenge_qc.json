@@ -1,0 +1,25 @@
+{
+    "n_variants": 348,
+    "mechanism_counts": {
+        "LOF": 210,
+        "GOF": 138
+    },
+    "gene_counts": {
+        "SCN5A": 157,
+        "SCN1A": 61,
+        "SCN2A": 32,
+        "SCN4A": 31,
+        "SCN8A": 22,
+        "SCN10A": 16,
+        "SCN3A": 12,
+        "SCN9A": 11,
+        "SCN11A": 6
+    },
+    "n_scn1a_variants": 61,
+    "n_scn1a_with_same_cid_non_scn1a_analog": 21,
+    "n_scn1a_with_mixed_same_cid_non_scn1a_analogs": 2,
+    "n_same_gene_same_position_discordant_pairs": 3,
+    "n_same_cid_cross_gene_discordant_pairs": 19,
+    "n_scn1a_same_cid_cross_gene_discordant_pairs": 4,
+    "output_dir": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/paralog_same_position_challenges"
+}

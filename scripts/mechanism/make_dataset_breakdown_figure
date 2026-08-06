@@ -1,0 +1,228 @@
+from pathlib import Path
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+
+DATA_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "mechanism"
+    / "processed"
+    / "scion_mechanism_variants_with_sequences.csv"
+)
+
+FIGURE_DIR = PROJECT_ROOT / "results" / "mechanism" / "figures"
+TABLE_DIR = PROJECT_ROOT / "results" / "mechanism" / "tables"
+
+FIGURE_DIR.mkdir(parents=True, exist_ok=True)
+TABLE_DIR.mkdir(parents=True, exist_ok=True)
+
+HELDOUT_GENE = "SCN1A"
+
+
+def count_labels(df):
+    """Return total, LoF, GoF, and percentages for a dataframe subset."""
+    total = len(df)
+    lof = int((df["Mechanism_Label"] == "LOF").sum())
+    gof = int((df["Mechanism_Label"] == "GOF").sum())
+
+    lof_pct = 100 * lof / total if total > 0 else 0
+    gof_pct = 100 * gof / total if total > 0 else 0
+
+    return total, lof, gof, lof_pct, gof_pct
+
+
+def make_split_summary(df):
+    """Create train/test/full dataset summary table."""
+    train_df = df[df["Gene"] != HELDOUT_GENE]
+    test_df = df[df["Gene"] == HELDOUT_GENE]
+
+    rows = []
+
+    for split_name, split_df in [
+        ("Training set (non-SCN1A)", train_df),
+        ("Held-out test set (SCN1A)", test_df),
+        ("Full validated dataset", df),
+    ]:
+        total, lof, gof, lof_pct, gof_pct = count_labels(split_df)
+
+        rows.append(
+            {
+                "Dataset split": split_name,
+                "Genes included": (
+                    "All non-SCN1A sodium-channel genes"
+                    if split_name.startswith("Training")
+                    else "SCN1A only"
+                    if split_name.startswith("Held-out")
+                    else "All sodium-channel genes"
+                ),
+                "Total variants": total,
+                "LoF": lof,
+                "GoF": gof,
+                "LoF (%)": f"{lof_pct:.1f}",
+                "GoF (%)": f"{gof_pct:.1f}",
+            }
+        )
+
+    return pd.DataFrame(rows)
+
+
+def make_gene_breakdown(df):
+    """Create gene-level breakdown table."""
+    rows = []
+
+    for gene, sub in df.groupby("Gene"):
+        total, lof, gof, lof_pct, gof_pct = count_labels(sub)
+
+        split = "Held-out test" if gene == HELDOUT_GENE else "Training"
+
+        rows.append(
+            {
+                "Gene": gene,
+                "Split": split,
+                "Total": total,
+                "LoF": lof,
+                "GoF": gof,
+                "LoF (%)": f"{lof_pct:.1f}",
+                "GoF (%)": f"{gof_pct:.1f}",
+            }
+        )
+
+    gene_table = pd.DataFrame(rows)
+    gene_table = gene_table.sort_values(
+        by=["Split", "Total"],
+        ascending=[True, False],
+    )
+
+    return gene_table
+
+
+def draw_table(ax, df, title, font_size=8.5, scale_y=1.25):
+    """Draw a clean matplotlib table."""
+    ax.axis("off")
+    ax.set_title(title, fontsize=12, fontweight="bold", pad=10)
+
+    table = ax.table(
+        cellText=df.values,
+        colLabels=df.columns,
+        loc="center",
+        cellLoc="center",
+        colLoc="center",
+    )
+
+    table.auto_set_font_size(False)
+    table.set_fontsize(font_size)
+    table.scale(1.0, scale_y)
+
+    for (row, col), cell in table.get_celld().items():
+        cell.set_linewidth(0.8)
+
+        if row == 0:
+            cell.set_text_props(weight="bold")
+
+        if col == 0 and row > 0:
+            cell.set_text_props(ha="left")
+
+    return table
+
+
+def main():
+    if not DATA_FILE.exists():
+        raise FileNotFoundError(f"Could not find dataset file: {DATA_FILE}")
+
+    df = pd.read_csv(DATA_FILE)
+
+    required_cols = {"Gene", "Mechanism_Label"}
+    missing = required_cols - set(df.columns)
+
+    if missing:
+        raise ValueError(f"Dataset is missing required columns: {missing}")
+
+    df = df[df["Mechanism_Label"].isin(["LOF", "GOF"])].copy()
+
+    split_summary = make_split_summary(df)
+    gene_breakdown = make_gene_breakdown(df)
+
+    # Save source tables as CSV files
+    split_summary.to_csv(
+        TABLE_DIR / "dataset_split_breakdown.csv",
+        index=False,
+    )
+
+    gene_breakdown.to_csv(
+        TABLE_DIR / "dataset_gene_breakdown.csv",
+        index=False,
+    )
+
+    # -----------------------------
+    # Make figure
+    # -----------------------------
+    fig = plt.figure(figsize=(11, 7.5))
+
+    gs = fig.add_gridspec(
+        nrows=2,
+        ncols=1,
+        height_ratios=[1.0, 2.0],
+        hspace=0.42,
+    )
+
+    ax1 = fig.add_subplot(gs[0])
+    ax2 = fig.add_subplot(gs[1])
+
+    draw_table(
+        ax1,
+        split_summary,
+        "A. Train/test split and mechanism-label distribution",
+        font_size=8.5,
+        scale_y=1.35,
+    )
+
+    draw_table(
+        ax2,
+        gene_breakdown,
+        "B. Gene-level breakdown of validated GoF/LoF variants",
+        font_size=8.3,
+        scale_y=1.25,
+    )
+
+    fig.text(
+        0.5,
+        0.025,
+        "LoF = loss of function; GoF = gain of function. SCN1A was held out as the main test gene.",
+        ha="center",
+        fontsize=9,
+    )
+
+    plt.tight_layout(rect=[0.02, 0.05, 0.98, 0.98])
+
+    png_path = FIGURE_DIR / "figure_dataset_breakdown.png"
+    jpg_path = FIGURE_DIR / "figure_dataset_breakdown.jpg"
+    pdf_path = FIGURE_DIR / "figure_dataset_breakdown.pdf"
+
+    plt.savefig(png_path, dpi=300, bbox_inches="tight")
+    plt.savefig(jpg_path, dpi=300, bbox_inches="tight")
+    plt.savefig(pdf_path, bbox_inches="tight")
+
+    plt.close()
+
+    print("Saved figure files:")
+    print(png_path)
+    print(jpg_path)
+    print(pdf_path)
+
+    print("\nSaved table files:")
+    print(TABLE_DIR / "dataset_split_breakdown.csv")
+    print(TABLE_DIR / "dataset_gene_breakdown.csv")
+
+    print("\nSplit summary:")
+    print(split_summary.to_string(index=False))
+
+    print("\nGene breakdown:")
+    print(gene_breakdown.to_string(index=False))
+
+
+if __name__ == "__main__":
+    main()

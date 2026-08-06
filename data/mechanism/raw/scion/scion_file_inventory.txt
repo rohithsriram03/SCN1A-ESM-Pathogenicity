@@ -1,0 +1,1569 @@
+./.DS_Store
+./christianbosselmann-SCION-e7881e3/.DS_Store
+./christianbosselmann-SCION-e7881e3/.gitattributes
+./christianbosselmann-SCION-e7881e3/.gitignore
+./christianbosselmann-SCION-e7881e3/app/.DS_Store
+./christianbosselmann-SCION-e7881e3/app/aa_feats.tsv
+./christianbosselmann-SCION-e7881e3/app/app.R
+./christianbosselmann-SCION-e7881e3/app/cid.csv
+./christianbosselmann-SCION-e7881e3/app/func.R
+./christianbosselmann-SCION-e7881e3/app/hp.obo.txt
+./christianbosselmann-SCION-e7881e3/app/master.R
+./christianbosselmann-SCION-e7881e3/app/nglviewer_lookup.csv
+./christianbosselmann-SCION-e7881e3/app/omim_to_hpo.R
+./christianbosselmann-SCION-e7881e3/app/pdb/.DS_Store
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN10A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN11A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN1A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN2A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN3A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN4A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN5A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN8A.pdb
+./christianbosselmann-SCION-e7881e3/app/pdb/SCN9A.pdb
+./christianbosselmann-SCION-e7881e3/app/phenotype.csv
+./christianbosselmann-SCION-e7881e3/app/phenotype.hpoa
+./christianbosselmann-SCION-e7881e3/app/recipe.rds
+./christianbosselmann-SCION-e7881e3/app/scnviewer_lookup.csv
+./christianbosselmann-SCION-e7881e3/app/set_terms.RData
+./christianbosselmann-SCION-e7881e3/app/similaritymatrix.csv
+./christianbosselmann-SCION-e7881e3/app/str_feats.rda
+./christianbosselmann-SCION-e7881e3/app/training_data.csv
+./christianbosselmann-SCION-e7881e3/app/www/.DS_Store
+./christianbosselmann-SCION-e7881e3/app/www/custom_div.css
+./christianbosselmann-SCION-e7881e3/app/www/link.png
+./christianbosselmann-SCION-e7881e3/app/www/logo.png
+./christianbosselmann-SCION-e7881e3/data/.DS_Store
+./christianbosselmann-SCION-e7881e3/data/clean_tbl.csv
+./christianbosselmann-SCION-e7881e3/data/clean_tbl.xlsx
+./christianbosselmann-SCION-e7881e3/data/dat_heyne.csv
+./christianbosselmann-SCION-e7881e3/data/dat_prep.csv
+./christianbosselmann-SCION-e7881e3/data/dat_val.csv
+./christianbosselmann-SCION-e7881e3/data/helper_scnviewer.R
+./christianbosselmann-SCION-e7881e3/data/raw_tbl.csv
+./christianbosselmann-SCION-e7881e3/data/SCN_Aligment.xlsx
+./christianbosselmann-SCION-e7881e3/experiments.R
+./christianbosselmann-SCION-e7881e3/fasta/.DS_Store
+./christianbosselmann-SCION-e7881e3/fasta/SCN10A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN11A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN1A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN2A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN3A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN4A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN5A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN8A.fasta
+./christianbosselmann-SCION-e7881e3/fasta/SCN9A.fasta
+./christianbosselmann-SCION-e7881e3/features/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/aa_blomap.tsv
+./christianbosselmann-SCION-e7881e3/features/aa_blosum62.tsv
+./christianbosselmann-SCION-e7881e3/features/aa_braun.tsv
+./christianbosselmann-SCION-e7881e3/features/aa_feats.tsv
+./christianbosselmann-SCION-e7881e3/features/aa_grantham.tsv
+./christianbosselmann-SCION-e7881e3/features/aa_hphob.tsv
+./christianbosselmann-SCION-e7881e3/features/cid.csv
+./christianbosselmann-SCION-e7881e3/features/per1.txt
+./christianbosselmann-SCION-e7881e3/features/readme.rtf
+./christianbosselmann-SCION-e7881e3/features/SCN10A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN10A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN10A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN10A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN11A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN11A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN11A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN11A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN1A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN1A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN1A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN1A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN2A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN2A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN2A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN2A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN3A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN3A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN3A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN3A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN4A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN4A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN4A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN4A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN5A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN5A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN5A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN5A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN8A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN8A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN8A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN8A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/SCN9A/.DS_Store
+./christianbosselmann-SCION-e7881e3/features/SCN9A/iupred.html
+./christianbosselmann-SCION-e7881e3/features/SCN9A/netsurfp.csv
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.arch.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.arch.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.bact.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.bact.lc3.svm
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.blastPsiAli.gz
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.blastPsiMat
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.blastPsiOutTmp
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.blastPsiRdb
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.blastpSwissM8
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.chk
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.clustalngz
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.coils
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.coils_raw
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.consurf.grades
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.consurf.html
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.disulfinder
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.euka.lc3
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.euka.lc3.pb
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.fasta
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.hmm2pfam
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.hmm3pfam
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.hmm3pfamDomTbl
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.hmm3pfamTbl
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.hsspPsiFil.gz
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.in
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.isis
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.mdisorder
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.metastudent.BPO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.metastudent.CCO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.metastudent.MFO.txt
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.mmseqs2AliPdb
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.mmseqs2AliUref
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.nls
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.nlsDat
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.nlsSum
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.nors
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.norsnet
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.phdPred
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.phdRdb
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.prof1Rdb
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.profAscii
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.profb4snap
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.profbval
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.profRdb
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.proftmb
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.proftmbdat
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.prona
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.prosite
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.psic
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.reprof
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.segNorm
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.segNormGCG
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.seqGCG
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.somena
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.sumNors
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.tmhmm
+./christianbosselmann-SCION-e7881e3/features/SCN9A/query.tmseg
+./christianbosselmann-SCION-e7881e3/features/str_feats.rda
+./christianbosselmann-SCION-e7881e3/fig/.DS_Store
+./christianbosselmann-SCION-e7881e3/fig/Figure 1.pdf
+./christianbosselmann-SCION-e7881e3/fig/Figure 1new.pdf
+./christianbosselmann-SCION-e7881e3/fig/Figure 2.pdf
+./christianbosselmann-SCION-e7881e3/fig/Figure 3.pdf
+./christianbosselmann-SCION-e7881e3/fig/Figure 4.pdf
+./christianbosselmann-SCION-e7881e3/fig/similarity.tiff
+./christianbosselmann-SCION-e7881e3/fig/tree_labeled.pdf
+./christianbosselmann-SCION-e7881e3/func_MKL.R
+./christianbosselmann-SCION-e7881e3/func_RMTL.R
+./christianbosselmann-SCION-e7881e3/func.R
+./christianbosselmann-SCION-e7881e3/helper_brunklaus.R
+./christianbosselmann-SCION-e7881e3/helper_dist.R
+./christianbosselmann-SCION-e7881e3/helper_heyne.R
+./christianbosselmann-SCION-e7881e3/helper_kernel.R
+./christianbosselmann-SCION-e7881e3/helper_merge.R
+./christianbosselmann-SCION-e7881e3/helper_msa.R
+./christianbosselmann-SCION-e7881e3/helper_omim.R
+./christianbosselmann-SCION-e7881e3/helper_pheno.R
+./christianbosselmann-SCION-e7881e3/helper_similarity.R
+./christianbosselmann-SCION-e7881e3/helper_strf.R
+./christianbosselmann-SCION-e7881e3/helper_viz.R
+./christianbosselmann-SCION-e7881e3/LICENSE
+./christianbosselmann-SCION-e7881e3/mat/distancematrix.csv
+./christianbosselmann-SCION-e7881e3/mat/hpomatrix_jaccard.RData
+./christianbosselmann-SCION-e7881e3/mat/hpomatrix_lin.RData
+./christianbosselmann-SCION-e7881e3/mat/hpomatrix_resnik.RData
+./christianbosselmann-SCION-e7881e3/mat/hpomatrix.csv
+./christianbosselmann-SCION-e7881e3/mat/hpomatrix.RData
+./christianbosselmann-SCION-e7881e3/mat/kernelmatrices_dirac.rds
+./christianbosselmann-SCION-e7881e3/mat/kernelmatrices_instance.rds
+./christianbosselmann-SCION-e7881e3/mat/kernelmatrices_mtl.rds
+./christianbosselmann-SCION-e7881e3/mat/kernelmatrices_union.rds
+./christianbosselmann-SCION-e7881e3/mat/similaritymatrix_a1.csv
+./christianbosselmann-SCION-e7881e3/mat/similaritymatrix_a10.csv
+./christianbosselmann-SCION-e7881e3/mat/similaritymatrix_a100.csv
+./christianbosselmann-SCION-e7881e3/mat/similaritymatrix_a2.csv
+./christianbosselmann-SCION-e7881e3/mat/similaritymatrix_a3.csv
+./christianbosselmann-SCION-e7881e3/mat/similaritymatrix_a5.csv
+./christianbosselmann-SCION-e7881e3/mat/taskmatrix.rds
+./christianbosselmann-SCION-e7881e3/model.R
+./christianbosselmann-SCION-e7881e3/out/.DS_Store
+./christianbosselmann-SCION-e7881e3/out/dist/.DS_Store
+./christianbosselmann-SCION-e7881e3/out/dist/report_metrics_2022-06-02 10:01:27.csv
+./christianbosselmann-SCION-e7881e3/out/dist/report_params_2022-06-02 10:01:27.csv
+./christianbosselmann-SCION-e7881e3/out/dist/report_preds_2022-06-02 10:01:27.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_metrics_2022-05-18 16:32:47.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_metrics_2022-05-18 16:35:00.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_metrics_2022-05-18 16:47:54.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_metrics_2022-05-18 16:49:51.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_params_2022-05-18 16:32:47.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_params_2022-05-18 16:35:00.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_params_2022-05-18 16:47:54.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_params_2022-05-18 16:49:51.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_preds_2022-05-18 16:32:47.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_preds_2022-05-18 16:35:00.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_preds_2022-05-18 16:47:54.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 1/report_preds_2022-05-18 16:49:51.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/metrics hierarchical MTMKL MKL.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/params hierarchical MTMKL MKL.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/preds hierarchical MTMKL MKL.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_metrics_2022-05-18 16:51:47.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_metrics_2022-05-18 18:31:45.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_metrics_2022-05-18 18:49:01.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_metrics_2022-05-18 18:58:51.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_metrics_2022-05-18 20:59:21.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_params_2022-05-18 16:51:47.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_params_2022-05-18 18:31:45.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_params_2022-05-18 18:49:01.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_params_2022-05-18 18:58:51.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_params_2022-05-18 20:59:21.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_preds_2022-05-18 16:51:47.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_preds_2022-05-18 18:31:45.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_preds_2022-05-18 18:49:01.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_preds_2022-05-18 18:58:51.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 2/report_preds_2022-05-18 20:59:21.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/.DS_Store
+./christianbosselmann-SCION-e7881e3/out/experiment 3/fig.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:01:25.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:03:28.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:05:32.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:07:30.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:09:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:11:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:13:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:15:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_metrics_2022-05-18 21:17:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:01:25.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:03:28.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:05:32.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:07:30.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:09:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:11:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:13:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:15:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_params_2022-05-18 21:17:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:01:25.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:03:28.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:05:32.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:07:30.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:09:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:11:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:13:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:15:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 3/report_preds_2022-05-18 21:17:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/fig.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:19:33.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:21:34.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:23:38.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:26:25.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:29:50.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:31:57.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:34:03.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:36:02.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:38:07.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:40:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:42:35.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:44:38.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:46:37.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:48:41.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_metrics_2022-05-18 21:51:02.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:19:33.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:21:34.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:23:38.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:26:25.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:29:50.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:31:57.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:34:03.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:36:02.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:38:07.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:40:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:42:35.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:44:38.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:46:37.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:48:41.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_params_2022-05-18 21:51:02.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:19:33.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:21:34.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:23:38.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:26:25.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:29:50.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:31:57.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:34:03.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:36:02.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:38:07.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:40:29.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:42:35.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:44:38.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:46:37.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:48:41.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 4/report_preds_2022-05-18 21:51:02.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 5/report_metrics_2022-05-18 21:51:03.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 5/report_preds_2022-05-18 21:51:03.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 6/.DS_Store
+./christianbosselmann-SCION-e7881e3/out/experiment 6/report_metrics_2022-05-18 21:51:26.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 6/report_metrics_2022-07-26 16:36:57.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 6/report_params_2022-05-18 21:51:26.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 6/report_params_2022-07-26 16:36:57.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 6/report_preds_2022-05-18 21:51:26.csv
+./christianbosselmann-SCION-e7881e3/out/experiment 6/report_preds_2022-07-26 16:36:57.csv
+./christianbosselmann-SCION-e7881e3/pheno/.DS_Store
+./christianbosselmann-SCION-e7881e3/pheno/disease_list.csv
+./christianbosselmann-SCION-e7881e3/pheno/hp.obo.txt
+./christianbosselmann-SCION-e7881e3/pheno/set_terms.RData
+./christianbosselmann-SCION-e7881e3/README.md
+./christianbosselmann-SCION-e7881e3/recipe.rds
+./christianbosselmann-SCION-e7881e3/SCION.Rproj
+./christianbosselmann-SCION-e7881e3/t_vec.rda
+./scion_file_inventory.txt
+./SCION/.DS_Store
+./SCION/.git/config
+./SCION/.git/description
+./SCION/.git/HEAD
+./SCION/.git/hooks/applypatch-msg.sample
+./SCION/.git/hooks/commit-msg.sample
+./SCION/.git/hooks/fsmonitor-watchman.sample
+./SCION/.git/hooks/post-update.sample
+./SCION/.git/hooks/pre-applypatch.sample
+./SCION/.git/hooks/pre-commit.sample
+./SCION/.git/hooks/pre-merge-commit.sample
+./SCION/.git/hooks/pre-push.sample
+./SCION/.git/hooks/pre-rebase.sample
+./SCION/.git/hooks/pre-receive.sample
+./SCION/.git/hooks/prepare-commit-msg.sample
+./SCION/.git/hooks/push-to-checkout.sample
+./SCION/.git/hooks/sendemail-validate.sample
+./SCION/.git/hooks/update.sample
+./SCION/.git/index
+./SCION/.git/info/exclude
+./SCION/.git/logs/HEAD
+./SCION/.git/packed-refs
+./SCION/.gitattributes
+./SCION/.gitignore
+./SCION/app/.DS_Store
+./SCION/app/aa_feats.tsv
+./SCION/app/app.R
+./SCION/app/cid.csv
+./SCION/app/func.R
+./SCION/app/hp.obo.txt
+./SCION/app/master.R
+./SCION/app/nglviewer_lookup.csv
+./SCION/app/omim_to_hpo.R
+./SCION/app/pdb/.DS_Store
+./SCION/app/pdb/SCN10A.pdb
+./SCION/app/pdb/SCN11A.pdb
+./SCION/app/pdb/SCN1A.pdb
+./SCION/app/pdb/SCN2A.pdb
+./SCION/app/pdb/SCN3A.pdb
+./SCION/app/pdb/SCN4A.pdb
+./SCION/app/pdb/SCN5A.pdb
+./SCION/app/pdb/SCN8A.pdb
+./SCION/app/pdb/SCN9A.pdb
+./SCION/app/phenotype.csv
+./SCION/app/phenotype.hpoa
+./SCION/app/recipe.rds
+./SCION/app/scnviewer_lookup.csv
+./SCION/app/set_terms.RData
+./SCION/app/similaritymatrix.csv
+./SCION/app/str_feats.rda
+./SCION/app/training_data.csv
+./SCION/app/www/.DS_Store
+./SCION/app/www/custom_div.css
+./SCION/app/www/link.png
+./SCION/app/www/logo.png
+./SCION/data/.DS_Store
+./SCION/data/clean_tbl.csv
+./SCION/data/clean_tbl.xlsx
+./SCION/data/dat_heyne.csv
+./SCION/data/dat_prep.csv
+./SCION/data/dat_val.csv
+./SCION/data/helper_scnviewer.R
+./SCION/data/raw_tbl.csv
+./SCION/data/SCN_Aligment.xlsx
+./SCION/experiments.R
+./SCION/fasta/.DS_Store
+./SCION/fasta/SCN10A.fasta
+./SCION/fasta/SCN11A.fasta
+./SCION/fasta/SCN1A.fasta
+./SCION/fasta/SCN2A.fasta
+./SCION/fasta/SCN3A.fasta
+./SCION/fasta/SCN4A.fasta
+./SCION/fasta/SCN5A.fasta
+./SCION/fasta/SCN8A.fasta
+./SCION/fasta/SCN9A.fasta
+./SCION/features/.DS_Store
+./SCION/features/aa_blomap.tsv
+./SCION/features/aa_blosum62.tsv
+./SCION/features/aa_braun.tsv
+./SCION/features/aa_feats.tsv
+./SCION/features/aa_grantham.tsv
+./SCION/features/aa_hphob.tsv
+./SCION/features/cid.csv
+./SCION/features/per1.txt
+./SCION/features/readme.rtf
+./SCION/features/SCN10A/.DS_Store
+./SCION/features/SCN10A/iupred.html
+./SCION/features/SCN10A/netsurfp.csv
+./SCION/features/SCN10A/query.arch.lc3
+./SCION/features/SCN10A/query.arch.lc3.svm
+./SCION/features/SCN10A/query.bact.lc3
+./SCION/features/SCN10A/query.bact.lc3.svm
+./SCION/features/SCN10A/query.blastPsiAli.gz
+./SCION/features/SCN10A/query.blastPsiMat
+./SCION/features/SCN10A/query.blastPsiOutTmp
+./SCION/features/SCN10A/query.blastPsiRdb
+./SCION/features/SCN10A/query.blastpSwissM8
+./SCION/features/SCN10A/query.chk
+./SCION/features/SCN10A/query.clustalngz
+./SCION/features/SCN10A/query.coils
+./SCION/features/SCN10A/query.coils_raw
+./SCION/features/SCN10A/query.consurf.grades
+./SCION/features/SCN10A/query.consurf.html
+./SCION/features/SCN10A/query.disulfinder
+./SCION/features/SCN10A/query.euka.lc3
+./SCION/features/SCN10A/query.euka.lc3.pb
+./SCION/features/SCN10A/query.fasta
+./SCION/features/SCN10A/query.hmm2pfam
+./SCION/features/SCN10A/query.hmm3pfam
+./SCION/features/SCN10A/query.hmm3pfamDomTbl
+./SCION/features/SCN10A/query.hmm3pfamTbl
+./SCION/features/SCN10A/query.hsspPsiFil.gz
+./SCION/features/SCN10A/query.in
+./SCION/features/SCN10A/query.isis
+./SCION/features/SCN10A/query.mdisorder
+./SCION/features/SCN10A/query.metastudent.BPO.txt
+./SCION/features/SCN10A/query.metastudent.CCO.txt
+./SCION/features/SCN10A/query.metastudent.MFO.txt
+./SCION/features/SCN10A/query.mmseqs2AliPdb
+./SCION/features/SCN10A/query.mmseqs2AliUref
+./SCION/features/SCN10A/query.nls
+./SCION/features/SCN10A/query.nlsDat
+./SCION/features/SCN10A/query.nlsSum
+./SCION/features/SCN10A/query.nors
+./SCION/features/SCN10A/query.norsnet
+./SCION/features/SCN10A/query.phdPred
+./SCION/features/SCN10A/query.phdRdb
+./SCION/features/SCN10A/query.prof1Rdb
+./SCION/features/SCN10A/query.profAscii
+./SCION/features/SCN10A/query.profb4snap
+./SCION/features/SCN10A/query.profbval
+./SCION/features/SCN10A/query.profRdb
+./SCION/features/SCN10A/query.proftmb
+./SCION/features/SCN10A/query.proftmbdat
+./SCION/features/SCN10A/query.prona
+./SCION/features/SCN10A/query.prosite
+./SCION/features/SCN10A/query.psic
+./SCION/features/SCN10A/query.reprof
+./SCION/features/SCN10A/query.segNorm
+./SCION/features/SCN10A/query.segNormGCG
+./SCION/features/SCN10A/query.seqGCG
+./SCION/features/SCN10A/query.somena
+./SCION/features/SCN10A/query.sumNors
+./SCION/features/SCN10A/query.tmhmm
+./SCION/features/SCN10A/query.tmseg
+./SCION/features/SCN11A/.DS_Store
+./SCION/features/SCN11A/iupred.html
+./SCION/features/SCN11A/netsurfp.csv
+./SCION/features/SCN11A/query.arch.lc3
+./SCION/features/SCN11A/query.arch.lc3.svm
+./SCION/features/SCN11A/query.bact.lc3
+./SCION/features/SCN11A/query.bact.lc3.svm
+./SCION/features/SCN11A/query.blastPsiAli.gz
+./SCION/features/SCN11A/query.blastPsiMat
+./SCION/features/SCN11A/query.blastPsiOutTmp
+./SCION/features/SCN11A/query.blastPsiRdb
+./SCION/features/SCN11A/query.blastpSwissM8
+./SCION/features/SCN11A/query.chk
+./SCION/features/SCN11A/query.clustalngz
+./SCION/features/SCN11A/query.coils
+./SCION/features/SCN11A/query.coils_raw
+./SCION/features/SCN11A/query.consurf.grades
+./SCION/features/SCN11A/query.consurf.html
+./SCION/features/SCN11A/query.disulfinder
+./SCION/features/SCN11A/query.euka.lc3
+./SCION/features/SCN11A/query.euka.lc3.pb
+./SCION/features/SCN11A/query.fasta
+./SCION/features/SCN11A/query.hmm2pfam
+./SCION/features/SCN11A/query.hmm3pfam
+./SCION/features/SCN11A/query.hmm3pfamDomTbl
+./SCION/features/SCN11A/query.hmm3pfamTbl
+./SCION/features/SCN11A/query.hsspPsiFil.gz
+./SCION/features/SCN11A/query.in
+./SCION/features/SCN11A/query.isis
+./SCION/features/SCN11A/query.mdisorder
+./SCION/features/SCN11A/query.metastudent.BPO.txt
+./SCION/features/SCN11A/query.metastudent.CCO.txt
+./SCION/features/SCN11A/query.metastudent.MFO.txt
+./SCION/features/SCN11A/query.mmseqs2AliPdb
+./SCION/features/SCN11A/query.mmseqs2AliUref
+./SCION/features/SCN11A/query.nls
+./SCION/features/SCN11A/query.nlsDat
+./SCION/features/SCN11A/query.nlsSum
+./SCION/features/SCN11A/query.nors
+./SCION/features/SCN11A/query.norsnet
+./SCION/features/SCN11A/query.phdPred
+./SCION/features/SCN11A/query.phdRdb
+./SCION/features/SCN11A/query.prof1Rdb
+./SCION/features/SCN11A/query.profAscii
+./SCION/features/SCN11A/query.profb4snap
+./SCION/features/SCN11A/query.profbval
+./SCION/features/SCN11A/query.profRdb
+./SCION/features/SCN11A/query.proftmb
+./SCION/features/SCN11A/query.proftmbdat
+./SCION/features/SCN11A/query.prona
+./SCION/features/SCN11A/query.prosite
+./SCION/features/SCN11A/query.psic
+./SCION/features/SCN11A/query.reprof
+./SCION/features/SCN11A/query.segNorm
+./SCION/features/SCN11A/query.segNormGCG
+./SCION/features/SCN11A/query.seqGCG
+./SCION/features/SCN11A/query.somena
+./SCION/features/SCN11A/query.sumNors
+./SCION/features/SCN11A/query.tmhmm
+./SCION/features/SCN11A/query.tmseg
+./SCION/features/SCN1A/.DS_Store
+./SCION/features/SCN1A/iupred.html
+./SCION/features/SCN1A/netsurfp.csv
+./SCION/features/SCN1A/query.arch.lc3
+./SCION/features/SCN1A/query.arch.lc3.svm
+./SCION/features/SCN1A/query.bact.lc3
+./SCION/features/SCN1A/query.bact.lc3.svm
+./SCION/features/SCN1A/query.blastPsiAli.gz
+./SCION/features/SCN1A/query.blastPsiMat
+./SCION/features/SCN1A/query.blastPsiOutTmp
+./SCION/features/SCN1A/query.blastPsiRdb
+./SCION/features/SCN1A/query.blastpSwissM8
+./SCION/features/SCN1A/query.chk
+./SCION/features/SCN1A/query.clustalngz
+./SCION/features/SCN1A/query.coils
+./SCION/features/SCN1A/query.coils_raw
+./SCION/features/SCN1A/query.consurf.grades
+./SCION/features/SCN1A/query.consurf.html
+./SCION/features/SCN1A/query.disulfinder
+./SCION/features/SCN1A/query.euka.lc3
+./SCION/features/SCN1A/query.euka.lc3.pb
+./SCION/features/SCN1A/query.fasta
+./SCION/features/SCN1A/query.hmm2pfam
+./SCION/features/SCN1A/query.hmm3pfam
+./SCION/features/SCN1A/query.hmm3pfamDomTbl
+./SCION/features/SCN1A/query.hmm3pfamTbl
+./SCION/features/SCN1A/query.hsspPsiFil.gz
+./SCION/features/SCN1A/query.in
+./SCION/features/SCN1A/query.isis
+./SCION/features/SCN1A/query.mdisorder
+./SCION/features/SCN1A/query.metastudent.BPO.txt
+./SCION/features/SCN1A/query.metastudent.CCO.txt
+./SCION/features/SCN1A/query.metastudent.MFO.txt
+./SCION/features/SCN1A/query.mmseqs2AliPdb
+./SCION/features/SCN1A/query.mmseqs2AliUref
+./SCION/features/SCN1A/query.nls
+./SCION/features/SCN1A/query.nlsDat
+./SCION/features/SCN1A/query.nlsSum
+./SCION/features/SCN1A/query.nors
+./SCION/features/SCN1A/query.norsnet
+./SCION/features/SCN1A/query.phdPred
+./SCION/features/SCN1A/query.phdRdb
+./SCION/features/SCN1A/query.prof1Rdb
+./SCION/features/SCN1A/query.profAscii
+./SCION/features/SCN1A/query.profb4snap
+./SCION/features/SCN1A/query.profbval
+./SCION/features/SCN1A/query.profRdb
+./SCION/features/SCN1A/query.proftmb
+./SCION/features/SCN1A/query.proftmbdat
+./SCION/features/SCN1A/query.prona
+./SCION/features/SCN1A/query.prosite
+./SCION/features/SCN1A/query.psic
+./SCION/features/SCN1A/query.reprof
+./SCION/features/SCN1A/query.segNorm
+./SCION/features/SCN1A/query.segNormGCG
+./SCION/features/SCN1A/query.seqGCG
+./SCION/features/SCN1A/query.somena
+./SCION/features/SCN1A/query.sumNors
+./SCION/features/SCN1A/query.tmhmm
+./SCION/features/SCN1A/query.tmseg
+./SCION/features/SCN2A/.DS_Store
+./SCION/features/SCN2A/iupred.html
+./SCION/features/SCN2A/netsurfp.csv
+./SCION/features/SCN2A/query.arch.lc3
+./SCION/features/SCN2A/query.arch.lc3.svm
+./SCION/features/SCN2A/query.bact.lc3
+./SCION/features/SCN2A/query.bact.lc3.svm
+./SCION/features/SCN2A/query.blastPsiAli.gz
+./SCION/features/SCN2A/query.blastPsiMat
+./SCION/features/SCN2A/query.blastPsiOutTmp
+./SCION/features/SCN2A/query.blastPsiRdb
+./SCION/features/SCN2A/query.blastpSwissM8
+./SCION/features/SCN2A/query.chk
+./SCION/features/SCN2A/query.clustalngz
+./SCION/features/SCN2A/query.coils
+./SCION/features/SCN2A/query.coils_raw
+./SCION/features/SCN2A/query.consurf.grades
+./SCION/features/SCN2A/query.consurf.html
+./SCION/features/SCN2A/query.disulfinder
+./SCION/features/SCN2A/query.euka.lc3
+./SCION/features/SCN2A/query.euka.lc3.pb
+./SCION/features/SCN2A/query.fasta
+./SCION/features/SCN2A/query.hmm2pfam
+./SCION/features/SCN2A/query.hmm3pfam
+./SCION/features/SCN2A/query.hmm3pfamDomTbl
+./SCION/features/SCN2A/query.hmm3pfamTbl
+./SCION/features/SCN2A/query.hsspPsiFil.gz
+./SCION/features/SCN2A/query.in
+./SCION/features/SCN2A/query.isis
+./SCION/features/SCN2A/query.mdisorder
+./SCION/features/SCN2A/query.metastudent.BPO.txt
+./SCION/features/SCN2A/query.metastudent.CCO.txt
+./SCION/features/SCN2A/query.metastudent.MFO.txt
+./SCION/features/SCN2A/query.mmseqs2AliPdb
+./SCION/features/SCN2A/query.mmseqs2AliUref
+./SCION/features/SCN2A/query.nls
+./SCION/features/SCN2A/query.nlsDat
+./SCION/features/SCN2A/query.nlsSum
+./SCION/features/SCN2A/query.nors
+./SCION/features/SCN2A/query.norsnet
+./SCION/features/SCN2A/query.phdPred
+./SCION/features/SCN2A/query.phdRdb
+./SCION/features/SCN2A/query.prof1Rdb
+./SCION/features/SCN2A/query.profAscii
+./SCION/features/SCN2A/query.profb4snap
+./SCION/features/SCN2A/query.profbval
+./SCION/features/SCN2A/query.profRdb
+./SCION/features/SCN2A/query.proftmb
+./SCION/features/SCN2A/query.proftmbdat
+./SCION/features/SCN2A/query.prona
+./SCION/features/SCN2A/query.prosite
+./SCION/features/SCN2A/query.psic
+./SCION/features/SCN2A/query.reprof
+./SCION/features/SCN2A/query.segNorm
+./SCION/features/SCN2A/query.segNormGCG
+./SCION/features/SCN2A/query.seqGCG
+./SCION/features/SCN2A/query.somena
+./SCION/features/SCN2A/query.sumNors
+./SCION/features/SCN2A/query.tmhmm
+./SCION/features/SCN2A/query.tmseg
+./SCION/features/SCN3A/.DS_Store
+./SCION/features/SCN3A/iupred.html
+./SCION/features/SCN3A/netsurfp.csv
+./SCION/features/SCN3A/query.arch.lc3
+./SCION/features/SCN3A/query.arch.lc3.svm
+./SCION/features/SCN3A/query.bact.lc3
+./SCION/features/SCN3A/query.bact.lc3.svm
+./SCION/features/SCN3A/query.blastPsiAli.gz
+./SCION/features/SCN3A/query.blastPsiMat
+./SCION/features/SCN3A/query.blastPsiOutTmp
+./SCION/features/SCN3A/query.blastPsiRdb
+./SCION/features/SCN3A/query.blastpSwissM8
+./SCION/features/SCN3A/query.chk
+./SCION/features/SCN3A/query.clustalngz
+./SCION/features/SCN3A/query.coils
+./SCION/features/SCN3A/query.coils_raw
+./SCION/features/SCN3A/query.consurf.grades
+./SCION/features/SCN3A/query.consurf.html
+./SCION/features/SCN3A/query.disulfinder
+./SCION/features/SCN3A/query.euka.lc3
+./SCION/features/SCN3A/query.euka.lc3.pb
+./SCION/features/SCN3A/query.fasta
+./SCION/features/SCN3A/query.hmm2pfam
+./SCION/features/SCN3A/query.hmm3pfam
+./SCION/features/SCN3A/query.hmm3pfamDomTbl
+./SCION/features/SCN3A/query.hmm3pfamTbl
+./SCION/features/SCN3A/query.hsspPsiFil.gz
+./SCION/features/SCN3A/query.in
+./SCION/features/SCN3A/query.isis
+./SCION/features/SCN3A/query.mdisorder
+./SCION/features/SCN3A/query.metastudent.BPO.txt
+./SCION/features/SCN3A/query.metastudent.CCO.txt
+./SCION/features/SCN3A/query.metastudent.MFO.txt
+./SCION/features/SCN3A/query.mmseqs2AliPdb
+./SCION/features/SCN3A/query.mmseqs2AliUref
+./SCION/features/SCN3A/query.nls
+./SCION/features/SCN3A/query.nlsDat
+./SCION/features/SCN3A/query.nlsSum
+./SCION/features/SCN3A/query.nors
+./SCION/features/SCN3A/query.norsnet
+./SCION/features/SCN3A/query.phdPred
+./SCION/features/SCN3A/query.phdRdb
+./SCION/features/SCN3A/query.prof1Rdb
+./SCION/features/SCN3A/query.profAscii
+./SCION/features/SCN3A/query.profb4snap
+./SCION/features/SCN3A/query.profbval
+./SCION/features/SCN3A/query.profRdb
+./SCION/features/SCN3A/query.proftmb
+./SCION/features/SCN3A/query.proftmbdat
+./SCION/features/SCN3A/query.prona
+./SCION/features/SCN3A/query.prosite
+./SCION/features/SCN3A/query.psic
+./SCION/features/SCN3A/query.reprof
+./SCION/features/SCN3A/query.segNorm
+./SCION/features/SCN3A/query.segNormGCG
+./SCION/features/SCN3A/query.seqGCG
+./SCION/features/SCN3A/query.somena
+./SCION/features/SCN3A/query.sumNors
+./SCION/features/SCN3A/query.tmhmm
+./SCION/features/SCN3A/query.tmseg
+./SCION/features/SCN4A/.DS_Store
+./SCION/features/SCN4A/iupred.html
+./SCION/features/SCN4A/netsurfp.csv
+./SCION/features/SCN4A/query.arch.lc3
+./SCION/features/SCN4A/query.arch.lc3.svm
+./SCION/features/SCN4A/query.bact.lc3
+./SCION/features/SCN4A/query.bact.lc3.svm
+./SCION/features/SCN4A/query.blastPsiAli.gz
+./SCION/features/SCN4A/query.blastPsiMat
+./SCION/features/SCN4A/query.blastPsiOutTmp
+./SCION/features/SCN4A/query.blastPsiRdb
+./SCION/features/SCN4A/query.blastpSwissM8
+./SCION/features/SCN4A/query.chk
+./SCION/features/SCN4A/query.clustalngz
+./SCION/features/SCN4A/query.coils
+./SCION/features/SCN4A/query.coils_raw
+./SCION/features/SCN4A/query.consurf.grades
+./SCION/features/SCN4A/query.consurf.html
+./SCION/features/SCN4A/query.disulfinder
+./SCION/features/SCN4A/query.euka.lc3
+./SCION/features/SCN4A/query.euka.lc3.pb
+./SCION/features/SCN4A/query.fasta
+./SCION/features/SCN4A/query.hmm2pfam
+./SCION/features/SCN4A/query.hmm3pfam
+./SCION/features/SCN4A/query.hmm3pfamDomTbl
+./SCION/features/SCN4A/query.hmm3pfamTbl
+./SCION/features/SCN4A/query.hsspPsiFil.gz
+./SCION/features/SCN4A/query.in
+./SCION/features/SCN4A/query.isis
+./SCION/features/SCN4A/query.mdisorder
+./SCION/features/SCN4A/query.metastudent.BPO.txt
+./SCION/features/SCN4A/query.metastudent.CCO.txt
+./SCION/features/SCN4A/query.metastudent.MFO.txt
+./SCION/features/SCN4A/query.mmseqs2AliPdb
+./SCION/features/SCN4A/query.mmseqs2AliUref
+./SCION/features/SCN4A/query.nls
+./SCION/features/SCN4A/query.nlsDat
+./SCION/features/SCN4A/query.nlsSum
+./SCION/features/SCN4A/query.nors
+./SCION/features/SCN4A/query.norsnet
+./SCION/features/SCN4A/query.phdPred
+./SCION/features/SCN4A/query.phdRdb
+./SCION/features/SCN4A/query.prof1Rdb
+./SCION/features/SCN4A/query.profAscii
+./SCION/features/SCN4A/query.profb4snap
+./SCION/features/SCN4A/query.profbval
+./SCION/features/SCN4A/query.profRdb
+./SCION/features/SCN4A/query.proftmb
+./SCION/features/SCN4A/query.proftmbdat
+./SCION/features/SCN4A/query.prona
+./SCION/features/SCN4A/query.prosite
+./SCION/features/SCN4A/query.psic
+./SCION/features/SCN4A/query.reprof
+./SCION/features/SCN4A/query.segNorm
+./SCION/features/SCN4A/query.segNormGCG
+./SCION/features/SCN4A/query.seqGCG
+./SCION/features/SCN4A/query.somena
+./SCION/features/SCN4A/query.sumNors
+./SCION/features/SCN4A/query.tmhmm
+./SCION/features/SCN4A/query.tmseg
+./SCION/features/SCN5A/.DS_Store
+./SCION/features/SCN5A/iupred.html
+./SCION/features/SCN5A/netsurfp.csv
+./SCION/features/SCN5A/query.arch.lc3
+./SCION/features/SCN5A/query.arch.lc3.svm
+./SCION/features/SCN5A/query.bact.lc3
+./SCION/features/SCN5A/query.bact.lc3.svm
+./SCION/features/SCN5A/query.blastPsiAli.gz
+./SCION/features/SCN5A/query.blastPsiMat
+./SCION/features/SCN5A/query.blastPsiOutTmp
+./SCION/features/SCN5A/query.blastPsiRdb
+./SCION/features/SCN5A/query.blastpSwissM8
+./SCION/features/SCN5A/query.chk
+./SCION/features/SCN5A/query.clustalngz
+./SCION/features/SCN5A/query.coils
+./SCION/features/SCN5A/query.coils_raw
+./SCION/features/SCN5A/query.consurf.grades
+./SCION/features/SCN5A/query.consurf.html
+./SCION/features/SCN5A/query.disulfinder
+./SCION/features/SCN5A/query.euka.lc3
+./SCION/features/SCN5A/query.euka.lc3.pb
+./SCION/features/SCN5A/query.fasta
+./SCION/features/SCN5A/query.hmm2pfam
+./SCION/features/SCN5A/query.hmm3pfam
+./SCION/features/SCN5A/query.hmm3pfamDomTbl
+./SCION/features/SCN5A/query.hmm3pfamTbl
+./SCION/features/SCN5A/query.hsspPsiFil.gz
+./SCION/features/SCN5A/query.in
+./SCION/features/SCN5A/query.isis
+./SCION/features/SCN5A/query.mdisorder
+./SCION/features/SCN5A/query.metastudent.BPO.txt
+./SCION/features/SCN5A/query.metastudent.CCO.txt
+./SCION/features/SCN5A/query.metastudent.MFO.txt
+./SCION/features/SCN5A/query.mmseqs2AliPdb
+./SCION/features/SCN5A/query.mmseqs2AliUref
+./SCION/features/SCN5A/query.nls
+./SCION/features/SCN5A/query.nlsDat
+./SCION/features/SCN5A/query.nlsSum
+./SCION/features/SCN5A/query.nors
+./SCION/features/SCN5A/query.norsnet
+./SCION/features/SCN5A/query.phdPred
+./SCION/features/SCN5A/query.phdRdb
+./SCION/features/SCN5A/query.prof1Rdb
+./SCION/features/SCN5A/query.profAscii
+./SCION/features/SCN5A/query.profb4snap
+./SCION/features/SCN5A/query.profbval
+./SCION/features/SCN5A/query.profRdb
+./SCION/features/SCN5A/query.proftmb
+./SCION/features/SCN5A/query.proftmbdat
+./SCION/features/SCN5A/query.prona
+./SCION/features/SCN5A/query.prosite
+./SCION/features/SCN5A/query.psic
+./SCION/features/SCN5A/query.reprof
+./SCION/features/SCN5A/query.segNorm
+./SCION/features/SCN5A/query.segNormGCG
+./SCION/features/SCN5A/query.seqGCG
+./SCION/features/SCN5A/query.somena
+./SCION/features/SCN5A/query.sumNors
+./SCION/features/SCN5A/query.tmhmm
+./SCION/features/SCN5A/query.tmseg
+./SCION/features/SCN8A/.DS_Store
+./SCION/features/SCN8A/iupred.html
+./SCION/features/SCN8A/netsurfp.csv
+./SCION/features/SCN8A/query.arch.lc3
+./SCION/features/SCN8A/query.arch.lc3.svm
+./SCION/features/SCN8A/query.bact.lc3
+./SCION/features/SCN8A/query.bact.lc3.svm
+./SCION/features/SCN8A/query.blastPsiAli.gz
+./SCION/features/SCN8A/query.blastPsiMat
+./SCION/features/SCN8A/query.blastPsiOutTmp
+./SCION/features/SCN8A/query.blastPsiRdb
+./SCION/features/SCN8A/query.blastpSwissM8
+./SCION/features/SCN8A/query.chk
+./SCION/features/SCN8A/query.clustalngz
+./SCION/features/SCN8A/query.coils
+./SCION/features/SCN8A/query.coils_raw
+./SCION/features/SCN8A/query.consurf.grades
+./SCION/features/SCN8A/query.consurf.html
+./SCION/features/SCN8A/query.disulfinder
+./SCION/features/SCN8A/query.euka.lc3
+./SCION/features/SCN8A/query.euka.lc3.pb
+./SCION/features/SCN8A/query.fasta
+./SCION/features/SCN8A/query.hmm2pfam
+./SCION/features/SCN8A/query.hmm3pfam
+./SCION/features/SCN8A/query.hmm3pfamDomTbl
+./SCION/features/SCN8A/query.hmm3pfamTbl
+./SCION/features/SCN8A/query.hsspPsiFil.gz
+./SCION/features/SCN8A/query.in
+./SCION/features/SCN8A/query.isis
+./SCION/features/SCN8A/query.mdisorder
+./SCION/features/SCN8A/query.metastudent.BPO.txt
+./SCION/features/SCN8A/query.metastudent.CCO.txt
+./SCION/features/SCN8A/query.metastudent.MFO.txt
+./SCION/features/SCN8A/query.mmseqs2AliPdb
+./SCION/features/SCN8A/query.mmseqs2AliUref
+./SCION/features/SCN8A/query.nls
+./SCION/features/SCN8A/query.nlsDat
+./SCION/features/SCN8A/query.nlsSum
+./SCION/features/SCN8A/query.nors
+./SCION/features/SCN8A/query.norsnet
+./SCION/features/SCN8A/query.phdPred
+./SCION/features/SCN8A/query.phdRdb
+./SCION/features/SCN8A/query.prof1Rdb
+./SCION/features/SCN8A/query.profAscii
+./SCION/features/SCN8A/query.profb4snap
+./SCION/features/SCN8A/query.profbval
+./SCION/features/SCN8A/query.profRdb
+./SCION/features/SCN8A/query.proftmb
+./SCION/features/SCN8A/query.proftmbdat
+./SCION/features/SCN8A/query.prona
+./SCION/features/SCN8A/query.prosite
+./SCION/features/SCN8A/query.psic
+./SCION/features/SCN8A/query.reprof
+./SCION/features/SCN8A/query.segNorm
+./SCION/features/SCN8A/query.segNormGCG
+./SCION/features/SCN8A/query.seqGCG
+./SCION/features/SCN8A/query.somena
+./SCION/features/SCN8A/query.sumNors
+./SCION/features/SCN8A/query.tmhmm
+./SCION/features/SCN8A/query.tmseg
+./SCION/features/SCN9A/.DS_Store
+./SCION/features/SCN9A/iupred.html
+./SCION/features/SCN9A/netsurfp.csv
+./SCION/features/SCN9A/query.arch.lc3
+./SCION/features/SCN9A/query.arch.lc3.svm
+./SCION/features/SCN9A/query.bact.lc3
+./SCION/features/SCN9A/query.bact.lc3.svm
+./SCION/features/SCN9A/query.blastPsiAli.gz
+./SCION/features/SCN9A/query.blastPsiMat
+./SCION/features/SCN9A/query.blastPsiOutTmp
+./SCION/features/SCN9A/query.blastPsiRdb
+./SCION/features/SCN9A/query.blastpSwissM8
+./SCION/features/SCN9A/query.chk
+./SCION/features/SCN9A/query.clustalngz
+./SCION/features/SCN9A/query.coils
+./SCION/features/SCN9A/query.coils_raw
+./SCION/features/SCN9A/query.consurf.grades
+./SCION/features/SCN9A/query.consurf.html
+./SCION/features/SCN9A/query.disulfinder
+./SCION/features/SCN9A/query.euka.lc3
+./SCION/features/SCN9A/query.euka.lc3.pb
+./SCION/features/SCN9A/query.fasta
+./SCION/features/SCN9A/query.hmm2pfam
+./SCION/features/SCN9A/query.hmm3pfam
+./SCION/features/SCN9A/query.hmm3pfamDomTbl
+./SCION/features/SCN9A/query.hmm3pfamTbl
+./SCION/features/SCN9A/query.hsspPsiFil.gz
+./SCION/features/SCN9A/query.in
+./SCION/features/SCN9A/query.isis
+./SCION/features/SCN9A/query.mdisorder
+./SCION/features/SCN9A/query.metastudent.BPO.txt
+./SCION/features/SCN9A/query.metastudent.CCO.txt
+./SCION/features/SCN9A/query.metastudent.MFO.txt
+./SCION/features/SCN9A/query.mmseqs2AliPdb
+./SCION/features/SCN9A/query.mmseqs2AliUref
+./SCION/features/SCN9A/query.nls
+./SCION/features/SCN9A/query.nlsDat
+./SCION/features/SCN9A/query.nlsSum
+./SCION/features/SCN9A/query.nors
+./SCION/features/SCN9A/query.norsnet
+./SCION/features/SCN9A/query.phdPred
+./SCION/features/SCN9A/query.phdRdb
+./SCION/features/SCN9A/query.prof1Rdb
+./SCION/features/SCN9A/query.profAscii
+./SCION/features/SCN9A/query.profb4snap
+./SCION/features/SCN9A/query.profbval
+./SCION/features/SCN9A/query.profRdb
+./SCION/features/SCN9A/query.proftmb
+./SCION/features/SCN9A/query.proftmbdat
+./SCION/features/SCN9A/query.prona
+./SCION/features/SCN9A/query.prosite
+./SCION/features/SCN9A/query.psic
+./SCION/features/SCN9A/query.reprof
+./SCION/features/SCN9A/query.segNorm
+./SCION/features/SCN9A/query.segNormGCG
+./SCION/features/SCN9A/query.seqGCG
+./SCION/features/SCN9A/query.somena
+./SCION/features/SCN9A/query.sumNors
+./SCION/features/SCN9A/query.tmhmm
+./SCION/features/SCN9A/query.tmseg
+./SCION/features/str_feats.rda
+./SCION/fig/.DS_Store
+./SCION/fig/Figure 1.pdf
+./SCION/fig/Figure 1new.pdf
+./SCION/fig/Figure 2.pdf
+./SCION/fig/Figure 3.pdf
+./SCION/fig/Figure 4.pdf
+./SCION/fig/similarity.tiff
+./SCION/fig/tree_labeled.pdf
+./SCION/func_MKL.R
+./SCION/func_RMTL.R
+./SCION/func.R
+./SCION/helper_brunklaus.R
+./SCION/helper_dist.R
+./SCION/helper_heyne.R
+./SCION/helper_kernel.R
+./SCION/helper_merge.R
+./SCION/helper_msa.R
+./SCION/helper_omim.R
+./SCION/helper_pheno.R
+./SCION/helper_similarity.R
+./SCION/helper_strf.R
+./SCION/helper_viz.R
+./SCION/LICENSE
+./SCION/mat/distancematrix.csv
+./SCION/mat/hpomatrix_jaccard.RData
+./SCION/mat/hpomatrix_lin.RData
+./SCION/mat/hpomatrix_resnik.RData
+./SCION/mat/hpomatrix.csv
+./SCION/mat/hpomatrix.RData
+./SCION/mat/kernelmatrices_dirac.rds
+./SCION/mat/kernelmatrices_instance.rds
+./SCION/mat/kernelmatrices_mtl.rds
+./SCION/mat/kernelmatrices_union.rds
+./SCION/mat/similaritymatrix_a1.csv
+./SCION/mat/similaritymatrix_a10.csv
+./SCION/mat/similaritymatrix_a100.csv
+./SCION/mat/similaritymatrix_a2.csv
+./SCION/mat/similaritymatrix_a3.csv
+./SCION/mat/similaritymatrix_a5.csv
+./SCION/mat/taskmatrix.rds
+./SCION/model.R
+./SCION/out/.DS_Store
+./SCION/out/dist/.DS_Store
+./SCION/out/dist/report_metrics_2022-06-02 10:01:27.csv
+./SCION/out/dist/report_params_2022-06-02 10:01:27.csv
+./SCION/out/dist/report_preds_2022-06-02 10:01:27.csv
+./SCION/out/experiment 1/report_metrics_2022-05-18 16:32:47.csv
+./SCION/out/experiment 1/report_metrics_2022-05-18 16:35:00.csv
+./SCION/out/experiment 1/report_metrics_2022-05-18 16:47:54.csv
+./SCION/out/experiment 1/report_metrics_2022-05-18 16:49:51.csv
+./SCION/out/experiment 1/report_params_2022-05-18 16:32:47.csv
+./SCION/out/experiment 1/report_params_2022-05-18 16:35:00.csv
+./SCION/out/experiment 1/report_params_2022-05-18 16:47:54.csv
+./SCION/out/experiment 1/report_params_2022-05-18 16:49:51.csv
+./SCION/out/experiment 1/report_preds_2022-05-18 16:32:47.csv
+./SCION/out/experiment 1/report_preds_2022-05-18 16:35:00.csv
+./SCION/out/experiment 1/report_preds_2022-05-18 16:47:54.csv
+./SCION/out/experiment 1/report_preds_2022-05-18 16:49:51.csv
+./SCION/out/experiment 2/metrics hierarchical MTMKL MKL.csv
+./SCION/out/experiment 2/params hierarchical MTMKL MKL.csv
+./SCION/out/experiment 2/preds hierarchical MTMKL MKL.csv
+./SCION/out/experiment 2/report_metrics_2022-05-18 16:51:47.csv
+./SCION/out/experiment 2/report_metrics_2022-05-18 18:31:45.csv
+./SCION/out/experiment 2/report_metrics_2022-05-18 18:49:01.csv
+./SCION/out/experiment 2/report_metrics_2022-05-18 18:58:51.csv
+./SCION/out/experiment 2/report_metrics_2022-05-18 20:59:21.csv
+./SCION/out/experiment 2/report_params_2022-05-18 16:51:47.csv
+./SCION/out/experiment 2/report_params_2022-05-18 18:31:45.csv
+./SCION/out/experiment 2/report_params_2022-05-18 18:49:01.csv
+./SCION/out/experiment 2/report_params_2022-05-18 18:58:51.csv
+./SCION/out/experiment 2/report_params_2022-05-18 20:59:21.csv
+./SCION/out/experiment 2/report_preds_2022-05-18 16:51:47.csv
+./SCION/out/experiment 2/report_preds_2022-05-18 18:31:45.csv
+./SCION/out/experiment 2/report_preds_2022-05-18 18:49:01.csv
+./SCION/out/experiment 2/report_preds_2022-05-18 18:58:51.csv
+./SCION/out/experiment 2/report_preds_2022-05-18 20:59:21.csv
+./SCION/out/experiment 3/.DS_Store
+./SCION/out/experiment 3/fig.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:01:25.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:03:28.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:05:32.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:07:30.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:09:29.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:11:29.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:13:29.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:15:29.csv
+./SCION/out/experiment 3/report_metrics_2022-05-18 21:17:29.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:01:25.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:03:28.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:05:32.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:07:30.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:09:29.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:11:29.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:13:29.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:15:29.csv
+./SCION/out/experiment 3/report_params_2022-05-18 21:17:29.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:01:25.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:03:28.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:05:32.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:07:30.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:09:29.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:11:29.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:13:29.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:15:29.csv
+./SCION/out/experiment 3/report_preds_2022-05-18 21:17:29.csv
+./SCION/out/experiment 4/fig.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:19:33.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:21:34.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:23:38.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:26:25.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:29:50.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:31:57.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:34:03.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:36:02.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:38:07.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:40:29.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:42:35.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:44:38.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:46:37.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:48:41.csv
+./SCION/out/experiment 4/report_metrics_2022-05-18 21:51:02.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:19:33.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:21:34.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:23:38.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:26:25.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:29:50.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:31:57.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:34:03.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:36:02.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:38:07.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:40:29.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:42:35.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:44:38.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:46:37.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:48:41.csv
+./SCION/out/experiment 4/report_params_2022-05-18 21:51:02.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:19:33.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:21:34.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:23:38.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:26:25.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:29:50.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:31:57.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:34:03.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:36:02.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:38:07.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:40:29.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:42:35.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:44:38.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:46:37.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:48:41.csv
+./SCION/out/experiment 4/report_preds_2022-05-18 21:51:02.csv
+./SCION/out/experiment 5/report_metrics_2022-05-18 21:51:03.csv
+./SCION/out/experiment 5/report_preds_2022-05-18 21:51:03.csv
+./SCION/out/experiment 6/.DS_Store
+./SCION/out/experiment 6/report_metrics_2022-05-18 21:51:26.csv
+./SCION/out/experiment 6/report_metrics_2022-07-26 16:36:57.csv
+./SCION/out/experiment 6/report_params_2022-05-18 21:51:26.csv
+./SCION/out/experiment 6/report_params_2022-07-26 16:36:57.csv
+./SCION/out/experiment 6/report_preds_2022-05-18 21:51:26.csv
+./SCION/out/experiment 6/report_preds_2022-07-26 16:36:57.csv
+./SCION/pheno/.DS_Store
+./SCION/pheno/disease_list.csv
+./SCION/pheno/hp.obo.txt
+./SCION/pheno/set_terms.RData
+./SCION/README.md
+./SCION/recipe.rds
+./SCION/SCION.Rproj
+./SCION/t_vec.rda

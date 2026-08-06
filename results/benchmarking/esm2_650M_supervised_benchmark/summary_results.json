@@ -1,0 +1,75 @@
+{
+    "feature_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/esm2_650M_embeddings/wt_mut_site_features_650m.npy",
+    "metadata_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/esm2_650M_embeddings/paired_embedding_metadata_650m.csv",
+    "zero_shot_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/esm_zero_shot/esm2_650M_zero_shot_scores.csv",
+    "n_variants": 2422,
+    "feature_shape": [
+        2422,
+        2560
+    ],
+    "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "summary": [
+        {
+            "model": "AlphaMissense",
+            "roc_auc_mean": 0.8974852236480144,
+            "roc_auc_std": 0.01174977709071136,
+            "average_precision_mean": 0.840152382830623,
+            "average_precision_std": 0.018872297598841598,
+            "accuracy_mean": 0.7775552282768778,
+            "accuracy_std": 0.011012140333866287,
+            "precision_mean": 0.6432459619135661,
+            "precision_std": 0.01144925683265598,
+            "recall_mean": 0.9440738650426382,
+            "recall_std": 0.013161247767005516,
+            "f1_mean": 0.7650902257411571,
+            "f1_std": 0.010195589235912567,
+            "optimized_f1_mean": 0.7831937579879968,
+            "optimized_f1_std": 0.018100893625554768
+        },
+        {
+            "model": "ESM2_650M_WTMut_NN",
+            "roc_auc_mean": 0.8795359238761726,
+            "roc_auc_std": 0.01622881750622174,
+            "average_precision_mean": 0.8127587345650615,
+            "average_precision_std": 0.03390702206260675,
+            "accuracy_mean": 0.8044652195257305,
+            "accuracy_std": 0.014145313945279544,
+            "precision_mean": 0.7517796200726294,
+            "precision_std": 0.023712689565948054,
+            "recall_mean": 0.7351129894773158,
+            "recall_std": 0.057926896409047586,
+            "f1_mean": 0.7418718713441036,
+            "f1_std": 0.024999515670854924,
+            "optimized_f1_mean": 0.7664560593747274,
+            "optimized_f1_std": 0.01876068202704687
+        },
+        {
+            "model": "ESM2_650M_ZeroShot",
+            "roc_auc_mean": 0.8752020132952186,
+            "roc_auc_std": 0.010855468431152386,
+            "average_precision_mean": 0.8251037842668871,
+            "average_precision_std": 0.01798225335780276,
+            "accuracy_mean": 0.5633215939894559,
+            "accuracy_std": 0.010573679288967928,
+            "precision_mean": 0.46663450265884104,
+            "precision_std": 0.006384184354355601,
+            "recall_mean": 0.9602294290150079,
+            "recall_std": 0.009901978718521647,
+            "f1_mean": 0.6280333624905577,
+            "f1_std": 0.006820733983399723,
+            "optimized_f1_mean": 0.7787421991382194,
+            "optimized_f1_std": 0.018040615841838942
+        }
+    ]
+}

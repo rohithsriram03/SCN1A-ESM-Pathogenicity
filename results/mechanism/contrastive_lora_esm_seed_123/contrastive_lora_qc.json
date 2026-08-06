@@ -1,0 +1,39 @@
+{
+    "model_name": "facebook/esm2_t33_650M_UR50D",
+    "heldout_gene": "SCN1A",
+    "n_rows": 348,
+    "n_train_non_heldout": 287,
+    "n_test_heldout": 61,
+    "n_steps": 200,
+    "learning_rate": 0.0002,
+    "margin": 0.2,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "k_values": [
+        1,
+        3,
+        5
+    ],
+    "best_row_by_auc": {
+        "method": "contrastive_lora_esm_knn",
+        "heldout_gene": "SCN1A",
+        "feature_set": "mutant_site",
+        "k": 1,
+        "n": 61,
+        "n_lof": 49,
+        "n_gof": 12,
+        "accuracy": 0.7049180327868853,
+        "balanced_accuracy": 0.7534013605442177,
+        "macro_f1": 0.6560150375939849,
+        "gof_f1": 0.5263157894736842,
+        "gof_precision": 0.38461538461538464,
+        "gof_recall": 0.8333333333333334,
+        "roc_auc": 0.7534013605442178,
+        "average_precision": 0.35329970575872216,
+        "tn": 33,
+        "fp": 16,
+        "fn": 2,
+        "tp": 10
+    }
+}

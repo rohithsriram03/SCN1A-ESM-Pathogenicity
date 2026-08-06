@@ -1,0 +1,4 @@
+Dataset split,Genes included,Total variants,LoF,GoF,LoF (%),GoF (%)
+Training set (non-SCN1A),All non-SCN1A sodium-channel genes,287,161,126,56.1,43.9
+Held-out test set (SCN1A),SCN1A only,61,49,12,80.3,19.7
+Full validated dataset,All sodium-channel genes,348,210,138,60.3,39.7

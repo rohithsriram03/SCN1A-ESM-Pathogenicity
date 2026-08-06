@@ -1,0 +1,10 @@
+{
+    "n_scn1a_rows": 61,
+    "n_with_alphamissense": 61,
+    "n_missing_alphamissense": 0,
+    "mechanism_counts_evaluated": {
+        "LOF": 49,
+        "GOF": 12
+    },
+    "output_dir": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scn1a_alphamissense_mechanism_comparison"
+}

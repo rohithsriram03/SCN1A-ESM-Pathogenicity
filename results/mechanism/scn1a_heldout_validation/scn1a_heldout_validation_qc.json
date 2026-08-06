@@ -1,0 +1,7 @@
+{
+    "train_rows_non_scn1a": 287,
+    "test_rows_scn1a": 61,
+    "scn1a_lof": 49,
+    "scn1a_gof": 12,
+    "output_dir": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scn1a_heldout_validation"
+}

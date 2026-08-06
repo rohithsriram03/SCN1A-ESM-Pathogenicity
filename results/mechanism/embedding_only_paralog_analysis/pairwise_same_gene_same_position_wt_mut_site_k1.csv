@@ -1,0 +1,4 @@
+feature_set,pair_mode,k,group_key,gof_variant,lof_variant,gof_gene,lof_gene,gof_position,lof_position,gof_cid,lof_cid,gof_knn_gof_score,lof_knn_gof_score,pairwise_success
+wt_mut_site,same_gene_same_position,1,"('SCN5A', 225)",SCN5A:p.R225P,SCN5A:p.R225W,SCN5A,SCN5A,225,225,235,235,0.0,0.0,0.5
+wt_mut_site,same_gene_same_position,1,"('SCN5A', 1644)",SCN5A:p.R1644H,SCN5A:p.R1644C,SCN5A,SCN5A,1644,1644,1800,1800,0.0,0.0,0.5
+wt_mut_site,same_gene_same_position,1,"('SCN5A', 1795)",SCN5A:p.Y1795C,SCN5A:p.Y1795H,SCN5A,SCN5A,1795,1795,1952,1952,1.0,1.0,0.5

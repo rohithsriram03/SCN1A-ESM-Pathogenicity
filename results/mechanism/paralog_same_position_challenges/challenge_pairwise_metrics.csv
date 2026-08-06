@@ -1,0 +1,10 @@
+challenge,feature_set,n_pairs,n_unique_groups,pairwise_accuracy,pairwise_accuracy_ci_low,pairwise_accuracy_ci_high,strict_successes,strict_failures,ties,binomial_p_greater_than_0_5
+same_gene_same_position_discordant,mutant_site,3,3,0.6666666666666666,0.0,1.0,2,1,0,0.5
+same_gene_same_position_discordant,wt_mut_site,3,3,0.6666666666666666,0.0,1.0,2,1,0,0.5
+same_gene_same_position_discordant,biochem_only,3,3,0.6666666666666666,0.0,1.0,2,1,0,0.5
+same_cid_cross_paralog_discordant,mutant_site,19,14,0.05263157894736842,0.0,0.15789473684210525,1,18,0,0.9999980926513672
+same_cid_cross_paralog_discordant,wt_mut_site,19,14,0.05263157894736842,0.0,0.15789473684210525,1,18,0,0.9999980926513672
+same_cid_cross_paralog_discordant,biochem_only,19,14,0.5789473684210527,0.3684210526315789,0.7894736842105263,11,8,0,0.3238029479980469
+scn1a_same_cid_cross_paralog_discordant,mutant_site,4,4,0.25,0.0,0.75,1,3,0,0.9375
+scn1a_same_cid_cross_paralog_discordant,wt_mut_site,4,4,0.25,0.0,0.75,1,3,0,0.9375
+scn1a_same_cid_cross_paralog_discordant,biochem_only,4,4,0.75,0.25,1.0,3,1,0,0.3125

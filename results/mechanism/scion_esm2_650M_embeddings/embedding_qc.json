@@ -1,0 +1,38 @@
+{
+    "input_file": "/Users/rohithsriram/SCN1A_ESM_Project/data/mechanism/processed/scion_mechanism_variants_with_sequences.csv",
+    "n_variants": 348,
+    "model_name": "facebook/esm2_t33_650M_UR50D",
+    "wt_site_shape": [
+        348,
+        1280
+    ],
+    "mutant_site_shape": [
+        348,
+        1280
+    ],
+    "wt_mut_site_shape": [
+        348,
+        2560
+    ],
+    "full_site_features_shape": [
+        348,
+        5120
+    ],
+    "mechanism_label_counts": {
+        "LOF": 210,
+        "GOF": 138
+    },
+    "gene_counts": {
+        "SCN5A": 157,
+        "SCN1A": 61,
+        "SCN2A": 32,
+        "SCN4A": 31,
+        "SCN8A": 22,
+        "SCN10A": 16,
+        "SCN3A": 12,
+        "SCN9A": 11,
+        "SCN11A": 6
+    },
+    "metadata_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scion_esm2_650M_embeddings/scion_embedding_metadata.csv",
+    "output_dir": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scion_esm2_650M_embeddings"
+}

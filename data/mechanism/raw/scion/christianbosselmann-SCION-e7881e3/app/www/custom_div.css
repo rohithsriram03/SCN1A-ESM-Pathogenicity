@@ -1,0 +1,15 @@
+#smile {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+#gene .selectize-dropdown {
+   font-style: italic;
+}
+
+#gene .selectize-input{
+   font-style: italic;
+}

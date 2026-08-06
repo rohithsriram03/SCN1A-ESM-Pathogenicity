@@ -1,0 +1,3 @@
+Variant_Key,Variant_ID,Gene,AA_Position,Ref_AA,Alt_AA,Protein_Change_Parsed,Binary_Label,Label_Name,ClinVar_Label,Mapped_Region,Mapped_Functional_Category,Mutation_Status,Dataset_Source,Window_Start,Window_End,WT_AA_Check,Mutant_AA_Check,AlphaMissense_Key,AlphaMissense_Score,AlphaMissense_Class,AlphaMissense_Protein_Variant,gene_name
+SCN1A:p.M1I,M1I,SCN1A,1,M,I,M1I,1,Pathogenic,Pathogenic,Unmapped,Other,Unknown,SCN1A_ClinVar_gnomAD_training_set,1,1000,M,I,M1I,,,,
+SCN1A:p.M1T,M1T,SCN1A,1,M,T,M1T,1,Pathogenic,Pathogenic,Unmapped,Other,Unknown,SCN1A_ClinVar_gnomAD_training_set,1,1000,M,T,M1T,,,,

@@ -1,0 +1,53 @@
+{
+    "input_rows": 375,
+    "valid_rows": 348,
+    "invalid_rows": 27,
+    "window_size": 1000,
+    "mechanism_label_counts_valid": {
+        "LOF": 210,
+        "GOF": 138
+    },
+    "gene_counts_valid": {
+        "SCN5A": 157,
+        "SCN1A": 61,
+        "SCN2A": 32,
+        "SCN4A": 31,
+        "SCN8A": 22,
+        "SCN10A": 16,
+        "SCN3A": 12,
+        "SCN9A": 11,
+        "SCN11A": 6
+    },
+    "target_epilepsy_scn_counts_valid": {
+        "SCN1A": 61,
+        "SCN2A": 32,
+        "SCN8A": 22,
+        "SCN3A": 12
+    },
+    "invalid_reasons": {
+        "Reference mismatch: dataset has L, FASTA has I": 3,
+        "Reference mismatch: dataset has A, FASTA has T": 3,
+        "Reference mismatch: dataset has G, FASTA has I": 2,
+        "Reference mismatch: dataset has I, FASTA has F": 1,
+        "Reference mismatch: dataset has F, FASTA has A": 1,
+        "Reference mismatch: dataset has I, FASTA has S": 1,
+        "Reference mismatch: dataset has A, FASTA has V": 1,
+        "Reference mismatch: dataset has Q, FASTA has I": 1,
+        "Reference mismatch: dataset has R, FASTA has V": 1,
+        "Reference mismatch: dataset has W, FASTA has E": 1,
+        "Reference mismatch: dataset has R, FASTA has G": 1,
+        "Reference mismatch: dataset has V, FASTA has L": 1,
+        "Reference mismatch: dataset has V, FASTA has R": 1,
+        "Reference mismatch: dataset has P, FASTA has R": 1,
+        "Reference mismatch: dataset has V, FASTA has G": 1,
+        "Reference mismatch: dataset has F, FASTA has L": 1,
+        "Reference mismatch: dataset has I, FASTA has N": 1,
+        "Reference mismatch: dataset has T, FASTA has K": 1,
+        "Reference mismatch: dataset has W, FASTA has G": 1,
+        "Reference mismatch: dataset has G, FASTA has T": 1,
+        "Reference mismatch: dataset has M, FASTA has A": 1,
+        "Reference mismatch: dataset has A, FASTA has I": 1
+    },
+    "output_file": "/Users/rohithsriram/SCN1A_ESM_Project/data/mechanism/processed/scion_mechanism_variants_with_sequences.csv",
+    "invalid_file": "/Users/rohithsriram/SCN1A_ESM_Project/data/mechanism/processed/scion_mechanism_sequence_invalid_rows.csv"
+}

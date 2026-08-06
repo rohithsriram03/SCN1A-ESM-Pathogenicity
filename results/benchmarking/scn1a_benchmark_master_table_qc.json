@@ -1,0 +1,38 @@
+{
+    "n_final_variants": 2488,
+    "n_missing_required_rows_written": 0,
+    "n_duplicate_rows_written": 311,
+    "n_duplicate_label_conflicts": 66,
+    "class_counts": {
+        "Benign": 1491,
+        "Pathogenic": 997
+    },
+    "functional_category_counts": {
+        "Other": 1996,
+        "Pore": 275,
+        "Voltage_Sensor": 114,
+        "Inactivation_Gate": 103
+    },
+    "region_counts_top20": {
+        "Unmapped": 1996,
+        "III-IV Linker": 103,
+        "DI-S6": 41,
+        "DII-S6": 41,
+        "DIV-S6": 41,
+        "DI-S4": 40,
+        "DIII-S5": 36,
+        "DIII-S6": 35,
+        "DIV-S5": 34,
+        "DIV-S4": 33,
+        "DI-S5": 27,
+        "DIII-S4": 21,
+        "DII-S4": 20,
+        "DII-S5": 20
+    },
+    "aa_position_min": 1,
+    "aa_position_max": 2008,
+    "unique_positions": 1438,
+    "output_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_benchmark_master_table.csv",
+    "duplicates_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_benchmark_duplicate_variants.csv",
+    "missing_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_benchmark_missing_required_fields.csv"
+}

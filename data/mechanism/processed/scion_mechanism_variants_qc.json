@@ -1,0 +1,30 @@
+{
+    "n_total_variants": 375,
+    "mechanism_label_counts": {
+        "LOF": 211,
+        "GOF": 164
+    },
+    "gene_counts": {
+        "SCN5A": 157,
+        "SCN1A": 61,
+        "SCN9A": 38,
+        "SCN2A": 32,
+        "SCN4A": 31,
+        "SCN8A": 22,
+        "SCN10A": 16,
+        "SCN3A": 12,
+        "SCN11A": 6
+    },
+    "target_epilepsy_scn_gene_counts": {
+        "SCN1A": 61,
+        "SCN2A": 32,
+        "SCN8A": 22,
+        "SCN3A": 12
+    },
+    "n_target_epilepsy_scn_variants": 127,
+    "n_missing_uniprot": 0,
+    "n_missing_family_alignment_cid": 0,
+    "n_duplicate_variant_rows": 0,
+    "n_label_conflict_variants": 0,
+    "output_file": "/Users/rohithsriram/SCN1A_ESM_Project/data/mechanism/processed/scion_mechanism_variants_clean.csv"
+}

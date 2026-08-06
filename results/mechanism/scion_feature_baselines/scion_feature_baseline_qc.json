@@ -1,0 +1,23 @@
+{
+    "n_variants": 348,
+    "mechanism_counts": {
+        "LOF": 210,
+        "GOF": 138
+    },
+    "gene_counts": {
+        "SCN5A": 157,
+        "SCN1A": 61,
+        "SCN2A": 32,
+        "SCN4A": 31,
+        "SCN8A": 22,
+        "SCN10A": 16,
+        "SCN3A": 12,
+        "SCN9A": 11,
+        "SCN11A": 6
+    },
+    "n_features_used": 62,
+    "input_scion_training_features_file": "/Users/rohithsriram/SCN1A_ESM_Project/data/mechanism/raw/scion/SCION/app/training_data.csv",
+    "input_processed_all_variants_file": "/Users/rohithsriram/SCN1A_ESM_Project/data/mechanism/processed/scion_mechanism_variants_clean.csv",
+    "input_valid_metadata_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scion_esm2_650M_embeddings/scion_embedding_metadata.csv",
+    "output_dir": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scion_feature_baselines"
+}

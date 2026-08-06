@@ -1,0 +1,28 @@
+{
+    "benchmark_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_benchmark_master_table_clean.csv",
+    "alphamissense_file": "/Users/rohithsriram/SCN1A_ESM_Project/data/alphamissense/AlphaMissense-Search-P35498.tsv",
+    "n_benchmark_variants": 2422,
+    "n_alphamissense_rows_loaded": 38152,
+    "n_alphamissense_unique_substitutions": 38152,
+    "n_matched": 2420,
+    "n_unmatched": 2,
+    "match_rate": 0.9991742361684558,
+    "score_summary": {
+        "mean": 0.6236921900826446,
+        "median": 0.7686,
+        "min": 0.0456,
+        "max": 0.9999
+    },
+    "alphamissense_class_counts": {
+        "likely_pathogenic": 1381,
+        "likely_benign": 799,
+        "ambiguous": 240,
+        "NaN": 2
+    },
+    "class_label_score_means": {
+        "Benign": 0.43838222669349425,
+        "Pathogenic": 0.9211057050592035
+    },
+    "output_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_benchmark_with_alphamissense.csv",
+    "unmatched_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_variants_unmatched_to_alphamissense.csv"
+}

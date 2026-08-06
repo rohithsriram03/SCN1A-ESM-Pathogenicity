@@ -1,0 +1,125 @@
+{
+    "input_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/scn1a_benchmark_with_alphamissense.csv",
+    "n_total_rows": 2422,
+    "n_evaluated_rows": 2420,
+    "n_dropped_missing_alphamissense": 2,
+    "official_threshold": 0.564,
+    "official_threshold_metrics": {
+        "threshold": 0.564,
+        "n": 2420,
+        "accuracy": 0.7710743801652893,
+        "precision": 0.6357711803041275,
+        "recall": 0.9451022604951561,
+        "f1": 0.7601731601731602,
+        "roc_auc": 0.9013611630312914,
+        "average_precision": 0.8452861601674323,
+        "confusion_matrix": [
+            [
+                988,
+                503
+            ],
+            [
+                51,
+                878
+            ]
+        ],
+        "classification_report": {
+            "Benign": {
+                "precision": 0.9509143407122232,
+                "recall": 0.6626425217974514,
+                "f1-score": 0.7810276679841898,
+                "support": 1491.0
+            },
+            "Pathogenic": {
+                "precision": 0.6357711803041275,
+                "recall": 0.9451022604951561,
+                "f1-score": 0.7601731601731602,
+                "support": 929.0
+            },
+            "accuracy": 0.7710743801652893,
+            "macro avg": {
+                "precision": 0.7933427605081753,
+                "recall": 0.8038723911463037,
+                "f1-score": 0.770600414078675,
+                "support": 2420.0
+            },
+            "weighted avg": {
+                "precision": 0.8299358299605203,
+                "recall": 0.7710743801652893,
+                "f1-score": 0.7730219499030135,
+                "support": 2420.0
+            }
+        }
+    },
+    "best_f1_threshold": 0.836,
+    "optimized_f1_threshold_metrics": {
+        "threshold": 0.836,
+        "n": 2420,
+        "accuracy": 0.8140495867768595,
+        "precision": 0.712511091393079,
+        "recall": 0.8643702906350915,
+        "f1": 0.7811284046692607,
+        "roc_auc": 0.9013611630312914,
+        "average_precision": 0.8452861601674323,
+        "confusion_matrix": [
+            [
+                1167,
+                324
+            ],
+            [
+                126,
+                803
+            ]
+        ],
+        "classification_report": {
+            "Benign": {
+                "precision": 0.9025522041763341,
+                "recall": 0.7826961770623743,
+                "f1-score": 0.8383620689655172,
+                "support": 1491.0
+            },
+            "Pathogenic": {
+                "precision": 0.712511091393079,
+                "recall": 0.8643702906350915,
+                "f1-score": 0.7811284046692607,
+                "support": 929.0
+            },
+            "accuracy": 0.8140495867768595,
+            "macro avg": {
+                "precision": 0.8075316477847065,
+                "recall": 0.8235332338487329,
+                "f1-score": 0.809745236817389,
+                "support": 2420.0
+            },
+            "weighted avg": {
+                "precision": 0.8295984050954894,
+                "recall": 0.8140495867768595,
+                "f1-score": 0.8163909639526156,
+                "support": 2420.0
+            }
+        }
+    },
+    "score_by_label": [
+        {
+            "Label_Name": "Benign",
+            "count": 1491,
+            "mean": 0.43838222669349425,
+            "median": 0.3136,
+            "std": 0.3315278703287296,
+            "min": 0.0456,
+            "max": 0.9994
+        },
+        {
+            "Label_Name": "Pathogenic",
+            "count": 929,
+            "mean": 0.9211057050592035,
+            "median": 0.9887,
+            "std": 0.16298955712714663,
+            "min": 0.0557,
+            "max": 0.9999
+        }
+    ],
+    "output_predictions_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/alphamissense_evaluation/alphamissense_predictions.csv",
+    "output_category_summary_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/alphamissense_evaluation/alphamissense_by_functional_category.csv",
+    "output_threshold_sweep_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/benchmarking/alphamissense_evaluation/alphamissense_threshold_sweep.csv"
+}

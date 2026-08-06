@@ -1,0 +1,47 @@
+{
+    "n_variants": 348,
+    "mechanism_counts": {
+        "LOF": 210,
+        "GOF": 138
+    },
+    "gene_counts": {
+        "SCN5A": 157,
+        "SCN1A": 61,
+        "SCN2A": 32,
+        "SCN4A": 31,
+        "SCN8A": 22,
+        "SCN10A": 16,
+        "SCN3A": 12,
+        "SCN9A": 11,
+        "SCN11A": 6
+    },
+    "feature_sets": {
+        "biochem_only": [
+            348,
+            62
+        ],
+        "wt_site": [
+            348,
+            1280
+        ],
+        "mutant_site": [
+            348,
+            1280
+        ],
+        "delta_site": [
+            348,
+            1280
+        ],
+        "wt_mut_site": [
+            348,
+            2560
+        ],
+        "full_site": [
+            348,
+            5120
+        ]
+    },
+    "results_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scion_mechanism_benchmark/mechanism_benchmark_all_results.csv",
+    "summary_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scion_mechanism_benchmark/mechanism_benchmark_summary.csv",
+    "leave_one_gene_out_file": "/Users/rohithsriram/SCN1A_ESM_Project/results/mechanism/scion_mechanism_benchmark/mechanism_leave_one_gene_out_results.csv"
+}

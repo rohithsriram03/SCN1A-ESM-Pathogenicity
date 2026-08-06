@@ -1,0 +1,312 @@
+Variant_ID,Gene,AA_Position,Ref_AA,Alt_AA,ClinVar_Label,Binary_Label,Mapped_Region,Mapped_Functional_Category,Window_Start,Window_End,WT_AA_Check,Mutant_AA_Check,Mutation_Status,Protein_Change_Parsed,Variant_Key,Label_Name,Dataset_Source
+V5A,SCN1A,5,V,A,Likely pathogenic,1,Unmapped,Other,1,1000,V,A,Unknown,V5A,SCN1A:p.V5A,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+A23V,SCN1A,23,A,V,Benign/Likely benign,0,Unmapped,Other,1,1000,A,V,Unknown,A23V,SCN1A:p.A23V,Benign,SCN1A_ClinVar_gnomAD_training_set
+R28H,SCN1A,28,R,H,Likely benign,0,Unmapped,Other,1,1000,R,H,Unknown,R28H,SCN1A:p.R28H,Benign,SCN1A_ClinVar_gnomAD_training_set
+R28L,SCN1A,28,R,L,Likely pathogenic,1,Unmapped,Other,1,1000,R,L,Unknown,R28L,SCN1A:p.R28L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+D45E,SCN1A,45,D,E,Likely benign,0,Unmapped,Other,1,1000,D,E,Unknown,D45E,SCN1A:p.D45E,Benign,SCN1A_ClinVar_gnomAD_training_set
+P76L,SCN1A,76,P,L,Likely pathogenic,1,Unmapped,Other,1,1000,P,L,Unknown,P76L,SCN1A:p.P76L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+D79E,SCN1A,79,D,E,Likely pathogenic,1,Unmapped,Other,1,1000,D,E,Unknown,D79E,SCN1A:p.D79E,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+D81E,SCN1A,81,D,E,Pathogenic,1,Unmapped,Other,1,1000,D,E,Unknown,D81E,SCN1A:p.D81E,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+D81E,SCN1A,81,D,E,Likely pathogenic,1,Unmapped,Other,1,1000,D,E,Unknown,D81E,SCN1A:p.D81E,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+I99V,SCN1A,99,I,V,Likely pathogenic,1,Unmapped,Other,1,1000,I,V,Unknown,I99V,SCN1A:p.I99V,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F100L,SCN1A,100,F,L,Likely pathogenic,1,Unmapped,Other,1,1000,F,L,Unknown,F100L,SCN1A:p.F100L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F100L,SCN1A,100,F,L,Likely pathogenic,1,Unmapped,Other,1,1000,F,L,Unknown,F100L,SCN1A:p.F100L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+P113S,SCN1A,113,P,S,Pathogenic,1,Unmapped,Other,1,1000,P,S,Unknown,P113S,SCN1A:p.P113S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M132I,SCN1A,132,M,I,Likely benign,0,Unmapped,Other,1,1000,M,I,Unknown,M132I,SCN1A:p.M132I,Benign,SCN1A_ClinVar_gnomAD_training_set
+I138S,SCN1A,138,I,S,Pathogenic,1,Unmapped,Other,1,1000,I,S,Unknown,I138S,SCN1A:p.I138S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L139F,SCN1A,139,L,F,Likely pathogenic,1,Unmapped,Other,1,1000,L,F,Unknown,L139F,SCN1A:p.L139F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+A201V,SCN1A,201,A,V,Likely pathogenic,1,Unmapped,Other,1,1000,A,V,Unknown,A201V,SCN1A:p.A201V,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+T204I,SCN1A,204,T,I,Likely pathogenic,1,Unmapped,Other,1,1000,T,I,Unknown,T204I,SCN1A:p.T204I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F218L,SCN1A,218,F,L,Pathogenic,1,DI-S4,Voltage_Sensor,1,1000,F,L,Unknown,F218L,SCN1A:p.F218L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F218L,SCN1A,218,F,L,Pathogenic/Likely pathogenic,1,DI-S4,Voltage_Sensor,1,1000,F,L,Unknown,F218L,SCN1A:p.F218L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V220A,SCN1A,220,V,A,Likely pathogenic,1,DI-S4,Voltage_Sensor,1,1000,V,A,Unknown,V220A,SCN1A:p.V220A,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L224W,SCN1A,224,L,W,Pathogenic,1,DI-S4,Voltage_Sensor,1,1000,L,W,Unknown,L224W,SCN1A:p.L224W,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+I227T,SCN1A,227,I,T,Pathogenic/Likely pathogenic,1,DI-S4,Voltage_Sensor,1,1000,I,T,Unknown,I227T,SCN1A:p.I227T,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+S228L,SCN1A,228,S,L,Likely pathogenic,1,DI-S4,Voltage_Sensor,1,1000,S,L,Unknown,S228L,SCN1A:p.S228L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+I252T,SCN1A,252,I,T,Pathogenic,1,DI-S5,Pore,1,1000,I,T,Unknown,I252T,SCN1A:p.I252T,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V298M,SCN1A,298,V,M,Likely benign,0,Unmapped,Other,1,1000,V,M,Unknown,V298M,SCN1A:p.V298M,Benign,SCN1A_ClinVar_gnomAD_training_set
+N299D,SCN1A,299,N,D,Likely benign,0,Unmapped,Other,1,1000,N,D,Unknown,N299D,SCN1A:p.N299D,Benign,SCN1A_ClinVar_gnomAD_training_set
+E307K,SCN1A,307,E,K,Likely benign,0,Unmapped,Other,1,1000,E,K,Unknown,E307K,SCN1A:p.E307K,Benign,SCN1A_ClinVar_gnomAD_training_set
+V309D,SCN1A,309,V,D,Likely benign,0,Unmapped,Other,1,1000,V,D,Unknown,V309D,SCN1A:p.V309D,Benign,SCN1A_ClinVar_gnomAD_training_set
+W314C,SCN1A,314,W,C,Likely pathogenic,1,Unmapped,Other,1,1000,W,C,Unknown,W314C,SCN1A:p.W314C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+W314C,SCN1A,314,W,C,Pathogenic,1,Unmapped,Other,1,1000,W,C,Unknown,W314C,SCN1A:p.W314C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+D320N,SCN1A,320,D,N,Likely benign,0,Unmapped,Other,1,1000,D,N,Unknown,D320N,SCN1A:p.D320N,Benign,SCN1A_ClinVar_gnomAD_training_set
+G329D,SCN1A,329,G,D,Likely pathogenic,1,Unmapped,Other,1,1000,G,D,Unknown,G329D,SCN1A:p.G329D,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+G329S,SCN1A,329,G,S,Likely pathogenic,1,Unmapped,Other,1,1000,G,S,Unknown,G329S,SCN1A:p.G329S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R377Q,SCN1A,377,R,Q,Pathogenic/Likely pathogenic,1,Unmapped,Other,1,1000,R,Q,Unknown,R377Q,SCN1A:p.R377Q,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+W384R,SCN1A,384,W,R,Pathogenic,1,Unmapped,Other,1,1000,W,R,Unknown,W384R,SCN1A:p.W384R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+W384R,SCN1A,384,W,R,Pathogenic,1,Unmapped,Other,1,1000,W,R,Unknown,W384R,SCN1A:p.W384R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M400T,SCN1A,400,M,T,Pathogenic,1,DI-S6,Pore,1,1000,M,T,Unknown,M400T,SCN1A:p.M400T,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+N416K,SCN1A,416,N,K,Pathogenic,1,DI-S6,Pore,1,1000,N,K,Unknown,N416K,SCN1A:p.N416K,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+N416K,SCN1A,416,N,K,Pathogenic,1,DI-S6,Pore,1,1000,N,K,Unknown,N416K,SCN1A:p.N416K,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+Q429K,SCN1A,429,Q,K,Pathogenic,1,Unmapped,Other,1,1000,Q,K,Unknown,Q429K,SCN1A:p.Q429K,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+T463M,SCN1A,463,T,M,Likely benign,0,Unmapped,Other,1,1000,T,M,Unknown,T463M,SCN1A:p.T463M,Benign,SCN1A_ClinVar_gnomAD_training_set
+A464P,SCN1A,464,A,P,Likely benign,0,Unmapped,Other,1,1000,A,P,Unknown,A464P,SCN1A:p.A464P,Benign,SCN1A_ClinVar_gnomAD_training_set
+E517G,SCN1A,517,E,G,Likely benign,0,Unmapped,Other,17,1016,E,G,Unknown,E517G,SCN1A:p.E517G,Benign,SCN1A_ClinVar_gnomAD_training_set
+D518E,SCN1A,518,D,E,Benign,0,Unmapped,Other,18,1017,D,E,Unknown,D518E,SCN1A:p.D518E,Benign,SCN1A_ClinVar_gnomAD_training_set
+I538T,SCN1A,538,I,T,Likely benign,0,Unmapped,Other,38,1037,I,T,Unknown,I538T,SCN1A:p.I538T,Benign,SCN1A_ClinVar_gnomAD_training_set
+R560C,SCN1A,560,R,C,Likely benign,0,Unmapped,Other,60,1059,R,C,Unknown,R560C,SCN1A:p.R560C,Benign,SCN1A_ClinVar_gnomAD_training_set
+S573R,SCN1A,573,S,R,Pathogenic/Likely pathogenic,1,Unmapped,Other,73,1072,S,R,Unknown,S573R,SCN1A:p.S573R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+G585A,SCN1A,585,G,A,Likely benign,0,Unmapped,Other,85,1084,G,A,Unknown,G585A,SCN1A:p.G585A,Benign,SCN1A_ClinVar_gnomAD_training_set
+R604H,SCN1A,604,R,H,Benign/Likely benign,0,Unmapped,Other,104,1103,R,H,Unknown,R604H,SCN1A:p.R604H,Benign,SCN1A_ClinVar_gnomAD_training_set
+R612Q,SCN1A,612,R,Q,Likely benign,0,Unmapped,Other,112,1111,R,Q,Unknown,R612Q,SCN1A:p.R612Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+R630W,SCN1A,630,R,W,Likely benign,0,Unmapped,Other,130,1129,R,W,Unknown,R630W,SCN1A:p.R630W,Benign,SCN1A_ClinVar_gnomAD_training_set
+L632Q,SCN1A,632,L,Q,Likely benign,0,Unmapped,Other,132,1131,L,Q,Unknown,L632Q,SCN1A:p.L632Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+V645L,SCN1A,645,V,L,Likely benign,0,Unmapped,Other,145,1144,V,L,Unknown,V645L,SCN1A:p.V645L,Benign,SCN1A_ClinVar_gnomAD_training_set
+P657T,SCN1A,657,P,T,Likely benign,0,Unmapped,Other,157,1156,P,T,Unknown,P657T,SCN1A:p.P657T,Benign,SCN1A_ClinVar_gnomAD_training_set
+S662L,SCN1A,662,S,L,Likely benign,0,Unmapped,Other,162,1161,S,L,Unknown,S662L,SCN1A:p.S662L,Benign,SCN1A_ClinVar_gnomAD_training_set
+R693M,SCN1A,693,R,M,Likely benign,0,Unmapped,Other,193,1192,R,M,Unknown,R693M,SCN1A:p.R693M,Benign,SCN1A_ClinVar_gnomAD_training_set
+P707S,SCN1A,707,P,S,Likely benign,0,Unmapped,Other,207,1206,P,S,Unknown,P707S,SCN1A:p.P707S,Benign,SCN1A_ClinVar_gnomAD_training_set
+V724L,SCN1A,724,V,L,Likely benign,0,Unmapped,Other,224,1223,V,L,Unknown,V724L,SCN1A:p.V724L,Benign,SCN1A_ClinVar_gnomAD_training_set
+K758Q,SCN1A,758,K,Q,Pathogenic,1,Unmapped,Other,258,1257,K,Q,Unknown,K758Q,SCN1A:p.K758Q,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V760I,SCN1A,760,V,I,Likely benign,0,Unmapped,Other,260,1259,V,I,Unknown,V760I,SCN1A:p.V760I,Benign,SCN1A_ClinVar_gnomAD_training_set
+P768A,SCN1A,768,P,A,Likely pathogenic,1,Unmapped,Other,268,1267,P,A,Unknown,P768A,SCN1A:p.P768A,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+Y790F,SCN1A,790,Y,F,Pathogenic/Likely pathogenic,1,Unmapped,Other,290,1289,Y,F,Unknown,Y790F,SCN1A:p.Y790F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+T793M,SCN1A,793,T,M,Likely benign,0,Unmapped,Other,293,1292,T,M,Unknown,T793M,SCN1A:p.T793M,Benign,SCN1A_ClinVar_gnomAD_training_set
+N851D,SCN1A,851,N,D,Likely benign,0,Unmapped,Other,351,1350,N,D,Unknown,N851D,SCN1A:p.N851D,Benign,SCN1A_ClinVar_gnomAD_training_set
+G854E,SCN1A,854,G,E,Pathogenic,1,Unmapped,Other,354,1353,G,E,Unknown,G854E,SCN1A:p.G854E,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R859H,SCN1A,859,R,H,Pathogenic,1,DII-S4,Voltage_Sensor,359,1358,R,H,Unknown,R859H,SCN1A:p.R859H,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R862L,SCN1A,862,R,L,Pathogenic/Likely pathogenic,1,DII-S4,Voltage_Sensor,362,1361,R,L,Unknown,R862L,SCN1A:p.R862L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+T875M,SCN1A,875,T,M,Pathogenic/Likely pathogenic,1,Unmapped,Other,375,1374,T,M,Unknown,T875M,SCN1A:p.T875M,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V896I,SCN1A,896,V,I,Pathogenic/Likely pathogenic,1,DII-S5,Pore,396,1395,V,I,Unknown,V896I,SCN1A:p.V896I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L897F,SCN1A,897,L,F,Likely pathogenic,1,DII-S5,Pore,397,1396,L,F,Unknown,L897F,SCN1A:p.L897F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L897F,SCN1A,897,L,F,Pathogenic,1,DII-S5,Pore,397,1396,L,F,Unknown,L897F,SCN1A:p.L897F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+A924T,SCN1A,924,A,T,Benign/Likely benign,0,Unmapped,Other,424,1423,A,T,Unknown,A924T,SCN1A:p.A924T,Benign,SCN1A_ClinVar_gnomAD_training_set
+W932C,SCN1A,932,W,C,Likely pathogenic,1,Unmapped,Other,432,1431,W,C,Unknown,W932C,SCN1A:p.W932C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+W932C,SCN1A,932,W,C,Likely pathogenic,1,Unmapped,Other,432,1431,W,C,Unknown,W932C,SCN1A:p.W932C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+E954D,SCN1A,954,E,D,Pathogenic,1,Unmapped,Other,454,1453,E,D,Unknown,E954D,SCN1A:p.E954D,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+E954D,SCN1A,954,E,D,Likely pathogenic,1,Unmapped,Other,454,1453,E,D,Unknown,E954D,SCN1A:p.E954D,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M956I,SCN1A,956,M,I,Likely pathogenic,1,Unmapped,Other,456,1455,M,I,Unknown,M956I,SCN1A:p.M956I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M956I,SCN1A,956,M,I,Likely pathogenic,1,Unmapped,Other,456,1455,M,I,Unknown,M956I,SCN1A:p.M956I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M956T,SCN1A,956,M,T,Pathogenic/Likely pathogenic,1,Unmapped,Other,456,1455,M,T,Unknown,M956T,SCN1A:p.M956T,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M976I,SCN1A,976,M,I,Pathogenic,1,DII-S6,Pore,476,1475,M,I,Unknown,M976I,SCN1A:p.M976I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M976I,SCN1A,976,M,I,Pathogenic/Likely pathogenic,1,DII-S6,Pore,476,1475,M,I,Unknown,M976I,SCN1A:p.M976I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+N985K,SCN1A,985,N,K,Likely pathogenic,1,DII-S6,Pore,485,1484,N,K,Unknown,N985K,SCN1A:p.N985K,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+N985K,SCN1A,985,N,K,Likely pathogenic,1,DII-S6,Pore,485,1484,N,K,Unknown,N985K,SCN1A:p.N985K,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L990F,SCN1A,990,L,F,Likely pathogenic,1,DII-S6,Pore,490,1489,L,F,Unknown,L990F,SCN1A:p.L990F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L990F,SCN1A,990,L,F,Likely pathogenic,1,DII-S6,Pore,490,1489,L,F,Unknown,L990F,SCN1A:p.L990F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+I1034T,SCN1A,1034,I,T,Benign/Likely benign,0,Unmapped,Other,534,1533,I,T,Unknown,I1034T,SCN1A:p.I1034T,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1056D,SCN1A,1056,N,D,Likely benign,0,Unmapped,Other,556,1555,N,D,Unknown,N1056D,SCN1A:p.N1056D,Benign,SCN1A_ClinVar_gnomAD_training_set
+A1067T,SCN1A,1067,A,T,Benign,0,Unmapped,Other,567,1566,A,T,Unknown,A1067T,SCN1A:p.A1067T,Benign,SCN1A_ClinVar_gnomAD_training_set
+G1081R,SCN1A,1081,G,R,Likely pathogenic,1,Unmapped,Other,581,1580,G,R,Unknown,G1081R,SCN1A:p.G1081R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+A1118S,SCN1A,1118,A,S,Pathogenic,1,Unmapped,Other,618,1617,A,S,Unknown,A1118S,SCN1A:p.A1118S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+D1137H,SCN1A,1137,D,H,Likely pathogenic,1,Unmapped,Other,637,1636,D,H,Unknown,D1137H,SCN1A:p.D1137H,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+S1150N,SCN1A,1150,S,N,Likely benign,0,Unmapped,Other,650,1649,S,N,Unknown,S1150N,SCN1A:p.S1150N,Benign,SCN1A_ClinVar_gnomAD_training_set
+Q1166K,SCN1A,1166,Q,K,Likely benign,0,Unmapped,Other,666,1665,Q,K,Unknown,Q1166K,SCN1A:p.Q1166K,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1169G,SCN1A,1169,V,G,Likely benign,0,Unmapped,Other,669,1668,V,G,Unknown,V1169G,SCN1A:p.V1169G,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1195S,SCN1A,1195,N,S,Likely benign,0,Unmapped,Other,695,1694,N,S,Unknown,N1195S,SCN1A:p.N1195S,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1196M,SCN1A,1196,V,M,Likely benign,0,Unmapped,Other,696,1695,V,M,Unknown,V1196M,SCN1A:p.V1196M,Benign,SCN1A_ClinVar_gnomAD_training_set
+T1210M,SCN1A,1210,T,M,Likely pathogenic,1,Unmapped,Other,710,1709,T,M,Unknown,T1210M,SCN1A:p.T1210M,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1213Q,SCN1A,1213,R,Q,Likely benign,0,Unmapped,Other,713,1712,R,Q,Unknown,R1213Q,SCN1A:p.R1213Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+F1220L,SCN1A,1220,F,L,Pathogenic,1,Unmapped,Other,720,1719,F,L,Unknown,F1220L,SCN1A:p.F1220L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F1220L,SCN1A,1220,F,L,Likely pathogenic,1,Unmapped,Other,720,1719,F,L,Unknown,F1220L,SCN1A:p.F1220L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+E1221D,SCN1A,1221,E,D,Pathogenic,1,Unmapped,Other,721,1720,E,D,Unknown,E1221D,SCN1A:p.E1221D,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+E1221D,SCN1A,1221,E,D,Likely pathogenic,1,Unmapped,Other,721,1720,E,D,Unknown,E1221D,SCN1A:p.E1221D,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+S1231N,SCN1A,1231,S,N,Likely pathogenic,1,Unmapped,Other,731,1730,S,N,Unknown,S1231N,SCN1A:p.S1231N,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1245Q,SCN1A,1245,R,Q,Pathogenic/Likely pathogenic,1,Unmapped,Other,745,1744,R,Q,Unknown,R1245Q,SCN1A:p.R1245Q,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+T1250M,SCN1A,1250,T,M,Benign/Likely benign,0,Unmapped,Other,750,1749,T,M,Unknown,T1250M,SCN1A:p.T1250M,Benign,SCN1A_ClinVar_gnomAD_training_set
+L1265M,SCN1A,1265,L,M,Likely pathogenic,1,Unmapped,Other,765,1764,L,M,Unknown,L1265M,SCN1A:p.L1265M,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+A1311T,SCN1A,1311,A,T,Likely benign,0,Unmapped,Other,811,1810,A,T,Unknown,A1311T,SCN1A:p.A1311T,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1338D,SCN1A,1338,N,D,Likely pathogenic,1,Unmapped,Other,838,1837,N,D,Unknown,N1338D,SCN1A:p.N1338D,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M1348I,SCN1A,1348,M,I,Pathogenic/Likely pathogenic,1,DIII-S5,Pore,848,1847,M,I,Unknown,M1348I,SCN1A:p.M1348I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M1348I,SCN1A,1348,M,I,Pathogenic,1,DIII-S5,Pore,848,1847,M,I,Unknown,M1348I,SCN1A:p.M1348I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F1369L,SCN1A,1369,F,L,Likely pathogenic,1,DIII-S5,Pore,869,1868,F,L,Unknown,F1369L,SCN1A:p.F1369L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+C1376S,SCN1A,1376,C,S,Likely pathogenic,1,Unmapped,Other,876,1875,C,S,Unknown,C1376S,SCN1A:p.C1376S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+C1376S,SCN1A,1376,C,S,Likely pathogenic,1,Unmapped,Other,876,1875,C,S,Unknown,C1376S,SCN1A:p.C1376S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+I1377M,SCN1A,1377,I,M,Likely pathogenic,1,Unmapped,Other,877,1876,I,M,Unknown,I1377M,SCN1A:p.I1377M,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V1390L,SCN1A,1390,V,L,Pathogenic,1,Unmapped,Other,890,1889,V,L,Unknown,V1390L,SCN1A:p.V1390L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V1390L,SCN1A,1390,V,L,Pathogenic,1,Unmapped,Other,890,1889,V,L,Unknown,V1390L,SCN1A:p.V1390L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L1399R,SCN1A,1399,L,R,Likely pathogenic,1,Unmapped,Other,899,1898,L,R,Unknown,L1399R,SCN1A:p.L1399R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+N1417H,SCN1A,1417,N,H,Likely pathogenic,1,Unmapped,Other,917,1916,N,H,Unknown,N1417H,SCN1A:p.N1417H,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+Y1422C,SCN1A,1422,Y,C,Pathogenic/Likely pathogenic,1,Unmapped,Other,922,1921,Y,C,Unknown,Y1422C,SCN1A:p.Y1422C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V1464L,SCN1A,1464,V,L,Benign,0,DIII-S6,Pore,964,1963,V,L,Unknown,V1464L,SCN1A:p.V1464L,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1465V,SCN1A,1465,I,V,Benign,0,DIII-S6,Pore,965,1964,I,V,Unknown,I1465V,SCN1A:p.I1465V,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1476K,SCN1A,1476,N,K,Likely pathogenic,1,DIII-S6,Pore,976,1975,N,K,Unknown,N1476K,SCN1A:p.N1476K,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+N1476K,SCN1A,1476,N,K,Pathogenic,1,DIII-S6,Pore,976,1975,N,K,Unknown,N1476K,SCN1A:p.N1476K,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F1499L,SCN1A,1499,F,L,Pathogenic,1,III-IV Linker,Inactivation_Gate,999,1998,F,L,Unknown,F1499L,SCN1A:p.F1499L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L1514I,SCN1A,1514,L,I,Likely pathogenic,1,III-IV Linker,Inactivation_Gate,1010,2009,L,I,Unknown,L1514I,SCN1A:p.L1514I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+P1519T,SCN1A,1519,P,T,Pathogenic/Likely pathogenic,1,III-IV Linker,Inactivation_Gate,1010,2009,P,T,Unknown,P1519T,SCN1A:p.P1519T,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+I1545T,SCN1A,1545,I,T,Likely pathogenic,1,III-IV Linker,Inactivation_Gate,1010,2009,I,T,Unknown,I1545T,SCN1A:p.I1545T,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V1556A,SCN1A,1556,V,A,Likely pathogenic,1,III-IV Linker,Inactivation_Gate,1010,2009,V,A,Unknown,V1556A,SCN1A:p.V1556A,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1596C,SCN1A,1596,R,C,Pathogenic/Likely pathogenic,1,Unmapped,Other,1010,2009,R,C,Unknown,R1596C,SCN1A:p.R1596C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M1619V,SCN1A,1619,M,V,Benign,0,Unmapped,Other,1010,2009,M,V,Unknown,M1619V,SCN1A:p.M1619V,Benign,SCN1A_ClinVar_gnomAD_training_set
+F1620L,SCN1A,1620,F,L,Likely pathogenic,1,Unmapped,Other,1010,2009,F,L,Unknown,F1620L,SCN1A:p.F1620L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F1620L,SCN1A,1620,F,L,Likely pathogenic,1,Unmapped,Other,1010,2009,F,L,Unknown,F1620L,SCN1A:p.F1620L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+V1630L,SCN1A,1630,V,L,Pathogenic,1,Unmapped,Other,1010,2009,V,L,Unknown,V1630L,SCN1A:p.V1630L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1636L,SCN1A,1636,R,L,Likely pathogenic,1,Unmapped,Other,1010,2009,R,L,Unknown,R1636L,SCN1A:p.R1636L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1639C,SCN1A,1639,R,C,Likely pathogenic,1,DIV-S4,Voltage_Sensor,1010,2009,R,C,Unknown,R1639C,SCN1A:p.R1639C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1642S,SCN1A,1642,R,S,Pathogenic,1,DIV-S4,Voltage_Sensor,1010,2009,R,S,Unknown,R1642S,SCN1A:p.R1642S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1642S,SCN1A,1642,R,S,Likely pathogenic,1,DIV-S4,Voltage_Sensor,1010,2009,R,S,Unknown,R1642S,SCN1A:p.R1642S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1648C,SCN1A,1648,R,C,Pathogenic,1,DIV-S4,Voltage_Sensor,1010,2009,R,C,Unknown,R1648C,SCN1A:p.R1648C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1657C,SCN1A,1657,R,C,Pathogenic,1,Unmapped,Other,1010,2009,R,C,Unknown,R1657C,SCN1A:p.R1657C,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+L1667F,SCN1A,1667,L,F,Likely pathogenic,1,DIV-S5,Pore,1010,2009,L,F,Unknown,L1667F,SCN1A:p.L1667F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+I1673V,SCN1A,1673,I,V,Likely pathogenic,1,DIV-S5,Pore,1010,2009,I,V,Unknown,I1673V,SCN1A:p.I1673V,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+Y1694F,SCN1A,1694,Y,F,Likely pathogenic,1,Unmapped,Other,1010,2009,Y,F,Unknown,Y1694F,SCN1A:p.Y1694F,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+M1714I,SCN1A,1714,M,I,Likely pathogenic,1,Unmapped,Other,1010,2009,M,I,Unknown,M1714I,SCN1A:p.M1714I,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+G1728R,SCN1A,1728,G,R,Pathogenic,1,Unmapped,Other,1010,2009,G,R,Unknown,G1728R,SCN1A:p.G1728R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+G1728R,SCN1A,1728,G,R,Likely pathogenic,1,Unmapped,Other,1010,2009,G,R,Unknown,G1728R,SCN1A:p.G1728R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+C1741S,SCN1A,1741,C,S,Pathogenic,1,Unmapped,Other,1010,2009,C,S,Unknown,C1741S,SCN1A:p.C1741S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+C1741S,SCN1A,1741,C,S,Likely pathogenic,1,Unmapped,Other,1010,2009,C,S,Unknown,C1741S,SCN1A:p.C1741S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+D1742N,SCN1A,1742,D,N,Likely pathogenic,1,Unmapped,Other,1010,2009,D,N,Unknown,D1742N,SCN1A:p.D1742N,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+G1757R,SCN1A,1757,G,R,Pathogenic,1,Unmapped,Other,1010,2009,G,R,Unknown,G1757R,SCN1A:p.G1757R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+G1757R,SCN1A,1757,G,R,Pathogenic,1,Unmapped,Other,1010,2009,G,R,Unknown,G1757R,SCN1A:p.G1757R,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+P1759S,SCN1A,1759,P,S,Likely pathogenic,1,Unmapped,Other,1010,2009,P,S,Unknown,P1759S,SCN1A:p.P1759S,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F1808L,SCN1A,1808,F,L,Pathogenic,1,Unmapped,Other,1010,2009,F,L,Unknown,F1808L,SCN1A:p.F1808L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+F1808L,SCN1A,1808,F,L,Pathogenic,1,Unmapped,Other,1010,2009,F,L,Unknown,F1808L,SCN1A:p.F1808L,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+A1819T,SCN1A,1819,A,T,Likely pathogenic,1,Unmapped,Other,1010,2009,A,T,Unknown,A1819T,SCN1A:p.A1819T,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1861W,SCN1A,1861,R,W,Pathogenic/Likely pathogenic,1,Unmapped,Other,1010,2009,R,W,Unknown,R1861W,SCN1A:p.R1861W,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1874W,SCN1A,1874,R,W,Likely pathogenic,1,Unmapped,Other,1010,2009,R,W,Unknown,R1874W,SCN1A:p.R1874W,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+E1878D,SCN1A,1878,E,D,Likely benign,0,Unmapped,Other,1010,2009,E,D,Unknown,E1878D,SCN1A:p.E1878D,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1901G,SCN1A,1901,V,G,Likely benign,0,Unmapped,Other,1010,2009,V,G,Unknown,V1901G,SCN1A:p.V1901G,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1901I,SCN1A,1901,V,I,Likely benign,0,Unmapped,Other,1010,2009,V,I,Unknown,V1901I,SCN1A:p.V1901I,Benign,SCN1A_ClinVar_gnomAD_training_set
+Q1923H,SCN1A,1923,Q,H,Pathogenic,1,Unmapped,Other,1010,2009,Q,H,Unknown,Q1923H,SCN1A:p.Q1923H,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+Q1923H,SCN1A,1923,Q,H,Pathogenic/Likely pathogenic,1,Unmapped,Other,1010,2009,Q,H,Unknown,Q1923H,SCN1A:p.Q1923H,Pathogenic,SCN1A_ClinVar_gnomAD_training_set
+R1928G,SCN1A,1928,R,G,Benign/Likely benign,0,Unmapped,Other,1010,2009,R,G,Unknown,R1928G,SCN1A:p.R1928G,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1955T,SCN1A,1955,I,T,Benign/Likely benign,0,Unmapped,Other,1010,2009,I,T,Unknown,I1955T,SCN1A:p.I1955T,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1955T,SCN1A,1955,I,T,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,I,T,Unknown,I1955T,SCN1A:p.I1955T,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1928G,SCN1A,1928,R,G,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,R,G,Unknown,R1928G,SCN1A:p.R1928G,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1901G,SCN1A,1901,V,G,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,V,G,Unknown,V1901G,SCN1A:p.V1901G,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1901I,SCN1A,1901,V,I,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,V,I,Unknown,V1901I,SCN1A:p.V1901I,Benign,SCN1A_ClinVar_gnomAD_training_set
+E1878D,SCN1A,1878,E,D,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,E,D,Unknown,E1878D,SCN1A:p.E1878D,Benign,SCN1A_ClinVar_gnomAD_training_set
+E1878D,SCN1A,1878,E,D,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,E,D,Unknown,E1878D,SCN1A:p.E1878D,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1874W,SCN1A,1874,R,W,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,R,W,Unknown,R1874W,SCN1A:p.R1874W,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1861W,SCN1A,1861,R,W,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,R,W,Unknown,R1861W,SCN1A:p.R1861W,Benign,SCN1A_ClinVar_gnomAD_training_set
+A1819T,SCN1A,1819,A,T,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,A,T,Unknown,A1819T,SCN1A:p.A1819T,Benign,SCN1A_ClinVar_gnomAD_training_set
+S1790R,SCN1A,1790,S,R,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,S,R,Unknown,S1790R,SCN1A:p.S1790R,Benign,SCN1A_ClinVar_gnomAD_training_set
+S1790R,SCN1A,1790,S,R,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,S,R,Unknown,S1790R,SCN1A:p.S1790R,Benign,SCN1A_ClinVar_gnomAD_training_set
+P1759S,SCN1A,1759,P,S,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,P,S,Unknown,P1759S,SCN1A:p.P1759S,Benign,SCN1A_ClinVar_gnomAD_training_set
+D1742N,SCN1A,1742,D,N,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,D,N,Unknown,D1742N,SCN1A:p.D1742N,Benign,SCN1A_ClinVar_gnomAD_training_set
+G1728R,SCN1A,1728,G,R,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,G,R,Unknown,G1728R,SCN1A:p.G1728R,Benign,SCN1A_ClinVar_gnomAD_training_set
+M1714I,SCN1A,1714,M,I,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,M,I,Unknown,M1714I,SCN1A:p.M1714I,Benign,SCN1A_ClinVar_gnomAD_training_set
+M1714I,SCN1A,1714,M,I,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,M,I,Unknown,M1714I,SCN1A:p.M1714I,Benign,SCN1A_ClinVar_gnomAD_training_set
+Y1694F,SCN1A,1694,Y,F,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,Y,F,Unknown,Y1694F,SCN1A:p.Y1694F,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1673V,SCN1A,1673,I,V,gnomAD_population_benign_candidate,0,DIV-S5,Pore,1010,2009,I,V,Unknown,I1673V,SCN1A:p.I1673V,Benign,SCN1A_ClinVar_gnomAD_training_set
+L1667F,SCN1A,1667,L,F,gnomAD_population_benign_candidate,0,DIV-S5,Pore,1010,2009,L,F,Unknown,L1667F,SCN1A:p.L1667F,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1657C,SCN1A,1657,R,C,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,R,C,Unknown,R1657C,SCN1A:p.R1657C,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1648C,SCN1A,1648,R,C,gnomAD_population_benign_candidate,0,DIV-S4,Voltage_Sensor,1010,2009,R,C,Unknown,R1648C,SCN1A:p.R1648C,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1639C,SCN1A,1639,R,C,gnomAD_population_benign_candidate,0,DIV-S4,Voltage_Sensor,1010,2009,R,C,Unknown,R1639C,SCN1A:p.R1639C,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1636L,SCN1A,1636,R,L,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,R,L,Unknown,R1636L,SCN1A:p.R1636L,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1630L,SCN1A,1630,V,L,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,V,L,Unknown,V1630L,SCN1A:p.V1630L,Benign,SCN1A_ClinVar_gnomAD_training_set
+M1619V,SCN1A,1619,M,V,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,M,V,Unknown,M1619V,SCN1A:p.M1619V,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1596C,SCN1A,1596,R,C,gnomAD_population_benign_candidate,0,Unmapped,Other,1010,2009,R,C,Unknown,R1596C,SCN1A:p.R1596C,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1556A,SCN1A,1556,V,A,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,1010,2009,V,A,Unknown,V1556A,SCN1A:p.V1556A,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1545T,SCN1A,1545,I,T,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,1010,2009,I,T,Unknown,I1545T,SCN1A:p.I1545T,Benign,SCN1A_ClinVar_gnomAD_training_set
+G1527R,SCN1A,1527,G,R,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,1010,2009,G,R,Unknown,G1527R,SCN1A:p.G1527R,Benign,SCN1A_ClinVar_gnomAD_training_set
+G1527R,SCN1A,1527,G,R,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,1010,2009,G,R,Unknown,G1527R,SCN1A:p.G1527R,Benign,SCN1A_ClinVar_gnomAD_training_set
+P1519T,SCN1A,1519,P,T,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,1010,2009,P,T,Unknown,P1519T,SCN1A:p.P1519T,Benign,SCN1A_ClinVar_gnomAD_training_set
+L1514I,SCN1A,1514,L,I,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,1010,2009,L,I,Unknown,L1514I,SCN1A:p.L1514I,Benign,SCN1A_ClinVar_gnomAD_training_set
+F1499L,SCN1A,1499,F,L,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,999,1998,F,L,Unknown,F1499L,SCN1A:p.F1499L,Benign,SCN1A_ClinVar_gnomAD_training_set
+K1491N,SCN1A,1491,K,N,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,991,1990,K,N,Unknown,K1491N,SCN1A:p.K1491N,Benign,SCN1A_ClinVar_gnomAD_training_set
+K1491N,SCN1A,1491,K,N,gnomAD_population_benign_candidate,0,III-IV Linker,Inactivation_Gate,991,1990,K,N,Unknown,K1491N,SCN1A:p.K1491N,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1465V,SCN1A,1465,I,V,gnomAD_population_benign_candidate,0,DIII-S6,Pore,965,1964,I,V,Unknown,I1465V,SCN1A:p.I1465V,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1464L,SCN1A,1464,V,L,gnomAD_population_benign_candidate,0,DIII-S6,Pore,964,1963,V,L,Unknown,V1464L,SCN1A:p.V1464L,Benign,SCN1A_ClinVar_gnomAD_training_set
+Y1422C,SCN1A,1422,Y,C,gnomAD_population_benign_candidate,0,Unmapped,Other,922,1921,Y,C,Unknown,Y1422C,SCN1A:p.Y1422C,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1417H,SCN1A,1417,N,H,gnomAD_population_benign_candidate,0,Unmapped,Other,917,1916,N,H,Unknown,N1417H,SCN1A:p.N1417H,Benign,SCN1A_ClinVar_gnomAD_training_set
+L1399R,SCN1A,1399,L,R,gnomAD_population_benign_candidate,0,Unmapped,Other,899,1898,L,R,Unknown,L1399R,SCN1A:p.L1399R,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1377M,SCN1A,1377,I,M,gnomAD_population_benign_candidate,0,Unmapped,Other,877,1876,I,M,Unknown,I1377M,SCN1A:p.I1377M,Benign,SCN1A_ClinVar_gnomAD_training_set
+F1369L,SCN1A,1369,F,L,gnomAD_population_benign_candidate,0,DIII-S5,Pore,869,1868,F,L,Unknown,F1369L,SCN1A:p.F1369L,Benign,SCN1A_ClinVar_gnomAD_training_set
+M1348I,SCN1A,1348,M,I,gnomAD_population_benign_candidate,0,DIII-S5,Pore,848,1847,M,I,Unknown,M1348I,SCN1A:p.M1348I,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1338D,SCN1A,1338,N,D,gnomAD_population_benign_candidate,0,Unmapped,Other,838,1837,N,D,Unknown,N1338D,SCN1A:p.N1338D,Benign,SCN1A_ClinVar_gnomAD_training_set
+A1311T,SCN1A,1311,A,T,gnomAD_population_benign_candidate,0,Unmapped,Other,811,1810,A,T,Unknown,A1311T,SCN1A:p.A1311T,Benign,SCN1A_ClinVar_gnomAD_training_set
+L1265M,SCN1A,1265,L,M,gnomAD_population_benign_candidate,0,Unmapped,Other,765,1764,L,M,Unknown,L1265M,SCN1A:p.L1265M,Benign,SCN1A_ClinVar_gnomAD_training_set
+T1250M,SCN1A,1250,T,M,gnomAD_population_benign_candidate,0,Unmapped,Other,750,1749,T,M,Unknown,T1250M,SCN1A:p.T1250M,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1245Q,SCN1A,1245,R,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,745,1744,R,Q,Unknown,R1245Q,SCN1A:p.R1245Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+S1231N,SCN1A,1231,S,N,gnomAD_population_benign_candidate,0,Unmapped,Other,731,1730,S,N,Unknown,S1231N,SCN1A:p.S1231N,Benign,SCN1A_ClinVar_gnomAD_training_set
+R1213Q,SCN1A,1213,R,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,713,1712,R,Q,Unknown,R1213Q,SCN1A:p.R1213Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+T1210M,SCN1A,1210,T,M,gnomAD_population_benign_candidate,0,Unmapped,Other,710,1709,T,M,Unknown,T1210M,SCN1A:p.T1210M,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1206K,SCN1A,1206,N,K,gnomAD_population_benign_candidate,0,Unmapped,Other,706,1705,N,K,Unknown,N1206K,SCN1A:p.N1206K,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1206K,SCN1A,1206,N,K,gnomAD_population_benign_candidate,0,Unmapped,Other,706,1705,N,K,Unknown,N1206K,SCN1A:p.N1206K,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1196M,SCN1A,1196,V,M,gnomAD_population_benign_candidate,0,Unmapped,Other,696,1695,V,M,Unknown,V1196M,SCN1A:p.V1196M,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1195S,SCN1A,1195,N,S,gnomAD_population_benign_candidate,0,Unmapped,Other,695,1694,N,S,Unknown,N1195S,SCN1A:p.N1195S,Benign,SCN1A_ClinVar_gnomAD_training_set
+V1169G,SCN1A,1169,V,G,gnomAD_population_benign_candidate,0,Unmapped,Other,669,1668,V,G,Unknown,V1169G,SCN1A:p.V1169G,Benign,SCN1A_ClinVar_gnomAD_training_set
+Q1166K,SCN1A,1166,Q,K,gnomAD_population_benign_candidate,0,Unmapped,Other,666,1665,Q,K,Unknown,Q1166K,SCN1A:p.Q1166K,Benign,SCN1A_ClinVar_gnomAD_training_set
+S1150N,SCN1A,1150,S,N,gnomAD_population_benign_candidate,0,Unmapped,Other,650,1649,S,N,Unknown,S1150N,SCN1A:p.S1150N,Benign,SCN1A_ClinVar_gnomAD_training_set
+D1137H,SCN1A,1137,D,H,gnomAD_population_benign_candidate,0,Unmapped,Other,637,1636,D,H,Unknown,D1137H,SCN1A:p.D1137H,Benign,SCN1A_ClinVar_gnomAD_training_set
+A1118S,SCN1A,1118,A,S,gnomAD_population_benign_candidate,0,Unmapped,Other,618,1617,A,S,Unknown,A1118S,SCN1A:p.A1118S,Benign,SCN1A_ClinVar_gnomAD_training_set
+G1081R,SCN1A,1081,G,R,gnomAD_population_benign_candidate,0,Unmapped,Other,581,1580,G,R,Unknown,G1081R,SCN1A:p.G1081R,Benign,SCN1A_ClinVar_gnomAD_training_set
+A1067T,SCN1A,1067,A,T,gnomAD_population_benign_candidate,0,Unmapped,Other,567,1566,A,T,Unknown,A1067T,SCN1A:p.A1067T,Benign,SCN1A_ClinVar_gnomAD_training_set
+N1056D,SCN1A,1056,N,D,gnomAD_population_benign_candidate,0,Unmapped,Other,556,1555,N,D,Unknown,N1056D,SCN1A:p.N1056D,Benign,SCN1A_ClinVar_gnomAD_training_set
+I1034T,SCN1A,1034,I,T,gnomAD_population_benign_candidate,0,Unmapped,Other,534,1533,I,T,Unknown,I1034T,SCN1A:p.I1034T,Benign,SCN1A_ClinVar_gnomAD_training_set
+M1009I,SCN1A,1009,M,I,gnomAD_population_benign_candidate,0,Unmapped,Other,509,1508,M,I,Unknown,M1009I,SCN1A:p.M1009I,Benign,SCN1A_ClinVar_gnomAD_training_set
+M1009I,SCN1A,1009,M,I,gnomAD_population_benign_candidate,0,Unmapped,Other,509,1508,M,I,Unknown,M1009I,SCN1A:p.M1009I,Benign,SCN1A_ClinVar_gnomAD_training_set
+M956T,SCN1A,956,M,T,gnomAD_population_benign_candidate,0,Unmapped,Other,456,1455,M,T,Unknown,M956T,SCN1A:p.M956T,Benign,SCN1A_ClinVar_gnomAD_training_set
+Q928H,SCN1A,928,Q,H,gnomAD_population_benign_candidate,0,Unmapped,Other,428,1427,Q,H,Unknown,Q928H,SCN1A:p.Q928H,Benign,SCN1A_ClinVar_gnomAD_training_set
+Q928H,SCN1A,928,Q,H,gnomAD_population_benign_candidate,0,Unmapped,Other,428,1427,Q,H,Unknown,Q928H,SCN1A:p.Q928H,Benign,SCN1A_ClinVar_gnomAD_training_set
+A924T,SCN1A,924,A,T,gnomAD_population_benign_candidate,0,Unmapped,Other,424,1423,A,T,Unknown,A924T,SCN1A:p.A924T,Benign,SCN1A_ClinVar_gnomAD_training_set
+V896I,SCN1A,896,V,I,gnomAD_population_benign_candidate,0,DII-S5,Pore,396,1395,V,I,Unknown,V896I,SCN1A:p.V896I,Benign,SCN1A_ClinVar_gnomAD_training_set
+T875M,SCN1A,875,T,M,gnomAD_population_benign_candidate,0,Unmapped,Other,375,1374,T,M,Unknown,T875M,SCN1A:p.T875M,Benign,SCN1A_ClinVar_gnomAD_training_set
+F867L,SCN1A,867,F,L,gnomAD_population_benign_candidate,0,DII-S4,Voltage_Sensor,367,1366,F,L,Unknown,F867L,SCN1A:p.F867L,Benign,SCN1A_ClinVar_gnomAD_training_set
+F867L,SCN1A,867,F,L,gnomAD_population_benign_candidate,0,DII-S4,Voltage_Sensor,367,1366,F,L,Unknown,F867L,SCN1A:p.F867L,Benign,SCN1A_ClinVar_gnomAD_training_set
+R862L,SCN1A,862,R,L,gnomAD_population_benign_candidate,0,DII-S4,Voltage_Sensor,362,1361,R,L,Unknown,R862L,SCN1A:p.R862L,Benign,SCN1A_ClinVar_gnomAD_training_set
+R859H,SCN1A,859,R,H,gnomAD_population_benign_candidate,0,DII-S4,Voltage_Sensor,359,1358,R,H,Unknown,R859H,SCN1A:p.R859H,Benign,SCN1A_ClinVar_gnomAD_training_set
+G854E,SCN1A,854,G,E,gnomAD_population_benign_candidate,0,Unmapped,Other,354,1353,G,E,Unknown,G854E,SCN1A:p.G854E,Benign,SCN1A_ClinVar_gnomAD_training_set
+N851D,SCN1A,851,N,D,gnomAD_population_benign_candidate,0,Unmapped,Other,351,1350,N,D,Unknown,N851D,SCN1A:p.N851D,Benign,SCN1A_ClinVar_gnomAD_training_set
+T793M,SCN1A,793,T,M,gnomAD_population_benign_candidate,0,Unmapped,Other,293,1292,T,M,Unknown,T793M,SCN1A:p.T793M,Benign,SCN1A_ClinVar_gnomAD_training_set
+Y790F,SCN1A,790,Y,F,gnomAD_population_benign_candidate,0,Unmapped,Other,290,1289,Y,F,Unknown,Y790F,SCN1A:p.Y790F,Benign,SCN1A_ClinVar_gnomAD_training_set
+P768A,SCN1A,768,P,A,gnomAD_population_benign_candidate,0,Unmapped,Other,268,1267,P,A,Unknown,P768A,SCN1A:p.P768A,Benign,SCN1A_ClinVar_gnomAD_training_set
+V760I,SCN1A,760,V,I,gnomAD_population_benign_candidate,0,Unmapped,Other,260,1259,V,I,Unknown,V760I,SCN1A:p.V760I,Benign,SCN1A_ClinVar_gnomAD_training_set
+K758Q,SCN1A,758,K,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,258,1257,K,Q,Unknown,K758Q,SCN1A:p.K758Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+N743K,SCN1A,743,N,K,gnomAD_population_benign_candidate,0,Unmapped,Other,243,1242,N,K,Unknown,N743K,SCN1A:p.N743K,Benign,SCN1A_ClinVar_gnomAD_training_set
+N743K,SCN1A,743,N,K,gnomAD_population_benign_candidate,0,Unmapped,Other,243,1242,N,K,Unknown,N743K,SCN1A:p.N743K,Benign,SCN1A_ClinVar_gnomAD_training_set
+V724L,SCN1A,724,V,L,gnomAD_population_benign_candidate,0,Unmapped,Other,224,1223,V,L,Unknown,V724L,SCN1A:p.V724L,Benign,SCN1A_ClinVar_gnomAD_training_set
+P707S,SCN1A,707,P,S,gnomAD_population_benign_candidate,0,Unmapped,Other,207,1206,P,S,Unknown,P707S,SCN1A:p.P707S,Benign,SCN1A_ClinVar_gnomAD_training_set
+R693M,SCN1A,693,R,M,gnomAD_population_benign_candidate,0,Unmapped,Other,193,1192,R,M,Unknown,R693M,SCN1A:p.R693M,Benign,SCN1A_ClinVar_gnomAD_training_set
+S662L,SCN1A,662,S,L,gnomAD_population_benign_candidate,0,Unmapped,Other,162,1161,S,L,Unknown,S662L,SCN1A:p.S662L,Benign,SCN1A_ClinVar_gnomAD_training_set
+P657T,SCN1A,657,P,T,gnomAD_population_benign_candidate,0,Unmapped,Other,157,1156,P,T,Unknown,P657T,SCN1A:p.P657T,Benign,SCN1A_ClinVar_gnomAD_training_set
+V645L,SCN1A,645,V,L,gnomAD_population_benign_candidate,0,Unmapped,Other,145,1144,V,L,Unknown,V645L,SCN1A:p.V645L,Benign,SCN1A_ClinVar_gnomAD_training_set
+F635L,SCN1A,635,F,L,gnomAD_population_benign_candidate,0,Unmapped,Other,135,1134,F,L,Unknown,F635L,SCN1A:p.F635L,Benign,SCN1A_ClinVar_gnomAD_training_set
+F635L,SCN1A,635,F,L,gnomAD_population_benign_candidate,0,Unmapped,Other,135,1134,F,L,Unknown,F635L,SCN1A:p.F635L,Benign,SCN1A_ClinVar_gnomAD_training_set
+L632Q,SCN1A,632,L,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,132,1131,L,Q,Unknown,L632Q,SCN1A:p.L632Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+R630W,SCN1A,630,R,W,gnomAD_population_benign_candidate,0,Unmapped,Other,130,1129,R,W,Unknown,R630W,SCN1A:p.R630W,Benign,SCN1A_ClinVar_gnomAD_training_set
+H614Q,SCN1A,614,H,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,114,1113,H,Q,Unknown,H614Q,SCN1A:p.H614Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+H614Q,SCN1A,614,H,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,114,1113,H,Q,Unknown,H614Q,SCN1A:p.H614Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+R612Q,SCN1A,612,R,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,112,1111,R,Q,Unknown,R612Q,SCN1A:p.R612Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+R604H,SCN1A,604,R,H,gnomAD_population_benign_candidate,0,Unmapped,Other,104,1103,R,H,Unknown,R604H,SCN1A:p.R604H,Benign,SCN1A_ClinVar_gnomAD_training_set
+G585A,SCN1A,585,G,A,gnomAD_population_benign_candidate,0,Unmapped,Other,85,1084,G,A,Unknown,G585A,SCN1A:p.G585A,Benign,SCN1A_ClinVar_gnomAD_training_set
+S576R,SCN1A,576,S,R,gnomAD_population_benign_candidate,0,Unmapped,Other,76,1075,S,R,Unknown,S576R,SCN1A:p.S576R,Benign,SCN1A_ClinVar_gnomAD_training_set
+S576R,SCN1A,576,S,R,gnomAD_population_benign_candidate,0,Unmapped,Other,76,1075,S,R,Unknown,S576R,SCN1A:p.S576R,Benign,SCN1A_ClinVar_gnomAD_training_set
+S573R,SCN1A,573,S,R,gnomAD_population_benign_candidate,0,Unmapped,Other,73,1072,S,R,Unknown,S573R,SCN1A:p.S573R,Benign,SCN1A_ClinVar_gnomAD_training_set
+S573R,SCN1A,573,S,R,gnomAD_population_benign_candidate,0,Unmapped,Other,73,1072,S,R,Unknown,S573R,SCN1A:p.S573R,Benign,SCN1A_ClinVar_gnomAD_training_set
+R560C,SCN1A,560,R,C,gnomAD_population_benign_candidate,0,Unmapped,Other,60,1059,R,C,Unknown,R560C,SCN1A:p.R560C,Benign,SCN1A_ClinVar_gnomAD_training_set
+I538T,SCN1A,538,I,T,gnomAD_population_benign_candidate,0,Unmapped,Other,38,1037,I,T,Unknown,I538T,SCN1A:p.I538T,Benign,SCN1A_ClinVar_gnomAD_training_set
+D518E,SCN1A,518,D,E,gnomAD_population_benign_candidate,0,Unmapped,Other,18,1017,D,E,Unknown,D518E,SCN1A:p.D518E,Benign,SCN1A_ClinVar_gnomAD_training_set
+E517G,SCN1A,517,E,G,gnomAD_population_benign_candidate,0,Unmapped,Other,17,1016,E,G,Unknown,E517G,SCN1A:p.E517G,Benign,SCN1A_ClinVar_gnomAD_training_set
+K495N,SCN1A,495,K,N,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,K,N,Unknown,K495N,SCN1A:p.K495N,Benign,SCN1A_ClinVar_gnomAD_training_set
+K495N,SCN1A,495,K,N,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,K,N,Unknown,K495N,SCN1A:p.K495N,Benign,SCN1A_ClinVar_gnomAD_training_set
+A464P,SCN1A,464,A,P,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,A,P,Unknown,A464P,SCN1A:p.A464P,Benign,SCN1A_ClinVar_gnomAD_training_set
+T463M,SCN1A,463,T,M,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,T,M,Unknown,T463M,SCN1A:p.T463M,Benign,SCN1A_ClinVar_gnomAD_training_set
+Q429K,SCN1A,429,Q,K,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,Q,K,Unknown,Q429K,SCN1A:p.Q429K,Benign,SCN1A_ClinVar_gnomAD_training_set
+M400T,SCN1A,400,M,T,gnomAD_population_benign_candidate,0,DI-S6,Pore,1,1000,M,T,Unknown,M400T,SCN1A:p.M400T,Benign,SCN1A_ClinVar_gnomAD_training_set
+R377Q,SCN1A,377,R,Q,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,R,Q,Unknown,R377Q,SCN1A:p.R377Q,Benign,SCN1A_ClinVar_gnomAD_training_set
+G329D,SCN1A,329,G,D,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,G,D,Unknown,G329D,SCN1A:p.G329D,Benign,SCN1A_ClinVar_gnomAD_training_set
+G329S,SCN1A,329,G,S,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,G,S,Unknown,G329S,SCN1A:p.G329S,Benign,SCN1A_ClinVar_gnomAD_training_set
+D320N,SCN1A,320,D,N,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,D,N,Unknown,D320N,SCN1A:p.D320N,Benign,SCN1A_ClinVar_gnomAD_training_set
+V309D,SCN1A,309,V,D,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,V,D,Unknown,V309D,SCN1A:p.V309D,Benign,SCN1A_ClinVar_gnomAD_training_set
+E307K,SCN1A,307,E,K,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,E,K,Unknown,E307K,SCN1A:p.E307K,Benign,SCN1A_ClinVar_gnomAD_training_set
+N299D,SCN1A,299,N,D,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,N,D,Unknown,N299D,SCN1A:p.N299D,Benign,SCN1A_ClinVar_gnomAD_training_set
+V298M,SCN1A,298,V,M,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,V,M,Unknown,V298M,SCN1A:p.V298M,Benign,SCN1A_ClinVar_gnomAD_training_set
+I252T,SCN1A,252,I,T,gnomAD_population_benign_candidate,0,DI-S5,Pore,1,1000,I,T,Unknown,I252T,SCN1A:p.I252T,Benign,SCN1A_ClinVar_gnomAD_training_set
+A223V,SCN1A,223,A,V,gnomAD_population_benign_candidate,0,DI-S4,Voltage_Sensor,1,1000,A,V,Unknown,A223V,SCN1A:p.A223V,Benign,SCN1A_ClinVar_gnomAD_training_set
+F218L,SCN1A,218,F,L,gnomAD_population_benign_candidate,0,DI-S4,Voltage_Sensor,1,1000,F,L,Unknown,F218L,SCN1A:p.F218L,Benign,SCN1A_ClinVar_gnomAD_training_set
+S228L,SCN1A,228,S,L,gnomAD_population_benign_candidate,0,DI-S4,Voltage_Sensor,1,1000,S,L,Unknown,S228L,SCN1A:p.S228L,Benign,SCN1A_ClinVar_gnomAD_training_set
+I227T,SCN1A,227,I,T,gnomAD_population_benign_candidate,0,DI-S4,Voltage_Sensor,1,1000,I,T,Unknown,I227T,SCN1A:p.I227T,Benign,SCN1A_ClinVar_gnomAD_training_set
+L224W,SCN1A,224,L,W,gnomAD_population_benign_candidate,0,DI-S4,Voltage_Sensor,1,1000,L,W,Unknown,L224W,SCN1A:p.L224W,Benign,SCN1A_ClinVar_gnomAD_training_set
+A223V,SCN1A,223,A,V,gnomAD_population_benign_candidate,0,DI-S4,Voltage_Sensor,1,1000,A,V,Unknown,A223V,SCN1A:p.A223V,Benign,SCN1A_ClinVar_gnomAD_training_set
+V220A,SCN1A,220,V,A,gnomAD_population_benign_candidate,0,DI-S4,Voltage_Sensor,1,1000,V,A,Unknown,V220A,SCN1A:p.V220A,Benign,SCN1A_ClinVar_gnomAD_training_set
+T204I,SCN1A,204,T,I,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,T,I,Unknown,T204I,SCN1A:p.T204I,Benign,SCN1A_ClinVar_gnomAD_training_set
+A201V,SCN1A,201,A,V,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,A,V,Unknown,A201V,SCN1A:p.A201V,Benign,SCN1A_ClinVar_gnomAD_training_set
+L139F,SCN1A,139,L,F,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,L,F,Unknown,L139F,SCN1A:p.L139F,Benign,SCN1A_ClinVar_gnomAD_training_set
+I138S,SCN1A,138,I,S,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,I,S,Unknown,I138S,SCN1A:p.I138S,Benign,SCN1A_ClinVar_gnomAD_training_set
+M132I,SCN1A,132,M,I,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,M,I,Unknown,M132I,SCN1A:p.M132I,Benign,SCN1A_ClinVar_gnomAD_training_set
+P113S,SCN1A,113,P,S,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,P,S,Unknown,P113S,SCN1A:p.P113S,Benign,SCN1A_ClinVar_gnomAD_training_set
+I99V,SCN1A,99,I,V,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,I,V,Unknown,I99V,SCN1A:p.I99V,Benign,SCN1A_ClinVar_gnomAD_training_set
+D79E,SCN1A,79,D,E,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,D,E,Unknown,D79E,SCN1A:p.D79E,Benign,SCN1A_ClinVar_gnomAD_training_set
+P76L,SCN1A,76,P,L,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,P,L,Unknown,P76L,SCN1A:p.P76L,Benign,SCN1A_ClinVar_gnomAD_training_set
+V73L,SCN1A,73,V,L,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,V,L,Unknown,V73L,SCN1A:p.V73L,Benign,SCN1A_ClinVar_gnomAD_training_set
+V73L,SCN1A,73,V,L,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,V,L,Unknown,V73L,SCN1A:p.V73L,Benign,SCN1A_ClinVar_gnomAD_training_set
+D45E,SCN1A,45,D,E,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,D,E,Unknown,D45E,SCN1A:p.D45E,Benign,SCN1A_ClinVar_gnomAD_training_set
+D45E,SCN1A,45,D,E,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,D,E,Unknown,D45E,SCN1A:p.D45E,Benign,SCN1A_ClinVar_gnomAD_training_set
+R28H,SCN1A,28,R,H,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,R,H,Unknown,R28H,SCN1A:p.R28H,Benign,SCN1A_ClinVar_gnomAD_training_set
+R28L,SCN1A,28,R,L,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,R,L,Unknown,R28L,SCN1A:p.R28L,Benign,SCN1A_ClinVar_gnomAD_training_set
+A23V,SCN1A,23,A,V,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,A,V,Unknown,A23V,SCN1A:p.A23V,Benign,SCN1A_ClinVar_gnomAD_training_set
+V5A,SCN1A,5,V,A,gnomAD_population_benign_candidate,0,Unmapped,Other,1,1000,V,A,Unknown,V5A,SCN1A:p.V5A,Benign,SCN1A_ClinVar_gnomAD_training_set
