@@ -1,0 +1,12 @@
+{
+  "target_gene": "SCN1A",
+  "hidden_dim": 256,
+  "proj_dim": 512,
+  "seed": 3,
+  "epochs": 500,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "temperature": 0.1,
+  "dropout": 0.2,
+  "input_dim": 2560
+}

@@ -1,0 +1,16 @@
+group_type,group_id,n_variants,n_lof,n_gof,genes,positions,variant_indices
+family_alignment_cid,CID=1052,2,1,1,"SCN1A,SCN4A","796,986",148;149
+family_alignment_cid,CID=1491,3,2,1,"SCN11A,SCN1A,SCN5A","1184,1340,1353",186;187;188
+family_alignment_cid,CID=15,2,1,1,"SCN2A,SCN9A","10,12",0;1
+family_alignment_cid,CID=1639,2,1,1,"SCN1A,SCN4A","1310,1498",227;228
+family_alignment_cid,CID=1695,2,1,1,"SCN4A,SCN5A","1366,1541",239;240
+family_alignment_cid,CID=1776,2,1,1,"SCN2A,SCN5A","1620,1623",257;258
+family_alignment_cid,CID=1782,4,3,1,"SCN4A,SCN5A,SCN8A","1451,1620,1626",263;264;265;266
+family_alignment_cid,CID=1800,4,3,1,"SCN1A,SCN5A,SCN8A","1638,1644,1657",276;277;278;279
+family_alignment_cid,CID=1868,2,1,1,"SCN10A,SCN5A","1662,1712",299;300
+family_alignment_cid,CID=1921,2,1,1,"SCN5A,SCN8A","1758,1764",313;314
+family_alignment_cid,CID=1952,2,1,1,SCN5A,1795,324;325
+family_alignment_cid,CID=235,3,2,1,"SCN4A,SCN5A",225,35;36;37
+family_alignment_cid,CID=423,2,1,1,"SCN5A,SCN8A","374,376",69;70
+family_alignment_cid,CID=453,3,1,2,"SCN4A,SCN5A,SCN9A","395,406,440",76;77;78
+family_alignment_cid,CID=919,2,1,1,"SCN3A,SCN5A","812,855",113;114

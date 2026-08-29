@@ -1,0 +1,4 @@
+group_type,group_id,n_variants,n_lof,n_gof,genes,positions,variant_indices
+exact_gene_position_ref,SCN5A|pos=1644|ref=R,2,1,1,SCN5A,1644,277;279
+exact_gene_position_ref,SCN5A|pos=1795|ref=Y,2,1,1,SCN5A,1795,324;325
+exact_gene_position_ref,SCN5A|pos=225|ref=R,2,1,1,SCN5A,225,36;37
